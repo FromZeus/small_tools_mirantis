@@ -2,8 +2,8 @@ Login: "dtrishkin@mirantis.com"
 Password: "3393YEShq27"
 Branch: "master"
 RepoNames: False # Repo name before list of it dependencies
-IgnoreUnknown: True # Ignore unknown packages with "python-"" prefix
+IgnoreUnknown: True # Ignore unknown packages with "python-" prefix
 Templates: [['https://review.fuel-infra.org/gitweb?p=openstack-build/{0}-build.git;a=blob_plain;f=debian/{2};hb=refs/heads/{1}', "control", "url1"],
-['https://review.fuel-infra.org/gitweb?p=packages/trusty/{0}.git;a=blob_plain;f=debian/{2};hb=refs/heads/{1}', "control", "usrl2"]]
+['https://review.fuel-infra.org/gitweb?p=packages/trusty/{0}.git;a=blob_plain;f=debian/{2};hb=refs/heads/{1}', "control", "url2"]]
 # ({0}repo, {1}branch, {2}file) file have to be specified after link template ["control", "spec"]
 # ['url template', "control|spec", "name of output file"]
