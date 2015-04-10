@@ -1,0 +1,6155 @@
+-
+  project: fuel-infra
+  description: Parent project for fuel-infra projects
+  acl-config: acls/fuel-infra/fuel-infra.config
+
+-
+  project: fuel-infra-packages/bacula
+  description: fuel-infra-packages/bacula
+
+-
+  project: fuel-infra-packages/centos6/hiera
+  description: fuel-infra-packages/centos6/hiera
+
+-
+  project: fuel-infra-packages/centos6/puppet
+  description: fuel-infra-packages/centos6/puppet
+
+-
+  project: fuel-infra-packages/fuel-stats-analytics
+  description: fuel-infra-packages/fuel-stats-analytics
+
+-
+  project: fuel-infra-packages/fuel-stats-collector
+  description: fuel-infra-packages/fuel-stats-collector
+
+-
+  project: fuel-infra-packages/fuel-stats-migration
+  description: fuel-infra-packages/fuel-stats-migration
+
+-
+  project: fuel-infra-packages/fuel-stats-static
+  description: fuel-infra-packages/fuel-stats-static
+
+-
+  project: fuel-infra-packages/gerrit
+  description: fuel-infra-packages/gerrit
+
+-
+  project: fuel-infra-packages/gnupg
+  description: fuel-infra-packages/gnupg
+
+-
+  project: fuel-infra-packages/gnupg-curl
+  description: fuel-infra-packages/gnupg-curl
+
+-
+  project: fuel-infra-packages/gnupg-udeb
+  description: fuel-infra-packages/gnupg-udeb
+
+-
+  project: fuel-infra-packages/gpgv
+  description: fuel-infra-packages/gpgv
+
+-
+  project: fuel-infra-packages/gpgv-udeb
+  description: fuel-infra-packages/gpgv-udeb
+
+-
+  project: fuel-infra-packages/hideci
+  description: fuel-infra-packages/hideci
+
+-
+  project: fuel-infra-packages/jeepyb
+  description: fuel-infra-packages/jeepyb
+
+-
+  project: fuel-infra-packages/jenkins-job-builder
+  description: fuel-infra-packages/jenkins-job-builder
+
+-
+  project: fuel-infra-packages/jenkins-plugins
+  description: fuel-infra-packages/jenkins-plugins
+
+-
+  project: fuel-infra-packages/jenkins-swarm-slave
+  description: fuel-infra-packages/jenkins-swarm-slave
+
+-
+  project: fuel-infra-packages/landing-page
+  description: Landing page for FUEL community project
+
+-
+  project: fuel-infra-packages/libbssolv-perl
+  description: fuel-infra-packages/libbssolv-perl
+
+-
+  project: fuel-infra-packages/libsocket-msghdr-perl
+  description: fuel-infra-packages/libsocket-msghdr-perl
+
+-
+  project: fuel-infra-packages/libsolv
+  description: fuel-infra-packages/libsolv
+
+-
+  project: fuel-infra-packages/libsolv-dev
+  description: fuel-infra-packages/libsolv-dev
+
+-
+  project: fuel-infra-packages/libsolv-doc
+  description: fuel-infra-packages/libsolv-doc
+
+-
+  project: fuel-infra-packages/libsolv-tools
+  description: fuel-infra-packages/libsolv-tools
+
+-
+  project: fuel-infra-packages/mock
+  description: fuel-infra-packages/mock
+
+-
+  project: fuel-infra-packages/multistrap
+  description: fuel-infra-packages/multistrap
+
+-
+  project: fuel-infra-packages/obsapi
+  description: fuel-infra-packages/obsapi
+
+-
+  project: fuel-infra-packages/obsbackend
+  description: fuel-infra-packages/obsbackend
+
+-
+  project: fuel-infra-packages/obsserver
+  description: fuel-infra-packages/obsserver
+
+-
+  project: fuel-infra-packages/obsworker
+  description: fuel-infra-packages/obsworker
+
+-
+  project: fuel-infra-packages/opentracker
+  description: fuel-infra-packages/opentracker
+
+-
+  project: fuel-infra-packages/osci-docker-builder
+  description: fuel-infra-packages/osci-docker-builder
+
+-
+  project: fuel-infra-packages/percona-server-5.6
+  description: fuel-infra-packages/percona-server-5.6
+
+-
+  project: fuel-infra-packages/plantuml
+  description: fuel-infra-packages/plantuml
+
+-
+  project: fuel-infra-packages/puppet-lint
+  description: fuel-infra-packages/puppet-lint
+
+-
+  project: fuel-infra-packages/python-alembic
+  description: fuel-infra-packages/python-alembic
+
+-
+  project: fuel-infra-packages/python-devops
+  description: fuel-infra-packages/python-devops
+
+-
+  project: fuel-infra-packages/python-django-release-status
+  description: fuel-infra-packages/python-django-release-status
+
+-
+  project: fuel-infra-packages/python-ecdsa
+  description: fuel-infra-packages/python-ecdsa
+
+-
+  project: fuel-infra-packages/python-elasticsearch
+  description: fuel-infra-packages/python-elasticsearch
+
+-
+  project: fuel-infra-packages/python-flask
+  description: fuel-infra-packages/python-flask
+
+-
+  project: fuel-infra-packages/python-flask-jsonschema
+  description: fuel-infra-packages/python-flask-jsonschema
+
+-
+  project: fuel-infra-packages/python-flask-migrate
+  description: fuel-infra-packages/python-flask-migrate
+
+-
+  project: fuel-infra-packages/python-flask-script
+  description: fuel-infra-packages/python-flask-script
+
+-
+  project: fuel-infra-packages/python-flask-sqlalchemy
+  description: fuel-infra-packages/python-flask-sqlalchemy
+
+-
+  project: fuel-infra-packages/python-fprepo
+  description: Metadata generation scripts for Fuel Plugins repository
+
+-
+  project: fuel-infra-packages/python-gerritlib
+  description: fuel-infra-packages/python-gerritlib
+
+-
+  project: fuel-infra-packages/python-git
+  description: fuel-infra-packages/python-git
+
+-
+  project: fuel-infra-packages/python-gitdb
+  description: fuel-infrapackages/python-gitdb
+
+-
+  project: fuel-infra-packages/python-github
+  description: fuel-infra-packages/python-github
+
+-
+  project: fuel-infra-packages/python-jenkins
+  description: fuel-infra-packages/python-jenkins
+
+-
+  project: fuel-infra-packages/python-jsonschema
+  description: fuel-infra-packages/python-jsonschema
+
+-
+  project: fuel-infra-packages/python-lpbugmanage
+  description: fuel-infra-packages/python-lpbugmanage
+
+-
+  project: fuel-infra-packages/python-ordereddict
+  description: fuel-infra-packages/python-ordereddict
+
+-
+  project: fuel-infra-packages/python-psycopg2
+  description: fuel-infra-packages/python-psycopg2
+
+-
+  project: fuel-infra-packages/python-pxetool
+  description: fuel-infra-packages/python-pxetool
+
+-
+  project: fuel-infra-packages/python-pyyaml
+  description: fuel-infra-packages/python-pyyaml
+
+-
+  project: fuel-infra-packages/python-seed
+  description: fuel-infra-packages/python-seed
+
+-
+  project: fuel-infra-packages/python-six
+  description: fuel-infra-packages/python-six
+
+-
+  project: fuel-infra-packages/python-smmap
+  description: fuel-infra-packages/python-smmap
+
+-
+  project: fuel-infra-packages/python-spacemanage
+  description: fuel-infra-packages/python-spacemanage
+
+-
+  project: fuel-infra-packages/python-sphinxcontrib.plantuml
+  description: fuel-infra-packages/python-sphinxcontrib.plantuml
+
+-
+  project: fuel-infra-packages/python-sqlalchemy
+  description: fuel-infra-packages/python-sqlalchemy
+
+-
+  project: fuel-infra-packages/python-transmissionrpc
+  description: fuel-infra-packages/python-transmissionrpc
+
+-
+  project: fuel-infra-packages/python-webob
+  description: fuel-infra-packages/python-webob
+
+-
+  project: fuel-infra-packages/python-xmlbuilder
+  description: fuel-infra-packages/python-xmlbuilder
+
+-
+  project: fuel-infra-packages/python2.6
+  description: fuel-infra-packages/python2.6
+
+-
+  project: fuel-infra-packages/qemu
+  description: fuel-infra-packages/qemu
+
+-
+  project: fuel-infra-packages/racktables
+  description: Nifty and robust solution for datacenter and server room asset management.
+
+-
+  project: fuel-infra-packages/ruby-raemon
+  description: fuel-infra-packages/ruby-raemon
+
+-
+  project: fuel-infra-packages/ruby-rvm
+  description: fuel-infra-packages/ruby-rvm
+
+-
+  project: fuel-infra-packages/sign
+  description: fuel-infra-packages/sign
+
+-
+  project: fuel-infra-packages/spacewalk
+  description: RedHat SpaceWalk Software management system
+
+-
+  project: fuel-infra-packages/tailnew
+  description: Utility to get the rest of data since last launch
+  upstream: git://github.com/teran/tailnew.git
+
+-
+  project: fuel-infra-packages/znc
+  description: fuel-infra-packages/znc
+
+-
+  project: fuel-infra-packages/zuul
+  description: fuel-infra-packages/zuul
+
+-
+  project: fuel-infra/ci-sandbox
+  description: fuel-infra/ci-sandbox
+  acl-config: acls/fuel-infra/fuel.infra.ci-sandbox.config
+
+-
+  project: fuel-infra/dns-config
+  description: DNS configuration
+  acl-config: acls/fuel-infra/fuel-infra-dns.config
+
+-
+  project: fuel-infra/fuel-infra-org-dns
+  description: fuel-infra/fuel-infra-org-dns
+
+-
+  project: fuel-infra/groups
+  description: Project to create groups in gerrit
+  acl-config: acls/acl.config.new_group
+
+-
+  project: fuel-infra/jeepyb-config
+  description: fuel-infra/jeepyb-config
+
+-
+  project: fuel-infra/jenkins-jobs
+  description: Jenkins Job Builder job configurations
+  acl-config: acls/acl.config.open
+
+-
+  project: fuel-infra/project-configs
+  description: Project to store project.config files
+
+-
+  project: fuel-infra/puppet-manifests
+  description: fuel-infra/puppet-manifests
+  acl-config: acls/fuel-infra/fuel-infra-puppet.config
+
+-
+  project: fuel-infra/specs
+  description: Specs for internal infrastructure tasks
+  acl-config: acls/acl.config.admin
+
+-
+  project: infra
+  description: Parent project for infra projects
+  acl-config: acls/infra/infra.config
+
+-
+  project: infra/ci-test-request
+  description: infra/ci-test-request
+
+-
+  project: infra/ci_status
+  description: infra/ci_status
+
+-
+  project: infra/mirrors
+  description: infra/mirrors
+  acl-config: acls/acl.config.open
+
+-
+  project: infra/obs
+  description: infra/obs
+
+-
+  project: infra/patching
+  description: infra/patching
+
+-
+  project: infra/release_scripts
+  description: infra/release_scripts
+
+-
+  project: mos-infra
+  description: Parent project for mos-infra projects
+  acl-config: acls/mos-infra/mos.infra.config
+
+-
+  project: mos-infra/devstack
+  description: Devstack scripts with MOS support
+  upstream: git://github.com/openstack-dev/devstack.git
+
+-
+  project: mos-infra/jenkins-job-builder
+  description: Tool to build jenkins jobs from templates
+  upstream: git://github.com/openstack-infra/jenkins-job-builder.git
+
+-
+  project: mos-infra/mos-components-ci
+  description: Scripts for testing components using stable ISO
+
+-
+  project: mos-infra/nodepool
+  description: mos-infra/nodepool
+  upstream: git://github.com/openstack-infra/nodepool.git
+
+-
+  project: mos-infra/project-config
+  description: mos-infra/project-config
+
+-
+  project: mos-infra/puppet-etherpad_lite
+  description: Puppet Etherpad Lite module
+  upstream: git://github.com/openstack-infra/puppet-etherpad_lite.git
+
+-
+  project: mos-infra/puppet-jenkins
+  description: Puppet Jenkins module
+  upstream: git://github.com/openstack-infra/puppet-jenkins.git
+
+-
+  project: mos-infra/puppet-lodgeit
+  description: Puppet Lodgeit module
+  upstream: git://github.com/openstack-infra/puppet-lodgeit.git
+
+-
+  project: mos-infra/puppet-meetbot
+  description: Puppet Meetbot module
+  upstream: git://github.com/openstack-infra/puppet-meetbot.git
+
+-
+  project: mos-infra/system-config
+  description: mos-infra/system-config
+
+-
+  project: mos-infra/testing
+  description: Empty repository for testing purposes only.
+
+-
+  project: mos-infra/zuul
+  description: mos-infra/zuul
+  upstream: git://github.com/openstack-infra/zuul.git
+
+-
+  project: mox
+  description: Parent project for mox projects
+  acl-config: acls/mox/mox.config
+
+-
+  project: mox-build
+  description: Parent project for mox-build projects
+  acl-config: acls/mox-build/project.config
+
+-
+  project: mox-build/barbican-build
+  description: mox-build/barbican-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/barbican-build
+
+-
+  project: mox-build/ceilometer-build
+  description: mox-build/ceilometer-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/ceilometer-build
+
+-
+  project: mox-build/cinder-build
+  description: mox-build/cinder-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/cinder-build
+
+-
+  project: mox-build/designate-build
+  description: mox-build/designate-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/designate-build
+
+-
+  project: mox-build/glance-build
+  description: mox-build/glance-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/glance-build
+
+-
+  project: mox-build/glance_store-build
+  description: mox-build/glance_store-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/glance_store-build
+
+-
+  project: mox-build/heat-build
+  description: mox-build/heat-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/heat-build
+
+-
+  project: mox-build/horizon-build
+  description: mox-build/horizon-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/horizon-build
+
+-
+  project: mox-build/ironic-build
+  description: mox-build/ironic-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/ironic-build
+
+-
+  project: mox-build/keystone-build
+  description: mox-build/keystone-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/keystone-build
+
+-
+  project: mox-build/mistral-build
+  description: mox-build/mistral-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/mistral-build
+
+-
+  project: mox-build/mistral-dashboard-build
+  description: mox-build/mistral-dashboard-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/mistral-dashboard-build
+
+-
+  project: mox-build/mistral-extra-build
+  description: mox-build/mistral-extra-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/mistral-extra-build
+
+-
+  project: mox-build/murano-api-build
+  description: mox-build/murano-api-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/murano-api-build
+
+-
+  project: mox-build/murano-apps-build
+  description: mox-build/murano-apps-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/murano-apps-build
+
+-
+  project: mox-build/murano-build
+  description: mox-build/murano-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/murano-build
+
+-
+  project: mox-build/murano-dashboard-build
+  description: mox-build/murano-dashboard-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/murano-dashboard-build
+
+-
+  project: mox-build/neutron-build
+  description: mox-build/neutron-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/neutron-build
+
+-
+  project: mox-build/nova-build
+  description: mox-build/nova-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/nova-build
+
+-
+  project: mox-build/oslo-build
+  description: mox-build/oslo-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo-build
+
+-
+  project: mox-build/oslo.concurrency-build
+  description: mox-build/oslo.concurrency-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.concurrency-build
+
+-
+  project: mox-build/oslo.config-build
+  description: mox-build/oslo.config-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.config-build
+
+-
+  project: mox-build/oslo.db-build
+  description: mox-build/oslo.db-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.db-build
+
+-
+  project: mox-build/oslo.i18n-build
+  description: mox-build/oslo.i18n-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.i18n-build
+
+-
+  project: mox-build/oslo.messaging-build
+  description: mox-build/oslo.messaging-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.messaging-build
+
+-
+  project: mox-build/oslo.middleware-build
+  description: mox-build/oslo.middleware-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.middleware-build
+
+-
+  project: mox-build/oslo.rootwrap-build
+  description: mox-build/oslo.rootwrap-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.rootwrap-build
+
+-
+  project: mox-build/oslo.serialization-build
+  description: mox-build/oslo.serialization-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.serialization-build
+
+-
+  project: mox-build/oslo.utils-build
+  description: mox-build/oslo.utils-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.utils-build
+
+-
+  project: mox-build/oslo.version-build
+  description: mox-build/oslo.version-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.version-build
+
+-
+  project: mox-build/oslo.vmware-build
+  description: mox-build/oslo.vmware-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslo.vmware-build
+
+-
+  project: mox-build/oslosphinx-build
+  description: mox-build/oslosphinx-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslosphinx-build
+
+-
+  project: mox-build/oslotest-build
+  description: mox-build/oslotest-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/oslotest-build
+
+-
+  project: mox-build/python-barbicanclient-build
+  description: mox-build/python-barbicanclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-barbicanclient-build
+
+-
+  project: mox-build/python-ceilometerclient-build
+  description: mox-build/python-ceilometerclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-ceilometerclient-build
+
+-
+  project: mox-build/python-cinderclient-build
+  description: mox-build/python-cinderclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-cinderclient-build
+
+-
+  project: mox-build/python-designateclient-build
+  description: mox-build/python-designateclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-designateclient-build
+
+-
+  project: mox-build/python-glanceclient-build
+  description: mox-build/python-glanceclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-glanceclient-build
+
+-
+  project: mox-build/python-heatclient-build
+  description: mox-build/python-heatclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-heatclient-build
+
+-
+  project: mox-build/python-ironicclient-build
+  description: mox-build/python-ironicclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-ironicclient-build
+
+-
+  project: mox-build/python-keystoneclient-build
+  description: mox-build/python-keystoneclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-keystoneclient-build
+
+-
+  project: mox-build/python-mistralclient-build
+  description: mox-build/python-mistralclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-mistralclient-build
+
+-
+  project: mox-build/python-muranoclient-build
+  description: mox-build/python-muranoclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-muranoclient-build
+
+-
+  project: mox-build/python-neutronclient-build
+  description: mox-build/python-neutronclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-neutronclient-build
+
+-
+  project: mox-build/python-novaclient-build
+  description: mox-build/python-novaclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-novaclient-build
+
+-
+  project: mox-build/python-saharaclient-build
+  description: mox-build/python-saharaclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-saharaclient-build
+
+-
+  project: mox-build/python-swiftclient-build
+  description: mox-build/python-swiftclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-swiftclient-build
+
+-
+  project: mox-build/python-troveclient-build
+  description: mox-build/python-troveclient-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/python-troveclient-build
+
+-
+  project: mox-build/sahara-build
+  description: mox-build/sahara-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/sahara-build
+
+-
+  project: mox-build/sahara-dashboard-build
+  description: mox-build/sahara-dashboard-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/sahara-dashboard-build
+
+-
+  project: mox-build/swift-build
+  description: mox-build/swift-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/swift-build
+
+-
+  project: mox-build/tempest-build
+  description: mox-build/tempest-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/tempest-build
+
+-
+  project: mox-build/trove-build
+  description: mox-build/trove-build
+  upstream: ssh://review.fuel-infra.org:29418/openstack-build/trove-build
+
+-
+  project: mox-packages
+  description: Parent project for mox packages
+  acl-config: acls/mox/mox.config
+
+-
+  project: mox-packages/centos6/dhcp-helper
+  description: mox-packages/centos6/dhcp-helper
+
+-
+  project: mox-packages/centos6/fail2ban
+  description: mox-packages/centos6/fail2ban
+
+-
+  project: mox-packages/centos6/gamin-python
+  description: mox-packages/centos6/gamin-python
+
+-
+  project: mox-packages/centos6/httpd
+  description: mox-packages/centos6/httpd
+
+-
+  project: mox-packages/centos6/logstash
+  description: mox-packages/centos6/logstash
+
+-
+  project: mox-packages/centos6/mod_ssl
+  description: mox-packages/centos6/mod_ssl
+
+-
+  project: mox-packages/centos6/novnc
+  description: mox-packages/centos6/novnc
+
+-
+  project: mox-packages/centos6/python-inotify
+  description: mox-packages/centos6/python-inotify
+
+-
+  project: mox-packages/centos6/zabbix22
+  description: mox-packages/centos6/zabbix22
+
+-
+  project: mox-packages/precise/apache2
+  description: mox-packages/precise/apache2
+
+-
+  project: mox-packages/precise/novnc
+  description: mox-packages/precise/novnc
+
+-
+  project: mox/barbican
+  description: mox/barbican
+  upstream: ssh://review.fuel-infra.org:29418/openstack/barbican
+
+-
+  project: mox/ceilometer
+  description: mox/ceilometer
+  upstream: ssh://review.fuel-infra.org:29418/openstack/ceilometer
+
+-
+  project: mox/cinder
+  description: mox/cinder
+  upstream: ssh://review.fuel-infra.org:29418/openstack/cinder
+
+-
+  project: mox/designate
+  description: mox/designate
+  upstream: ssh://review.fuel-infra.org:29418/openstack/designate
+
+-
+  project: mox/fuel-astute
+  description: mox/fuel-astute
+
+-
+  project: mox/fuel-library
+  description: mox/fuel-library
+
+-
+  project: mox/fuel-main
+  description: mox/fuel-main
+
+-
+  project: mox/fuel-ostf
+  description: mox/fuel-ostf
+
+-
+  project: mox/fuel-web
+  description: mox/fuel-web
+
+-
+  project: mox/glance
+  description: mox/glance
+  upstream: ssh://review.fuel-infra.org:29418/openstack/glance
+
+-
+  project: mox/glance_store
+  description: mox/glance_store
+  upstream: ssh://review.fuel-infra.org:29418/openstack/glance_store
+
+-
+  project: mox/heat
+  description: mox/heat
+  upstream: ssh://review.fuel-infra.org:29418/openstack/heat
+
+-
+  project: mox/horizon
+  description: mox/horizon
+  upstream: ssh://review.fuel-infra.org:29418/openstack/horizon
+
+-
+  project: mox/ironic
+  description: mox/ironic
+  upstream: ssh://review.fuel-infra.org:29418/openstack/ironic
+
+-
+  project: mox/keystone
+  description: mox/keystone
+  upstream: ssh://review.fuel-infra.org:29418/openstack/keystone
+
+-
+  project: mox/mistral
+  description: mox/mistral
+  upstream: ssh://review.fuel-infra.org:29418/openstack/mistral
+
+-
+  project: mox/mistral-dashboard
+  description: mox/mistral-dashboard
+  upstream: ssh://review.fuel-infra.org:29418/openstack/mistral-dashboard
+
+-
+  project: mox/mistral-extra
+  description: mox/mistral-extra
+  upstream: ssh://review.fuel-infra.org:29418/openstack/mistral-extra
+
+-
+  project: mox/murano
+  description: mox/murano
+  upstream: ssh://review.fuel-infra.org:29418/openstack/murano
+
+-
+  project: mox/murano-api
+  description: mox/murano-api
+  upstream: ssh://review.fuel-infra.org:29418/openstack/murano-api
+
+-
+  project: mox/murano-apps
+  description: mox/murano-apps
+  upstream: ssh://review.fuel-infra.org:29418/openstack/murano-apps
+
+-
+  project: mox/murano-dashboard
+  description: mox/murano-dashboard
+  upstream: ssh://review.fuel-infra.org:29418/openstack/murano-dashboard
+
+-
+  project: mox/neutron
+  description: mox/neutron
+  upstream: ssh://review.fuel-infra.org:29418/openstack/neutron
+
+-
+  project: mox/nova
+  description: mox/nova
+  upstream: ssh://review.fuel-infra.org:29418/openstack/nova
+
+-
+  project: mox/oslo
+  description: mox/oslo
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo
+
+-
+  project: mox/oslo-incubator
+  description: mox/oslo-incubator
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo-incubator
+
+-
+  project: mox/oslo.concurrency
+  description: mox/oslo.concurrency
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.concurrency
+
+-
+  project: mox/oslo.config
+  description: mox/oslo.config
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.config
+
+-
+  project: mox/oslo.db
+  description: mox/oslo.db
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.db
+
+-
+  project: mox/oslo.i18n
+  description: mox/oslo.i18n
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.i18n
+
+-
+  project: mox/oslo.log
+  description: mox/oslo.log
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.log
+
+-
+  project: mox/oslo.messaging
+  description: mox/oslo.messaging
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.messaging
+
+-
+  project: mox/oslo.middleware
+  description: mox/oslo.middleware
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.middleware
+
+-
+  project: mox/oslo.rootwrap
+  description: mox/oslo.rootwrap
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.rootwrap
+
+-
+  project: mox/oslo.serialization
+  description: mox/oslo.serialization
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.serialization
+
+-
+  project: mox/oslo.utils
+  description: mox/oslo.utils
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.utils
+
+-
+  project: mox/oslo.version
+  description: mox/oslo.version
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.version
+
+-
+  project: mox/oslo.vmware
+  description: mox/oslo.vmware
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslo.vmware
+
+-
+  project: mox/oslosphinx
+  description: mox/oslosphinx
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslosphinx
+
+-
+  project: mox/oslotest
+  description: mox/oslotest
+  upstream: ssh://review.fuel-infra.org:29418/openstack/oslotest
+
+-
+  project: mox/python-barbicanclient
+  description: mox/python-barbicanclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-barbicanclient
+
+-
+  project: mox/python-ceilometerclient
+  description: mox/python-ceilometerclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-ceilometerclient
+
+-
+  project: mox/python-cinderclient
+  description: mox/python-cinderclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-cinderclient
+
+-
+  project: mox/python-designateclient
+  description: mox/python-designateclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-designateclient
+
+-
+  project: mox/python-glanceclient
+  description: mox/python-glanceclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-glanceclient
+
+-
+  project: mox/python-heatclient
+  description: mox/python-heatclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-heatclient
+
+-
+  project: mox/python-ironicclient
+  description: mox/python-ironicclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-ironicclient
+
+-
+  project: mox/python-keystoneclient
+  description: mox/python-keystoneclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-keystoneclient
+
+-
+  project: mox/python-mistralclient
+  description: mox/python-mistralclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-mistralclient
+
+-
+  project: mox/python-muranoclient
+  description: mox/python-muranoclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-muranoclient
+
+-
+  project: mox/python-neutronclient
+  description: mox/python-neutronclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-neutronclient
+
+-
+  project: mox/python-novaclient
+  description: mox/python-novaclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-novaclient
+
+-
+  project: mox/python-saharaclient
+  description: mox/python-saharaclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-saharaclient
+
+-
+  project: mox/python-swiftclient
+  description: mox/python-swiftclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-swiftclient
+
+-
+  project: mox/python-troveclient
+  description: mox/python-troveclient
+  upstream: ssh://review.fuel-infra.org:29418/openstack/python-troveclient
+
+-
+  project: mox/sahara
+  description: mox/sahara
+  upstream: ssh://review.fuel-infra.org:29418/openstack/sahara
+
+-
+  project: mox/sahara-dashboard
+  description: mox/sahara-dashboard
+  upstream: ssh://review.fuel-infra.org:29418/openstack/sahara-dashboard
+
+-
+  project: mox/swift
+  description: mox/swift
+  upstream: ssh://review.fuel-infra.org:29418/openstack/swift
+
+-
+  project: mox/tempest
+  description: mox/tempest
+  upstream: ssh://review.fuel-infra.org:29418/openstack/tempest
+
+-
+  project: mox/trove
+  description: mox/trove
+  upstream: ssh://review.fuel-infra.org:29418/openstack/trove
+
+-
+  project: openstack
+  description: Parent project for openstack projects
+  acl-config: acls/openstack/openstack.config
+
+-
+  project: openstack-build
+  description: Parent project for openstack-build projects
+  acl-config: acls/openstack-build/openstack-build.config
+
+-
+  project: openstack-build/barbican-build
+  description: openstack-build/barbican-build
+
+-
+  project: openstack-build/ceilometer-build
+  description: openstack-build/ceilometer-build
+
+-
+  project: openstack-build/cinder-build
+  description: openstack-build/cinder-build
+
+-
+  project: openstack-build/designate-build
+  description: openstack-build/designate-build
+
+-
+  project: openstack-build/glance-build
+  description: openstack-build/glance-build
+
+-
+  project: openstack-build/glance_store-build
+  description: openstack-build/glance_store-build
+
+-
+  project: openstack-build/heat-build
+  description: openstack-build/heat-build
+
+-
+  project: openstack-build/horizon-build
+  description: openstack-build/horizon-build
+
+-
+  project: openstack-build/ironic-build
+  description: openstack-build/ironic-build
+
+-
+  project: openstack-build/keystone-build
+  description: openstack-build/keystone-build
+
+-
+  project: openstack-build/mistral-build
+  description: openstack-build/mistral-build
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack-build/mistral-dashboard-build
+  description: openstack-build/mistral-dashboard-build
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack-build/mistral-extra-build
+  description: openstack-build/mistral-extra-build
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack-build/murano-api-build
+  description: openstack-build/murano-api-build
+
+-
+  project: openstack-build/murano-apps-build
+  description: openstack-build/murano-apps-build
+
+-
+  project: openstack-build/murano-build
+  description: openstack-build/murano-build
+
+-
+  project: openstack-build/murano-dashboard-build
+  description: openstack-build/murano-dashboard-build
+
+-
+  project: openstack-build/neutron-build
+  description: openstack-build/neutron-build
+
+-
+  project: openstack-build/neutron-fwaas-build
+  description: openstack-build/neutron-fwaas-build
+
+-
+  project: openstack-build/neutron-lbaas-build
+  description: openstack-build/neutron-lbaas-build
+
+-
+  project: openstack-build/neutron-vpnaas-build
+  description: openstack-build/neutron-vpnaas-build
+
+-
+  project: openstack-build/nova-build
+  description: openstack-build/nova-build
+
+-
+  project: openstack-build/oslo-build
+  description: openstack-build/oslo-build
+
+-
+  project: openstack-build/oslo.concurrency-build
+  description: openstack-build/oslo.concurrency-build
+
+-
+  project: openstack-build/oslo.config-build
+  description: openstack-build/oslo.config-build
+
+-
+  project: openstack-build/oslo.context-build
+  description: openstack-build/oslo.context-build
+
+-
+  project: openstack-build/oslo.db-build
+  description: openstack-build/oslo.db-build
+
+-
+  project: openstack-build/oslo.i18n-build
+  description: openstack-build/oslo.i18n-build
+
+-
+  project: openstack-build/oslo.log-build
+  description: openstack-build/oslo.log-build
+
+-
+  project: openstack-build/oslo.messaging-build
+  description: openstack-build/oslo.messaging-build
+
+-
+  project: openstack-build/oslo.middleware-build
+  description: openstack-build/oslo.middleware-build
+
+-
+  project: openstack-build/oslo.rootwrap-build
+  description: openstack-build/oslo.rootwrap-build
+
+-
+  project: openstack-build/oslo.serialization-build
+  description: openstack-build/oslo.serialization-build
+
+-
+  project: openstack-build/oslo.utils-build
+  description: openstack-build/oslo.utils-build
+
+-
+  project: openstack-build/oslo.version-build
+  description: openstack-build/oslo.version-build
+
+-
+  project: openstack-build/oslo.vmware-build
+  description: openstack-build/oslo.vmware-build
+
+-
+  project: openstack-build/oslosphinx-build
+  description: openstack-build/oslosphinx-build
+
+-
+  project: openstack-build/oslotest-build
+  description: openstack-build/oslotest-build
+
+-
+  project: openstack-build/python-barbicanclient-build
+  description: openstack-build/python-barbicanclient-build
+
+-
+  project: openstack-build/python-ceilometerclient-build
+  description: openstack-build/python-ceilometerclient-build
+
+-
+  project: openstack-build/python-cinderclient-build
+  description: openstack-build/python-cinderclient-build
+
+-
+  project: openstack-build/python-congressclient-build
+  description: openstack-build/python-congressclient-build
+
+-
+  project: openstack-build/python-designateclient-build
+  description: openstack-build/python-designateclient-build
+
+-
+  project: openstack-build/python-glanceclient-build
+  description: openstack-build/python-glanceclient-build
+
+-
+  project: openstack-build/python-heatclient-build
+  description: openstack-build/python-heatclient-build
+
+-
+  project: openstack-build/python-ironicclient-build
+  description: openstack-build/python-ironicclient-build
+
+-
+  project: openstack-build/python-keystoneclient-build
+  description: openstack-build/python-keystoneclient-build
+
+-
+  project: openstack-build/python-marketplaceclient-build
+  description: openstack-build/python-marketplaceclient-build
+
+-
+  project: openstack-build/python-mistralclient-build
+  description: openstack-build/python-mistralclient-build
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack-build/python-muranoclient-build
+  description: openstack-build/python-muranoclient-build
+
+-
+  project: openstack-build/python-neutronclient-build
+  description: openstack-build/python-neutronclient-build
+
+-
+  project: openstack-build/python-novaclient-build
+  description: openstack-build/python-novaclient-build
+
+-
+  project: openstack-build/python-openstackclient-build
+  description: openstack-build/python-openstackclient-build
+
+-
+  project: openstack-build/python-saharaclient-build
+  description: openstack-build/python-saharaclient-build
+
+-
+  project: openstack-build/python-swiftclient-build
+  description: openstack-build/python-swiftclient-build
+
+-
+  project: openstack-build/python-troveclient-build
+  description: openstack-build/python-troveclient-build
+
+-
+  project: openstack-build/rally-build
+  description: openstack-build/rally-build
+
+-
+  project: openstack-build/sahara-build
+  description: openstack-build/sahara-build
+
+-
+  project: openstack-build/sahara-dashboard-build
+  description: openstack-build/sahara-dashboard-build
+
+-
+  project: openstack-build/swift-build
+  description: openstack-build/swift-build
+
+-
+  project: openstack-build/tempest-build
+  description: openstack-build/tempest-build
+
+-
+  project: openstack-build/trove-build
+  description: openstack-build/trove-build
+
+-
+  project: openstack/barbican
+  description: openstack/barbican
+
+-
+  project: openstack/ceilometer
+  description: openstack/ceilometer
+  acl-config: acls/ceilometer/ceilometer.config
+
+-
+  project: openstack/cinder
+  description: openstack/cinder
+  acl-config: acls/cinder/cinder.config
+
+-
+  project: openstack/designate
+  description: openstack/designate
+
+-
+  project: openstack/glance
+  description: openstack/glance
+  acl-config: acls/glance/glance.config
+
+-
+  project: openstack/glance_store
+  description: openstack/glance_store
+  acl-config: acls/glance/glance.config
+
+-
+  project: openstack/heat
+  description: openstack/heat
+  acl-config: acls/heat/heat.config
+
+-
+  project: openstack/horizon
+  description: openstack/horizon
+  acl-config: acls/horizon/horizon.config
+
+-
+  project: openstack/ironic
+  description: openstack/ironic
+
+-
+  project: openstack/keystone
+  description: openstack/keystone
+  acl-config: acls/keystone/keystone.config
+
+-
+  project: openstack/mistral
+  description: openstack/mistral
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack/mistral-dashboard
+  description: openstack/mistral-dashboard
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack/mistral-extra
+  description: openstack/mistral-extra
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack/murano
+  description: openstack/murano
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/murano-api
+  description: openstack/murano-api
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/murano-apps
+  description: openstack/murano-apps
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/murano-dashboard
+  description: openstack/murano-dashboard
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/neutron
+  description: openstack/neutron
+  acl-config: acls/neutron/neutron.config
+
+-
+  project: openstack/neutron-fwaas
+  description: openstack/neutron-fwaas
+  acl-config: acls/neutron/neutron.config
+
+-
+  project: openstack/neutron-lbaas
+  description: openstack/neutron-lbaas
+  acl-config: acls/neutron/neutron.config
+
+-
+  project: openstack/neutron-vpnaas
+  description: openstack/neutron-vpnaas
+  acl-config: acls/neutron/neutron.config
+
+-
+  project: openstack/nova
+  description: openstack/nova
+  acl-config: acls/nova/nova.config
+
+-
+  project: openstack/oslo
+  description: openstack/oslo
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo-incubator
+  description: openstack/oslo-incubator
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.concurrency
+  description: openstack/oslo.concurrency
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.config
+  description: openstack/oslo.config
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.context
+  description: openstack/oslo.context
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.db
+  description: openstack/oslo.db
+  acl-config: acls/oslo/oslo.db.config
+
+-
+  project: openstack/oslo.i18n
+  description: openstack/oslo.i18n
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.log
+  description: openstack/oslo.log
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.messaging
+  description: openstack/oslo.messaging
+  acl-config: acls/oslo/oslo.messaging.config
+
+-
+  project: openstack/oslo.middleware
+  description: openstack/oslo.middleware
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.rootwrap
+  description: openstack/oslo.rootwrap
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.serialization
+  description: openstack/oslo.serialization
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.utils
+  description: openstack/oslo.utils
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.version
+  description: openstack/oslo.version
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslo.vmware
+  description: openstack/oslo.vmware
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslosphinx
+  description: openstack/oslosphinx
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/oslotest
+  description: openstack/oslotest
+  acl-config: acls/oslo/oslo.libs.config
+
+-
+  project: openstack/python-barbicanclient
+  description: openstack/python-barbicanclient
+
+-
+  project: openstack/python-ceilometerclient
+  description: openstack/python-ceilometerclient
+  acl-config: acls/ceilometer/ceilometer.config
+
+-
+  project: openstack/python-cinderclient
+  description: openstack/python-cinderclient
+  acl-config: acls/cinder/cinder.config
+
+-
+  project: openstack/python-congressclient
+  description: openstack/python-congressclient
+
+-
+  project: openstack/python-designateclient
+  description: openstack/python-designateclient
+
+-
+  project: openstack/python-glanceclient
+  description: openstack/python-glanceclient
+  acl-config: acls/glance/glance.config
+
+-
+  project: openstack/python-heatclient
+  description: openstack/python-heatclient
+  acl-config: acls/heat/heat.config
+
+-
+  project: openstack/python-ironicclient
+  description: openstack/python-ironicclient
+
+-
+  project: openstack/python-keystoneclient
+  description: openstack/python-keystoneclient
+  acl-config: acls/keystone/keystone.config
+
+-
+  project: openstack/python-marketplaceclient
+  description: openstack/python-marketplaceclient
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/python-mistralclient
+  description: openstack/python-mistralclient
+  acl-config: acls/mistral/mistral.config
+
+-
+  project: openstack/python-muranoclient
+  description: openstack/python-muranoclient
+  acl-config: acls/murano/murano.config
+
+-
+  project: openstack/python-neutronclient
+  description: openstack/python-neutronclient
+  acl-config: acls/neutron/neutron.config
+
+-
+  project: openstack/python-novaclient
+  description: openstack/python-novaclient
+  acl-config: acls/nova/nova.config
+
+-
+  project: openstack/python-openstackclient
+  description: openstack/python-openstackclient
+
+-
+  project: openstack/python-saharaclient
+  description: openstack/python-saharaclient
+  acl-config: acls/sahara/sahara.config
+
+-
+  project: openstack/python-swiftclient
+  description: openstack/python-swiftclient
+
+-
+  project: openstack/python-troveclient
+  description: openstack/python-troveclient
+
+-
+  project: openstack/rally
+  description: openstack/rally
+
+-
+  project: openstack/sahara
+  description: openstack/sahara
+  acl-config: acls/sahara/sahara.config
+
+-
+  project: openstack/sahara-dashboard
+  description: openstack/sahara-dashboard
+  acl-config: acls/sahara/sahara.config
+
+-
+  project: openstack/sahara-image-elements
+  description: openstack/sahara-image-elements
+  acl-config: acls/sahara/sahara.config
+
+-
+  project: openstack/swift
+  description: openstack/swift
+
+-
+  project: openstack/tempest
+  description: openstack/tempest
+
+-
+  project: openstack/trove
+  description: openstack/trove
+
+-
+  project: packages
+  description: Parent project for mos projects
+  acl-config: acls/packages/packages.config
+
+-
+  project: packages/centos6/Django
+  description: packages/centos6/Django
+
+-
+  project: packages/centos6/Django14
+  description: packages/centos6/Django14
+
+-
+  project: packages/centos6/GeoIP
+  description: packages/centos6/GeoIP
+
+-
+  project: packages/centos6/MySQL
+  description: packages/centos6/MySQL
+
+-
+  project: packages/centos6/MySQL-python
+  description: packages/centos6/MySQL-python
+
+-
+  project: packages/centos6/MySQL-wsrep
+  description: packages/centos6/MySQL-wsrep
+
+-
+  project: packages/centos6/PyYAML
+  description: packages/centos6/PyYAML
+
+-
+  project: packages/centos6/ami-creator
+  description: packages/centos6/ami-creator
+
+-
+  project: packages/centos6/amtterm
+  description: packages/centos6/amtterm
+
+-
+  project: packages/centos6/anaconda
+  description: packages/centos6/anaconda
+
+-
+  project: packages/centos6/ansible
+  description: packages/centos6/ansible
+
+-
+  project: packages/centos6/apr
+  description: packages/centos6/apr
+
+-
+  project: packages/centos6/apr-util
+  description: packages/centos6/apr-util
+
+-
+  project: packages/centos6/atop
+  description: packages/centos6/atop
+
+-
+  project: packages/centos6/augeas
+  description: packages/centos6/augeas
+
+-
+  project: packages/centos6/bash
+  description: packages/centos6/bash
+
+-
+  project: packages/centos6/c-ares19
+  description: packages/centos6/c-ares19
+
+-
+  project: packages/centos6/cdrkit
+  description: packages/centos6/cdrkit
+
+-
+  project: packages/centos6/ceph
+  description: packages/centos6/ceph
+
+-
+  project: packages/centos6/ceph-deploy
+  description: packages/centos6/ceph-deploy
+
+-
+  project: packages/centos6/cirros-testvm
+  description: packages/centos6/cirros-testvm
+
+-
+  project: packages/centos6/cirros-testvm-mellanox
+  description: packages/centos6/cirros-testvm-mellanox
+
+-
+  project: packages/centos6/cirros-testvmware
+  description: packages/centos6/cirros-testvmware
+
+-
+  project: packages/centos6/cloud-init
+  description: packages/centos6/cloud-init
+
+-
+  project: packages/centos6/cloud-utils
+  description: packages/centos6/cloud-utils
+
+-
+  project: packages/centos6/cluster-glue
+  description: packages/centos6/cluster-glue
+
+-
+  project: packages/centos6/cobbler
+  description: packages/centos6/cobbler
+
+-
+  project: packages/centos6/conntrack-tools
+  description: packages/centos6/conntrack-tools
+
+-
+  project: packages/centos6/corosync
+  description: packages/centos6/corosync
+
+-
+  project: packages/centos6/cpufreq-init
+  description: packages/centos6/cpufreq-init
+
+-
+  project: packages/centos6/createrepo
+  description: packages/centos6/createrepo
+
+-
+  project: packages/centos6/crmsh
+  description: packages/centos6/crmsh
+
+-
+  project: packages/centos6/cross-binutils
+  description: packages/centos6/cross-binutils
+
+-
+  project: packages/centos6/cross-gcc
+  description: packages/centos6/cross-gcc
+
+-
+  project: packages/centos6/cryptopp
+  description: packages/centos6/cryptopp
+
+-
+  project: packages/centos6/daemonize
+  description: packages/centos6/daemonize
+
+-
+  project: packages/centos6/debmirror
+  description: packages/centos6/debmirror
+
+-
+  project: packages/centos6/debootstrap
+  description: packages/centos6/debootstrap
+
+-
+  project: packages/centos6/deltarpm
+  description: packages/centos6/deltarpm
+
+-
+  project: packages/centos6/device-mapper-persistent-data
+  description: packages/centos6/device-mapper-persistent-data
+
+-
+  project: packages/centos6/disktype
+  description: packages/centos6/disktype
+
+-
+  project: packages/centos6/django-osa
+  description: packages/centos6/django-osa
+
+-
+  project: packages/centos6/dnsmasq
+  description: packages/centos6/dnsmasq
+
+-
+  project: packages/centos6/docker-io
+  description: packages/centos6/docker-io
+
+-
+  project: packages/centos6/dpkg
+  description: packages/centos6/dpkg
+
+-
+  project: packages/centos6/edk2
+  description: packages/centos6/edk2
+
+-
+  project: packages/centos6/erlang
+  description: packages/centos6/erlang
+
+-
+  project: packages/centos6/eswitchd
+  description: packages/centos6/eswitchd
+
+-
+  project: packages/centos6/euca2ools
+  description: packages/centos6/euca2ools
+
+-
+  project: packages/centos6/facter
+  description: packages/centos6/facter
+
+-
+  project: packages/centos6/fcgiwrap
+  description: packages/centos6/fcgiwrap
+
+-
+  project: packages/centos6/fdupes
+  description: packages/centos6/fdupes
+
+-
+  project: packages/centos6/febootstrap
+  description: packages/centos6/febootstrap
+
+-
+  project: packages/centos6/fence-agents
+  description: packages/centos6/fence-agents
+
+-
+  project: packages/centos6/fping
+  description: packages/centos6/fping
+
+-
+  project: packages/centos6/fuel-utils
+  description: packages/centos6/fuel-utils
+
+-
+  project: packages/centos6/fuse-sshfs
+  description: packages/centos6/fuse-sshfs
+
+-
+  project: packages/centos6/galera
+  description: packages/centos6/galera
+
+-
+  project: packages/centos6/gdisk
+  description: packages/centos6/gdisk
+
+-
+  project: packages/centos6/glance
+  description: packages/centos6/glance
+
+-
+  project: packages/centos6/glusterfs
+  description: packages/centos6/glusterfs
+
+-
+  project: packages/centos6/golang
+  description: packages/centos6/golang
+
+-
+  project: packages/centos6/golang-github-codegangsta-cli
+  description: packages/centos6/golang-github-codegangsta-cli
+
+-
+  project: packages/centos6/golang-github-cpuguy83-go-md2man
+  description: packages/centos6/golang-github-cpuguy83-go-md2man
+
+-
+  project: packages/centos6/golang-github-docker-libcontainer
+  description: packages/centos6/golang-github-docker-libcontainer
+
+-
+  project: packages/centos6/golang-github-gorilla-context
+  description: packages/centos6/golang-github-gorilla-context
+
+-
+  project: packages/centos6/golang-github-gorilla-mux
+  description: packages/centos6/golang-github-gorilla-mux
+
+-
+  project: packages/centos6/golang-github-kr-pty
+  description: packages/centos6/golang-github-kr-pty
+
+-
+  project: packages/centos6/golang-github-russross-blackfriday
+  description: packages/centos6/golang-github-russross-blackfriday
+
+-
+  project: packages/centos6/golang-github-syndtr-gocapability
+  description: packages/centos6/golang-github-syndtr-gocapability
+
+-
+  project: packages/centos6/golang-github-tchap-go-patricia
+  description: packages/centos6/golang-github-tchap-go-patricia
+
+-
+  project: packages/centos6/golang-googlecode-net
+  description: packages/centos6/golang-googlecode-net
+
+-
+  project: packages/centos6/golang-googlecode-sqlite
+  description: packages/centos6/golang-googlecode-sqlite
+
+-
+  project: packages/centos6/gperftools
+  description: packages/centos6/gperftools
+
+-
+  project: packages/centos6/grub2
+  description: packages/centos6/grub2
+
+-
+  project: packages/centos6/haproxy
+  description: packages/centos6/haproxy
+
+-
+  project: packages/centos6/heat
+  description: packages/centos6/heat
+
+-
+  project: packages/centos6/heat-dashboard
+  description: packages/centos6/heat-dashboard
+
+-
+  project: packages/centos6/hiera
+  description: packages/centos6/hiera
+
+-
+  project: packages/centos6/hivex
+  description: packages/centos6/hivex
+
+-
+  project: packages/centos6/htop
+  description: packages/centos6/htop
+
+-
+  project: packages/centos6/http-parser
+  description: packages/centos6/http-parser
+
+-
+  project: packages/centos6/httpclient
+  description: packages/centos6/httpclient
+
+-
+  project: packages/centos6/httpd
+  description: packages/centos6/httpd
+
+-
+  project: packages/centos6/i40e
+  description: packages/centos6/i40e
+
+-
+  project: packages/centos6/iksemel
+  description: packages/centos6/iksemel
+
+-
+  project: packages/centos6/incron
+  description: packages/centos6/incron
+
+-
+  project: packages/centos6/iperf
+  description: packages/centos6/iperf
+
+-
+  project: packages/centos6/iperf3
+  description: packages/centos6/iperf3
+
+-
+  project: packages/centos6/ipmitool
+  description: packages/centos6/ipmitool
+
+-
+  project: packages/centos6/iproute
+  description: packages/centos6/iproute
+
+-
+  project: packages/centos6/ipset
+  description: packages/centos6/ipset
+
+-
+  project: packages/centos6/iptables
+  description: packages/centos6/iptables
+
+-
+  project: packages/centos6/iputils
+  description: packages/centos6/iputils
+
+-
+  project: packages/centos6/ipxe
+  description: packages/centos6/ipxe
+
+-
+  project: packages/centos6/json-c
+  description: packages/centos6/json-c
+
+-
+  project: packages/centos6/keepalived
+  description: packages/centos6/keepalived
+
+-
+  project: packages/centos6/kernel
+  description: packages/centos6/kernel
+
+-
+  project: packages/centos6/kernel-lt
+  description: packages/centos6/kernel-lt
+
+-
+  project: packages/centos6/kernel-ml
+  description: packages/centos6/kernel-ml
+
+-
+  project: packages/centos6/kmod-hpsa
+  description: packages/centos6/kmod-hpsa
+
+-
+  project: packages/centos6/leveldb
+  description: packages/centos6/leveldb
+
+-
+  project: packages/centos6/libewf
+  description: packages/centos6/libewf
+
+-
+  project: packages/centos6/libfcgi
+  description: packages/centos6/libfcgi
+
+-
+  project: packages/centos6/libffi-devel
+  description: packages/centos6/libffi-devel
+
+-
+  project: packages/centos6/libguestfs
+  description: packages/centos6/libguestfs
+
+-
+  project: packages/centos6/libiscsi
+  description: packages/centos6/libiscsi
+
+-
+  project: packages/centos6/libmemcached
+  description: packages/centos6/libmemcached
+
+-
+  project: packages/centos6/libmnl
+  description: packages/centos6/libmnl
+
+-
+  project: packages/centos6/libmpc
+  description: packages/centos6/libmpc
+
+-
+  project: packages/centos6/libnet
+  description: packages/centos6/libnet
+
+-
+  project: packages/centos6/libnetfilter_conntrack
+  description: packages/centos6/libnetfilter_conntrack
+
+-
+  project: packages/centos6/libnetfilter_cthelper
+  description: packages/centos6/libnetfilter_cthelper
+
+-
+  project: packages/centos6/libnetfilter_cttimeout
+  description: packages/centos6/libnetfilter_cttimeout
+
+-
+  project: packages/centos6/libnetfilter_queue
+  description: packages/centos6/libnetfilter_queue
+
+-
+  project: packages/centos6/libnfnetlink
+  description: packages/centos6/libnfnetlink
+
+-
+  project: packages/centos6/libpcap
+  description: packages/centos6/libpcap
+
+-
+  project: packages/centos6/libqb
+  description: packages/centos6/libqb
+
+-
+  project: packages/centos6/libs3
+  description: packages/centos6/libs3
+
+-
+  project: packages/centos6/libseccomp
+  description: packages/centos6/libseccomp
+
+-
+  project: packages/centos6/libunwind
+  description: packages/centos6/libunwind
+
+-
+  project: packages/centos6/libusbx
+  description: packages/centos6/libusbx
+
+-
+  project: packages/centos6/libuv
+  description: packages/centos6/libuv
+
+-
+  project: packages/centos6/libvirt
+  description: packages/centos6/libvirt
+
+-
+  project: packages/centos6/libxml2
+  description: packages/centos6/libxml2
+
+-
+  project: packages/centos6/libyaml
+  description: packages/centos6/libyaml
+
+-
+  project: packages/centos6/linux-atm
+  description: packages/centos6/linux-atm
+
+-
+  project: packages/centos6/linux-firmware
+  description: packages/centos6/linux-firmware
+
+-
+  project: packages/centos6/livecd-tools
+  description: packages/centos6/livecd-tools
+
+-
+  project: packages/centos6/logrotate
+  description: packages/centos6/logrotate
+
+-
+  project: packages/centos6/lrzip
+  description: packages/centos6/lrzip
+
+-
+  project: packages/centos6/lshell
+  description: packages/centos6/lshell
+
+-
+  project: packages/centos6/lvm2
+  description: packages/centos6/lvm2
+
+-
+  project: packages/centos6/lxc
+  description: packages/centos6/lxc
+
+-
+  project: packages/centos6/lzop
+  description: packages/centos6/lzop
+
+-
+  project: packages/centos6/mailcap
+  description: packages/centos6/mailcap
+
+-
+  project: packages/centos6/mariadb
+  description: packages/centos6/mariadb
+
+-
+  project: packages/centos6/mcollective
+  description: packages/centos6/mcollective
+
+-
+  project: packages/centos6/megaraid_sas
+  description: packages/centos6/megaraid_sas
+
+-
+  project: packages/centos6/memcached
+  description: packages/centos6/memcached
+
+-
+  project: packages/centos6/mlnx-ofed-light
+  description: packages/centos6/mlnx-ofed-light
+
+-
+  project: packages/centos6/mlnxvif
+  description: packages/centos6/mlnxvif
+
+-
+  project: packages/centos6/mod_fastcgi
+  description: packages/centos6/mod_fastcgi
+
+-
+  project: packages/centos6/mod_fcgid
+  description: packages/centos6/mod_fcgid
+
+-
+  project: packages/centos6/mod_wsgi
+  description: packages/centos6/mod_wsgi
+
+-
+  project: packages/centos6/mongodb
+  description: packages/centos6/mongodb
+
+-
+  project: packages/centos6/monit
+  description: packages/centos6/monit
+
+-
+  project: packages/centos6/mtools
+  description: packages/centos6/mtools
+
+-
+  project: packages/centos6/murano-apps
+  description: packages/centos6/murano-apps
+
+-
+  project: packages/centos6/murano-cirros-testvm
+  description: packages/centos6/murano-cirros-testvm
+
+-
+  project: packages/centos6/mysql
+  description: packages/centos6/mysql
+
+-
+  project: packages/centos6/mysql-connector-python
+  description: packages/centos6/mysql-connector-python
+
+-
+  project: packages/centos6/nagios
+  description: packages/centos6/nagios
+
+-
+  project: packages/centos6/nagios-plugins
+  description: packages/centos6/nagios-plugins
+
+-
+  project: packages/centos6/nagios-plugins-os-amqp
+  description: packages/centos6/nagios-plugins-os-amqp
+
+-
+  project: packages/centos6/nagios-plugins-os-libvirt
+  description: packages/centos6/nagios-plugins-os-libvirt
+
+-
+  project: packages/centos6/nagios-plugins-os-swift
+  description: packages/centos6/nagios-plugins-os-swift
+
+-
+  project: packages/centos6/nginx
+  description: packages/centos6/nginx
+
+-
+  project: packages/centos6/nmap
+  description: packages/centos6/nmap
+
+-
+  project: packages/centos6/nodejs
+  description: packages/centos6/nodejs
+
+-
+  project: packages/centos6/nodejs-less
+  description: packages/centos6/nodejs-less
+
+-
+  project: packages/centos6/novnc
+  description: packages/centos6/novnc
+
+-
+  project: packages/centos6/nrpe
+  description: packages/centos6/nrpe
+
+-
+  project: packages/centos6/ntp-dev
+  description: packages/centos6/ntp-dev
+
+-
+  project: packages/centos6/openais
+  description: packages/centos6/openais
+
+-
+  project: packages/centos6/openpgm
+  description: packages/centos6/openpgm
+
+-
+  project: packages/centos6/openssl
+  description: packages/centos6/openssl
+
+-
+  project: packages/centos6/openssl098e
+  description: packages/centos6/openssl098e
+
+-
+  project: packages/centos6/openstack-doc-tools
+  description: packages/centos6/openstack-doc-tools
+
+-
+  project: packages/centos6/openstack-nose
+  description: packages/centos6/openstack-nose
+
+-
+  project: packages/centos6/openstack-pkg-tools
+  description: packages/centos6/openstack-pkg-tools
+
+-
+  project: packages/centos6/openvswitch
+  description: packages/centos6/openvswitch
+
+-
+  project: packages/centos6/openvswitch-kmod
+  description: packages/centos6/openvswitch-kmod
+
+-
+  project: packages/centos6/pacemaker
+  description: packages/centos6/pacemaker
+
+-
+  project: packages/centos6/pcapy
+  description: packages/centos6/pcapy
+
+-
+  project: packages/centos6/pcs
+  description: packages/centos6/pcs
+
+-
+  project: packages/centos6/percona-toolkit
+  description: packages/centos6/percona-toolkit
+
+-
+  project: packages/centos6/perl-DBD-MySQL
+  description: packages/centos6/perl-DBD-MySQL
+
+-
+  project: packages/centos6/perl-LockFile-Simple
+  description: packages/centos6/perl-LockFile-Simple
+
+-
+  project: packages/centos6/postgresql
+  description: packages/centos6/postgresql
+
+-
+  project: packages/centos6/pssh
+  description: packages/centos6/pssh
+
+-
+  project: packages/centos6/puppet
+  description: packages/centos6/puppet
+
+-
+  project: packages/centos6/puppetdb
+  description: packages/centos6/puppetdb
+
+-
+  project: packages/centos6/puppetlabs-release
+  description: packages/centos6/puppetlabs-release
+
+-
+  project: packages/centos6/pushy
+  description: packages/centos6/pushy
+
+-
+  project: packages/centos6/pydot
+  description: packages/centos6/pydot
+
+-
+  project: packages/centos6/pydot-ng
+  description: packages/centos6/pydot-ng
+
+-
+  project: packages/centos6/pylint
+  description: packages/centos6/pylint
+
+-
+  project: packages/centos6/pymongo
+  description: packages/centos6/pymongo
+
+-
+  project: packages/centos6/pyparsing
+  description: packages/centos6/pyparsing
+
+-
+  project: packages/centos6/pyparsing1.5
+  description: packages/centos6/pyparsing1.5
+
+-
+  project: packages/centos6/pysaml2
+  description: packages/centos6/pysaml2
+
+-
+  project: packages/centos6/pysendfile
+  description: packages/centos6/pysendfile
+
+-
+  project: packages/centos6/pysqlite
+  description: packages/centos6/pysqlite
+
+-
+  project: packages/centos6/pytest
+  description: packages/centos6/pytest
+
+-
+  project: packages/centos6/python-actdiag
+  description: packages/centos6/python-actdiag
+
+-
+  project: packages/centos6/python-alembic
+  description: packages/centos6/python-alembic
+
+-
+  project: packages/centos6/python-amqp
+  description: packages/centos6/python-amqp
+
+-
+  project: packages/centos6/python-amqplib
+  description: packages/centos6/python-amqplib
+
+-
+  project: packages/centos6/python-anyjson
+  description: packages/centos6/python-anyjson
+
+-
+  project: packages/centos6/python-argparse
+  description: packages/centos6/python-argparse
+
+-
+  project: packages/centos6/python-astroid
+  description: packages/centos6/python-astroid
+
+-
+  project: packages/centos6/python-babel
+  description: packages/centos6/python-babel
+
+-
+  project: packages/centos6/python-barbicanclient
+  description: packages/centos6/python-barbicanclient
+
+-
+  project: packages/centos6/python-bashate
+  description: packages/centos6/python-bashate
+
+-
+  project: packages/centos6/python-beautifulsoup4
+  description: packages/centos6/python-beautifulsoup4
+
+-
+  project: packages/centos6/python-blockdiag
+  description: packages/centos6/python-blockdiag
+
+-
+  project: packages/centos6/python-boto
+  description: packages/centos6/python-boto
+
+-
+  project: packages/centos6/python-bunch
+  description: packages/centos6/python-bunch
+
+-
+  project: packages/centos6/python-cffi
+  description: packages/centos6/python-cffi
+
+-
+  project: packages/centos6/python-cheetah
+  description: packages/centos6/python-cheetah
+
+-
+  project: packages/centos6/python-cherrypy
+  description: packages/centos6/python-cherrypy
+
+-
+  project: packages/centos6/python-cliff
+  description: packages/centos6/python-cliff
+
+-
+  project: packages/centos6/python-cliff-tablib
+  description: packages/centos6/python-cliff-tablib
+
+-
+  project: packages/centos6/python-cloudfiles
+  description: packages/centos6/python-cloudfiles
+
+-
+  project: packages/centos6/python-cm-api
+  description: packages/centos6/python-cm-api
+
+-
+  project: packages/centos6/python-cmd2
+  description: packages/centos6/python-cmd2
+
+-
+  project: packages/centos6/python-colorama
+  description: packages/centos6/python-colorama
+
+-
+  project: packages/centos6/python-coverage
+  description: packages/centos6/python-coverage
+
+-
+  project: packages/centos6/python-crypto
+  description: packages/centos6/python-crypto
+
+-
+  project: packages/centos6/python-crypto2.6
+  description: packages/centos6/python-crypto2.6
+
+-
+  project: packages/centos6/python-cryptography
+  description: packages/centos6/python-cryptography
+
+-
+  project: packages/centos6/python-d2to1
+  description: packages/centos6/python-d2to1
+
+-
+  project: packages/centos6/python-daemon
+  description: packages/centos6/python-daemon
+
+-
+  project: packages/centos6/python-daemonize
+  description: packages/centos6/python-daemonize
+
+-
+  project: packages/centos6/python-debian
+  description: packages/centos6/python-debian
+
+-
+  project: packages/centos6/python-debug
+  description: packages/centos6/python-debug
+
+-
+  project: packages/centos6/python-decorator
+  description: packages/centos6/python-decorator
+
+-
+  project: packages/centos6/python-demjson
+  description: packages/centos6/python-demjson
+
+-
+  project: packages/centos6/python-dictdiffer
+  description: packages/centos6/python-dictdiffer
+
+-
+  project: packages/centos6/python-discover
+  description: packages/centos6/python-discover
+
+-
+  project: packages/centos6/python-distribute
+  description: packages/centos6/python-distribute
+
+-
+  project: packages/centos6/python-django
+  description: packages/centos6/python-django
+
+-
+  project: packages/centos6/python-django-appconf
+  description: packages/centos6/python-django-appconf
+
+-
+  project: packages/centos6/python-django-bootstrap-toolkit
+  description: packages/centos6/python-django-bootstrap-toolkit
+
+-
+  project: packages/centos6/python-django-compressor
+  description: packages/centos6/python-django-compressor
+
+-
+  project: packages/centos6/python-django-floppyforms
+  description: packages/centos6/python-django-floppyforms
+
+-
+  project: packages/centos6/python-django-horizon
+  description: packages/centos6/python-django-horizon
+
+-
+  project: packages/centos6/python-django-nose
+  description: packages/centos6/python-django-nose
+
+-
+  project: packages/centos6/python-django-openstack-auth
+  description: packages/centos6/python-django-openstack-auth
+
+-
+  project: packages/centos6/python-django-pipeline
+  description: packages/centos6/python-django-pipeline
+
+-
+  project: packages/centos6/python-django-pyscss
+  description: packages/centos6/python-django-pyscss
+
+-
+  project: packages/centos6/python-djblets
+  description: packages/centos6/python-djblets
+
+-
+  project: packages/centos6/python-dnspython
+  description: packages/centos6/python-dnspython
+
+-
+  project: packages/centos6/python-doc8
+  description: packages/centos6/python-doc8
+
+-
+  project: packages/centos6/python-docker
+  description: packages/centos6/python-docker
+
+-
+  project: packages/centos6/python-docutils
+  description: packages/centos6/python-docutils
+
+-
+  project: packages/centos6/python-ecdsa
+  description: packages/centos6/python-ecdsa
+
+-
+  project: packages/centos6/python-enum34
+  description: packages/centos6/python-enum34
+
+-
+  project: packages/centos6/python-eventlet
+  description: packages/centos6/python-eventlet
+
+-
+  project: packages/centos6/python-extras
+  description: packages/centos6/python-extras
+
+-
+  project: packages/centos6/python-ez_setup
+  description: packages/centos6/python-ez_setup
+
+-
+  project: packages/centos6/python-fabric
+  description: packages/centos6/python-fabric
+
+-
+  project: packages/centos6/python-feedparser
+  description: packages/centos6/python-feedparser
+
+-
+  project: packages/centos6/python-fixtures
+  description: packages/centos6/python-fixtures
+
+-
+  project: packages/centos6/python-flake8
+  description: packages/centos6/python-flake8
+
+-
+  project: packages/centos6/python-flask
+  description: packages/centos6/python-flask
+
+-
+  project: packages/centos6/python-fuelclient
+  description: packages/centos6/python-fuelclient
+
+-
+  project: packages/centos6/python-funcparserlib
+  description: packages/centos6/python-funcparserlib
+
+-
+  project: packages/centos6/python-fysom
+  description: packages/centos6/python-fysom
+
+-
+  project: packages/centos6/python-gabbi
+  description: packages/centos6/python-gabbi
+
+-
+  project: packages/centos6/python-gevent
+  description: packages/centos6/python-gevent
+
+-
+  project: packages/centos6/python-gflags
+  description: packages/centos6/python-gflags
+
+-
+  project: packages/centos6/python-glance_store
+  description: packages/centos6/python-glance_store
+
+-
+  project: packages/centos6/python-greenlet
+  description: packages/centos6/python-greenlet
+
+-
+  project: packages/centos6/python-hacking
+  description: packages/centos6/python-hacking
+
+-
+  project: packages/centos6/python-happybase
+  description: packages/centos6/python-happybase
+
+-
+  project: packages/centos6/python-hp3parclient
+  description: packages/centos6/python-hp3parclient
+
+-
+  project: packages/centos6/python-html5lib
+  description: packages/centos6/python-html5lib
+
+-
+  project: packages/centos6/python-httplib2
+  description: packages/centos6/python-httplib2
+
+-
+  project: packages/centos6/python-httpretty
+  description: packages/centos6/python-httpretty
+
+-
+  project: packages/centos6/python-imgcreate
+  description: packages/centos6/python-imgcreate
+
+-
+  project: packages/centos6/python-importlib
+  description: packages/centos6/python-importlib
+
+-
+  project: packages/centos6/python-ipaddr
+  description: packages/centos6/python-ipaddr
+
+-
+  project: packages/centos6/python-iso8601
+  description: packages/centos6/python-iso8601
+
+-
+  project: packages/centos6/python-jinja2
+  description: packages/centos6/python-jinja2
+
+-
+  project: packages/centos6/python-json-patch
+  description: packages/centos6/python-json-patch
+
+-
+  project: packages/centos6/python-json-pointer
+  description: packages/centos6/python-json-pointer
+
+-
+  project: packages/centos6/python-jsonpatch
+  description: packages/centos6/python-jsonpatch
+
+-
+  project: packages/centos6/python-jsonpointer
+  description: packages/centos6/python-jsonpointer
+
+-
+  project: packages/centos6/python-jsonrpclib
+  description: packages/centos6/python-jsonrpclib
+
+-
+  project: packages/centos6/python-jsonschema
+  description: packages/centos6/python-jsonschema
+
+-
+  project: packages/centos6/python-kazoo
+  description: packages/centos6/python-kazoo
+
+-
+  project: packages/centos6/python-keyczar
+  description: packages/centos6/python-keyczar
+
+-
+  project: packages/centos6/python-keyring
+  description: packages/centos6/python-keyring
+
+-
+  project: packages/centos6/python-keystonemiddleware
+  description: packages/centos6/python-keystonemiddleware
+
+-
+  project: packages/centos6/python-kombu
+  description: packages/centos6/python-kombu
+
+-
+  project: packages/centos6/python-ldappool
+  description: Closes-Bug:#1397279
+
+-
+  project: packages/centos6/python-libvirt
+  description: packages/centos6/python-libvirt
+
+-
+  project: packages/centos6/python-lockfile
+  description: packages/centos6/python-lockfile
+
+-
+  project: packages/centos6/python-logilab-common
+  description: packages/centos6/python-logilab-common
+
+-
+  project: packages/centos6/python-logutils
+  description: packages/centos6/python-logutils
+
+-
+  project: packages/centos6/python-mako
+  description: packages/centos6/python-mako
+
+-
+  project: packages/centos6/python-markdown
+  description: packages/centos6/python-markdown
+
+-
+  project: packages/centos6/python-markupsafe
+  description: packages/centos6/python-markupsafe
+
+-
+  project: packages/centos6/python-mccabe
+  description: packages/centos6/python-mccabe
+
+-
+  project: packages/centos6/python-meld3
+  description: packages/centos6/python-meld3
+
+-
+  project: packages/centos6/python-memcached
+  description: packages/centos6/python-memcached
+
+-
+  project: packages/centos6/python-migrate
+  description: packages/centos6/python-migrate
+
+-
+  project: packages/centos6/python-mimeparse
+  description: packages/centos6/python-mimeparse
+
+-
+  project: packages/centos6/python-mock
+  description: packages/centos6/python-mock
+
+-
+  project: packages/centos6/python-mox
+  description: packages/centos6/python-mox
+
+-
+  project: packages/centos6/python-mox3
+  description: packages/centos6/python-mox3
+
+-
+  project: packages/centos6/python-msgpack
+  description: packages/centos6/python-msgpack
+
+-
+  project: packages/centos6/python-mysqldb
+  description: packages/centos6/python-mysqldb
+
+-
+  project: packages/centos6/python-netaddr
+  description: packages/centos6/python-netaddr
+
+-
+  project: packages/centos6/python-netifaces
+  description: packages/centos6/python-netifaces
+
+-
+  project: packages/centos6/python-networkx
+  description: packages/centos6/python-networkx
+
+-
+  project: packages/centos6/python-nodeenv
+  description: packages/centos6/python-nodeenv
+
+-
+  project: packages/centos6/python-nose
+  description: packages/centos6/python-nose
+
+-
+  project: packages/centos6/python-nose-cover3
+  description: packages/centos6/python-nose-cover3
+
+-
+  project: packages/centos6/python-nose-exclude
+  description: packages/centos6/python-nose-exclude
+
+-
+  project: packages/centos6/python-nose2
+  description: packages/centos6/python-nose2
+
+-
+  project: packages/centos6/python-nosehtmloutput
+  description: packages/centos6/python-nosehtmloutput
+
+-
+  project: packages/centos6/python-nosexcover
+  description: packages/centos6/python-nosexcover
+
+-
+  project: packages/centos6/python-nwdiag
+  description: packages/centos6/python-nwdiag
+
+-
+  project: packages/centos6/python-oauthlib
+  description: packages/centos6/python-oauthlib
+
+-
+  project: packages/centos6/python-ordereddict
+  description: packages/centos6/python-ordereddict
+
+-
+  project: packages/centos6/python-oslo-vmware
+  description: packages/centos6/python-oslo-vmware
+
+-
+  project: packages/centos6/python-osnagios
+  description: packages/centos6/python-osnagios
+
+-
+  project: packages/centos6/python-osprofiler
+  description: packages/centos6/python-osprofiler
+
+-
+  project: packages/centos6/python-paramiko
+  description: packages/centos6/python-paramiko
+
+-
+  project: packages/centos6/python-passlib
+  description: packages/centos6/python-passlib
+
+-
+  project: packages/centos6/python-paste
+  description: packages/centos6/python-paste
+
+-
+  project: packages/centos6/python-paste-deploy
+  description: packages/centos6/python-paste-deploy
+
+-
+  project: packages/centos6/python-paste-deploy1.5
+  description: packages/centos6/python-paste-deploy1.5
+
+-
+  project: packages/centos6/python-pbr
+  description: packages/centos6/python-pbr
+
+-
+  project: packages/centos6/python-pecan
+  description: packages/centos6/python-pecan
+
+-
+  project: packages/centos6/python-pep8
+  description: packages/centos6/python-pep8
+
+-
+  project: packages/centos6/python-pint
+  description: packages/centos6/python-pint
+
+-
+  project: packages/centos6/python-pip
+  description: packages/centos6/python-pip
+
+-
+  project: packages/centos6/python-ply
+  description: packages/centos6/python-ply
+
+-
+  project: packages/centos6/python-posix-ipc
+  description: packages/centos6/python-posix-ipc
+
+-
+  project: packages/centos6/python-posix_ipc
+  description: packages/centos6/python-posix_ipc
+
+-
+  project: packages/centos6/python-prettytable
+  description: packages/centos6/python-prettytable
+
+-
+  project: packages/centos6/python-proboscis
+  description: packages/centos6/python-proboscis
+
+-
+  project: packages/centos6/python-psutil
+  description: packages/centos6/python-psutil
+
+-
+  project: packages/centos6/python-psycogreen
+  description: packages/centos6/python-psycogreen
+
+-
+  project: packages/centos6/python-psycopg2
+  description: packages/centos6/python-psycopg2
+
+-
+  project: packages/centos6/python-puka
+  description: packages/centos6/python-puka
+
+-
+  project: packages/centos6/python-pushy
+  description: packages/centos6/python-pushy
+
+-
+  project: packages/centos6/python-py
+  description: packages/centos6/python-py
+
+-
+  project: packages/centos6/python-pyasn1_modules
+  description: packages/centos6/python-pyasn1_modules
+
+-
+  project: packages/centos6/python-pycadf
+  description: packages/centos6/python-pycadf
+
+-
+  project: packages/centos6/python-pycparser
+  description: packages/centos6/python-pycparser
+
+-
+  project: packages/centos6/python-pyflakes
+  description: packages/centos6/python-pyflakes
+
+-
+  project: packages/centos6/python-pygments
+  description: packages/centos6/python-pygments
+
+-
+  project: packages/centos6/python-pykmip
+  description: packages/centos6/python-pykmip
+
+-
+  project: packages/centos6/python-pylibmc
+  description: packages/centos6/python-pylibmc
+
+-
+  project: packages/centos6/python-pymemcache
+  description: packages/centos6/python-pymemcache
+
+-
+  project: packages/centos6/python-pymysql
+  description: packages/centos6/python-pymysql
+
+-
+  project: packages/centos6/python-pyopenssl
+  description: packages/centos6/python-pyopenssl
+
+-
+  project: packages/centos6/python-pyparsing
+  description: packages/centos6/python-pyparsing
+
+-
+  project: packages/centos6/python-pypcap
+  description: packages/centos6/python-pypcap
+
+-
+  project: packages/centos6/python-pyscss
+  description: packages/centos6/python-pyscss
+
+-
+  project: packages/centos6/python-pysnmp
+  description: packages/centos6/python-pysnmp
+
+-
+  project: packages/centos6/python-pytidylib
+  description: packages/centos6/python-pytidylib
+
+-
+  project: packages/centos6/python-pytz
+  description: packages/centos6/python-pytz
+
+-
+  project: packages/centos6/python-pyudev
+  description: packages/centos6/python-pyudev
+
+-
+  project: packages/centos6/python-pyyaml
+  description: packages/centos6/python-pyyaml
+
+-
+  project: packages/centos6/python-rabbit
+  description: packages/centos6/python-rabbit
+
+-
+  project: packages/centos6/python-redis
+  description: packages/centos6/python-redis
+
+-
+  project: packages/centos6/python-repoze-lru
+  description: packages/centos6/python-repoze-lru
+
+-
+  project: packages/centos6/python-requests
+  description: packages/centos6/python-requests
+
+-
+  project: packages/centos6/python-requests-aws
+  description: packages/centos6/python-requests-aws
+
+-
+  project: packages/centos6/python-requests-mock
+  description: packages/centos6/python-requests-mock
+
+-
+  project: packages/centos6/python-restructuredtext-lint
+  description: packages/centos6/python-restructuredtext-lint
+
+-
+  project: packages/centos6/python-retrying
+  description: packages/centos6/python-retrying
+
+-
+  project: packages/centos6/python-rfc3986
+  description: packages/centos6/python-rfc3986
+
+-
+  project: packages/centos6/python-rhsm
+  description: packages/centos6/python-rhsm
+
+-
+  project: packages/centos6/python-routes
+  description: packages/centos6/python-routes
+
+-
+  project: packages/centos6/python-routes1.12
+  description: packages/centos6/python-routes1.12
+
+-
+  project: packages/centos6/python-routes1.13
+  description: packages/centos6/python-routes1.13
+
+-
+  project: packages/centos6/python-rtslib
+  description: packages/centos6/python-rtslib
+
+-
+  project: packages/centos6/python-seqdiag
+  description: packages/centos6/python-seqdiag
+
+-
+  project: packages/centos6/python-setuptools
+  description: packages/centos6/python-setuptools
+
+-
+  project: packages/centos6/python-setuptools-git
+  description: packages/centos6/python-setuptools-git
+
+-
+  project: packages/centos6/python-simplegeneric
+  description: packages/centos6/python-simplegeneric
+
+-
+  project: packages/centos6/python-simplejson
+  description: packages/centos6/python-simplejson
+
+-
+  project: packages/centos6/python-six
+  description: packages/centos6/python-six
+
+-
+  project: packages/centos6/python-sphinx
+  description: packages/centos6/python-sphinx
+
+-
+  project: packages/centos6/python-sphinx10
+  description: packages/centos6/python-sphinx10
+
+-
+  project: packages/centos6/python-sqlalchemy
+  description: packages/centos6/python-sqlalchemy
+
+-
+  project: packages/centos6/python-stevedore
+  description: packages/centos6/python-stevedore
+
+-
+  project: packages/centos6/python-suds
+  description: packages/centos6/python-suds
+
+-
+  project: packages/centos6/python-tablib
+  description: packages/centos6/python-tablib
+
+-
+  project: packages/centos6/python-taskflow
+  description: packages/centos6/python-taskflow
+
+-
+  project: packages/centos6/python-tempest-lib
+  description: packages/centos6/python-tempest-lib
+
+-
+  project: packages/centos6/python-termcolor
+  description: packages/centos6/python-termcolor
+
+-
+  project: packages/centos6/python-testresources
+  description: packages/centos6/python-testresources
+
+-
+  project: packages/centos6/python-testscenarios
+  description: packages/centos6/python-testscenarios
+
+-
+  project: packages/centos6/python-testtools
+  description: packages/centos6/python-testtools
+
+-
+  project: packages/centos6/python-tooz
+  description: packages/centos6/python-tooz
+
+-
+  project: packages/centos6/python-tornado
+  description: packages/centos6/python-tornado
+
+-
+  project: packages/centos6/python-tox
+  description: packages/centos6/python-tox
+
+-
+  project: packages/centos6/python-trollius
+  description: packages/centos6/python-trollius
+
+-
+  project: packages/centos6/python-ujson
+  description: packages/centos6/python-ujson
+
+-
+  project: packages/centos6/python-unittest2
+  description: packages/centos6/python-unittest2
+
+-
+  project: packages/centos6/python-urllib3
+  description: packages/centos6/python-urllib3
+
+-
+  project: packages/centos6/python-urwid
+  description: packages/centos6/python-urwid
+
+-
+  project: packages/centos6/python-uwsgi
+  description: packages/centos6/python-uwsgi
+
+-
+  project: packages/centos6/python-versiontools
+  description: packages/centos6/python-versiontools
+
+-
+  project: packages/centos6/python-virtualenv
+  description: packages/centos6/python-virtualenv
+
+-
+  project: packages/centos6/python-waitress
+  description: packages/centos6/python-waitress
+
+-
+  project: packages/centos6/python-warlock
+  description: packages/centos6/python-warlock
+
+-
+  project: packages/centos6/python-webcolors
+  description: packages/centos6/python-webcolors
+
+-
+  project: packages/centos6/python-webob
+  description: packages/centos6/python-webob
+
+-
+  project: packages/centos6/python-webob1.0
+  description: packages/centos6/python-webob1.0
+
+-
+  project: packages/centos6/python-webpy
+  description: packages/centos6/python-webpy
+
+-
+  project: packages/centos6/python-websocket
+  description: packages/centos6/python-websocket
+
+-
+  project: packages/centos6/python-websockify
+  description: packages/centos6/python-websockify
+
+-
+  project: packages/centos6/python-webtest
+  description: packages/centos6/python-webtest
+
+-
+  project: packages/centos6/python-wheel
+  description: packages/centos6/python-wheel
+
+-
+  project: packages/centos6/python-wsgi-intercept
+  description: packages/centos6/python-wsgi-intercept
+
+-
+  project: packages/centos6/python-wsgilog
+  description: packages/centos6/python-wsgilog
+
+-
+  project: packages/centos6/python-wsgiproxy2
+  description: packages/centos6/python-wsgiproxy2
+
+-
+  project: packages/centos6/python-wsgiref
+  description: packages/centos6/python-wsgiref
+
+-
+  project: packages/centos6/python-wsme
+  description: packages/centos6/python-wsme
+
+-
+  project: packages/centos6/python-xstatic
+  description: packages/centos6/python-xstatic
+
+-
+  project: packages/centos6/python-xstatic-angular
+  description: packages/centos6/python-xstatic-angular
+
+-
+  project: packages/centos6/python-xstatic-angular-bootstrap
+  description: packages/centos6/python-xstatic-angular-bootstrap
+
+-
+  project: packages/centos6/python-xstatic-angular-cookies
+  description: packages/centos6/python-xstatic-angular-cookies
+
+-
+  project: packages/centos6/python-xstatic-angular-irdragndrop
+  description: packages/centos6/python-xstatic-angular-irdragndrop
+
+-
+  project: packages/centos6/python-xstatic-angular-mock
+  description: packages/centos6/python-xstatic-angular-mock
+
+-
+  project: packages/centos6/python-xstatic-bootstrap-datepicker
+  description: packages/centos6/python-xstatic-bootstrap-datepicker
+
+-
+  project: packages/centos6/python-xstatic-bootstrap-scss
+  description: packages/centos6/python-xstatic-bootstrap-scss
+
+-
+  project: packages/centos6/python-xstatic-d3
+  description: packages/centos6/python-xstatic-d3
+
+-
+  project: packages/centos6/python-xstatic-font-awesome
+  description: packages/centos6/python-xstatic-font-awesome
+
+-
+  project: packages/centos6/python-xstatic-hogan
+  description: packages/centos6/python-xstatic-hogan
+
+-
+  project: packages/centos6/python-xstatic-jasmine
+  description: packages/centos6/python-xstatic-jasmine
+
+-
+  project: packages/centos6/python-xstatic-jquery
+  description: packages/centos6/python-xstatic-jquery
+
+-
+  project: packages/centos6/python-xstatic-jquery-migrate
+  description: packages/centos6/python-xstatic-jquery-migrate
+
+-
+  project: packages/centos6/python-xstatic-jquery-quicksearch
+  description: packages/centos6/python-xstatic-jquery-quicksearch
+
+-
+  project: packages/centos6/python-xstatic-jquery-tablesorter
+  description: packages/centos6/python-xstatic-jquery-tablesorter
+
+-
+  project: packages/centos6/python-xstatic-jquery-ui
+  description: packages/centos6/python-xstatic-jquery-ui
+
+-
+  project: packages/centos6/python-xstatic-jsencrypt
+  description: packages/centos6/python-xstatic-jsencrypt
+
+-
+  project: packages/centos6/python-xstatic-qunit
+  description: packages/centos6/python-xstatic-qunit
+
+-
+  project: packages/centos6/python-xstatic-rickshaw
+  description: packages/centos6/python-xstatic-rickshaw
+
+-
+  project: packages/centos6/python-xstatic-smart-table
+  description: packages/centos6/python-xstatic-smart-table
+
+-
+  project: packages/centos6/python-xstatic-spin
+  description: packages/centos6/python-xstatic-spin
+
+-
+  project: packages/centos6/python-xstatic-termjs
+  description: packages/centos6/python-xstatic-termjs
+
+-
+  project: packages/centos6/python-yaql
+  description: packages/centos6/python-yaql
+
+-
+  project: packages/centos6/python-zake
+  description: packages/centos6/python-zake
+
+-
+  project: packages/centos6/python-zmq
+  description: packages/centos6/python-zmq
+
+-
+  project: packages/centos6/pyxattr
+  description: packages/centos6/pyxattr
+
+-
+  project: packages/centos6/qemu
+  description: packages/centos6/qemu
+
+-
+  project: packages/centos6/quantum-contrail
+  description: packages/centos6/quantum-contrail
+
+-
+  project: packages/centos6/rabbitmq-server
+  description: packages/centos6/rabbitmq-server
+
+-
+  project: packages/centos6/reprepro
+  description: packages/centos6/reprepro
+
+-
+  project: packages/centos6/resource-agents
+  description: packages/centos6/resource-agents
+
+-
+  project: packages/centos6/rethtool
+  description: packages/centos6/rethtool
+
+-
+  project: packages/centos6/rst2pdf
+  description: packages/centos6/rst2pdf
+
+-
+  project: packages/centos6/rsync
+  description: packages/centos6/rsync
+
+-
+  project: packages/centos6/ruby
+  description: packages/centos6/ruby
+
+-
+  project: packages/centos6/ruby-augeas
+  description: packages/centos6/ruby-augeas
+
+-
+  project: packages/centos6/ruby-ipaddres
+  description: packages/centos6/ruby-ipaddres
+
+-
+  project: packages/centos6/ruby-mcollect-client
+  description: packages/centos6/ruby-mcollect-client
+
+-
+  project: packages/centos6/ruby-mysql
+  description: packages/centos6/ruby-mysql
+
+-
+  project: packages/centos6/ruby-netaddr
+  description: packages/centos6/ruby-netaddr
+
+-
+  project: packages/centos6/ruby-openstack
+  description: packages/centos6/ruby-openstack
+
+-
+  project: packages/centos6/ruby-rgen
+  description: packages/centos6/ruby-rgen
+
+-
+  project: packages/centos6/ruby-shadow
+  description: packages/centos6/ruby-shadow
+
+-
+  project: packages/centos6/ruby21-facter
+  description: packages/centos6/ruby21-facter
+
+-
+  project: packages/centos6/ruby21-hiera
+  description: packages/centos6/ruby21-hiera
+
+-
+  project: packages/centos6/ruby21-mcollective-2.4.1
+  description: packages/centos6/ruby21-mcollective-2.4.1
+
+-
+  project: packages/centos6/ruby21-nailgun-mcagents
+  description: packages/centos6/ruby21-nailgun-mcagents
+
+-
+  project: packages/centos6/ruby21-puppet
+  description: packages/centos6/ruby21-puppet
+
+-
+  project: packages/centos6/ruby21-ruby
+  description: packages/centos6/ruby21-ruby
+
+-
+  project: packages/centos6/ruby21-ruby-augeas
+  description: packages/centos6/ruby21-ruby-augeas
+
+-
+  project: packages/centos6/ruby21-ruby-openstack
+  description: packages/centos6/ruby21-ruby-openstack
+
+-
+  project: packages/centos6/ruby21-ruby-rgen
+  description: packages/centos6/ruby21-ruby-rgen
+
+-
+  project: packages/centos6/ruby21-ruby-shadow
+  description: packages/centos6/ruby21-ruby-shadow
+
+-
+  project: packages/centos6/ruby21-rubygem-activesupport
+  description: packages/centos6/ruby21-rubygem-activesupport
+
+-
+  project: packages/centos6/ruby21-rubygem-amq-client
+  description: packages/centos6/ruby21-rubygem-amq-client
+
+-
+  project: packages/centos6/ruby21-rubygem-amq-protocol
+  description: packages/centos6/ruby21-rubygem-amq-protocol
+
+-
+  project: packages/centos6/ruby21-rubygem-amqp
+  description: packages/centos6/ruby21-rubygem-amqp
+
+-
+  project: packages/centos6/ruby21-rubygem-astute
+  description: packages/centos6/ruby21-rubygem-astute
+
+-
+  project: packages/centos6/ruby21-rubygem-cstruct
+  description: packages/centos6/ruby21-rubygem-cstruct
+
+-
+  project: packages/centos6/ruby21-rubygem-eventmachine
+  description: packages/centos6/ruby21-rubygem-eventmachine
+
+-
+  project: packages/centos6/ruby21-rubygem-extlib
+  description: packages/centos6/ruby21-rubygem-extlib
+
+-
+  project: packages/centos6/ruby21-rubygem-hoe
+  description: packages/centos6/ruby21-rubygem-hoe
+
+-
+  project: packages/centos6/ruby21-rubygem-httpclient
+  description: packages/centos6/ruby21-rubygem-httpclient
+
+-
+  project: packages/centos6/ruby21-rubygem-i18n
+  description: packages/centos6/ruby21-rubygem-i18n
+
+-
+  project: packages/centos6/ruby21-rubygem-ipaddress
+  description: packages/centos6/ruby21-rubygem-ipaddress
+
+-
+  project: packages/centos6/ruby21-rubygem-iptables
+  description: packages/centos6/ruby21-rubygem-iptables
+
+-
+  project: packages/centos6/ruby21-rubygem-json
+  description: packages/centos6/ruby21-rubygem-json
+
+-
+  project: packages/centos6/ruby21-rubygem-json_pure
+  description: packages/centos6/ruby21-rubygem-json_pure
+
+-
+  project: packages/centos6/ruby21-rubygem-mcollective-client-2.4.1
+  description: packages/centos6/ruby21-rubygem-mcollective-client-2.4.1
+
+-
+  project: packages/centos6/ruby21-rubygem-mime-types
+  description: packages/centos6/ruby21-rubygem-mime-types
+
+-
+  project: packages/centos6/ruby21-rubygem-minitest
+  description: packages/centos6/ruby21-rubygem-minitest
+
+-
+  project: packages/centos6/ruby21-rubygem-mixlib-cli
+  description: packages/centos6/ruby21-rubygem-mixlib-cli
+
+-
+  project: packages/centos6/ruby21-rubygem-mixlib-config
+  description: packages/centos6/ruby21-rubygem-mixlib-config
+
+-
+  project: packages/centos6/ruby21-rubygem-mixlib-log
+  description: packages/centos6/ruby21-rubygem-mixlib-log
+
+-
+  project: packages/centos6/ruby21-rubygem-net-ssh
+  description: packages/centos6/ruby21-rubygem-net-ssh
+
+-
+  project: packages/centos6/ruby21-rubygem-net-ssh-gateway
+  description: packages/centos6/ruby21-rubygem-net-ssh-gateway
+
+-
+  project: packages/centos6/ruby21-rubygem-net-ssh-multi
+  description: packages/centos6/ruby21-rubygem-net-ssh-multi
+
+-
+  project: packages/centos6/ruby21-rubygem-netaddr
+  description: packages/centos6/ruby21-rubygem-netaddr
+
+-
+  project: packages/centos6/ruby21-rubygem-ohai
+  description: packages/centos6/ruby21-rubygem-ohai
+
+-
+  project: packages/centos6/ruby21-rubygem-open4
+  description: packages/centos6/ruby21-rubygem-open4
+
+-
+  project: packages/centos6/ruby21-rubygem-platform
+  description: packages/centos6/ruby21-rubygem-platform
+
+-
+  project: packages/centos6/ruby21-rubygem-popen4
+  description: packages/centos6/ruby21-rubygem-popen4
+
+-
+  project: packages/centos6/ruby21-rubygem-raemon
+  description: packages/centos6/ruby21-rubygem-raemon
+
+-
+  project: packages/centos6/ruby21-rubygem-rake
+  description: packages/centos6/ruby21-rubygem-rake
+
+-
+  project: packages/centos6/ruby21-rubygem-rest-client
+  description: packages/centos6/ruby21-rubygem-rest-client
+
+-
+  project: packages/centos6/ruby21-rubygem-rethtool
+  description: packages/centos6/ruby21-rubygem-rethtool
+
+-
+  project: packages/centos6/ruby21-rubygem-rubyforge
+  description: packages/centos6/ruby21-rubygem-rubyforge
+
+-
+  project: packages/centos6/ruby21-rubygem-stomp
+  description: packages/centos6/ruby21-rubygem-stomp
+
+-
+  project: packages/centos6/ruby21-rubygem-symboltable
+  description: packages/centos6/ruby21-rubygem-symboltable
+
+-
+  project: packages/centos6/ruby21-rubygem-systemu
+  description: packages/centos6/ruby21-rubygem-systemu
+
+-
+  project: packages/centos6/ruby21-rubygem-yajl-ruby
+  description: packages/centos6/ruby21-rubygem-yajl-ruby
+
+-
+  project: packages/centos6/rubygem-abstract
+  description: packages/centos6/rubygem-abstract
+
+-
+  project: packages/centos6/rubygem-actionmailer
+  description: packages/centos6/rubygem-actionmailer
+
+-
+  project: packages/centos6/rubygem-actionpack
+  description: packages/centos6/rubygem-actionpack
+
+-
+  project: packages/centos6/rubygem-activemodel
+  description: packages/centos6/rubygem-activemodel
+
+-
+  project: packages/centos6/rubygem-activerecord
+  description: packages/centos6/rubygem-activerecord
+
+-
+  project: packages/centos6/rubygem-activeresource
+  description: packages/centos6/rubygem-activeresource
+
+-
+  project: packages/centos6/rubygem-activesupport
+  description: packages/centos6/rubygem-activesupport
+
+-
+  project: packages/centos6/rubygem-amq-client
+  description: packages/centos6/rubygem-amq-client
+
+-
+  project: packages/centos6/rubygem-amq-protocol
+  description: packages/centos6/rubygem-amq-protocol
+
+-
+  project: packages/centos6/rubygem-amqp
+  description: packages/centos6/rubygem-amqp
+
+-
+  project: packages/centos6/rubygem-arel
+  description: packages/centos6/rubygem-arel
+
+-
+  project: packages/centos6/rubygem-astute
+  description: packages/centos6/rubygem-astute
+
+-
+  project: packages/centos6/rubygem-builder
+  description: packages/centos6/rubygem-builder
+
+-
+  project: packages/centos6/rubygem-bundler
+  description: packages/centos6/rubygem-bundler
+
+-
+  project: packages/centos6/rubygem-bunny
+  description: packages/centos6/rubygem-bunny
+
+-
+  project: packages/centos6/rubygem-cstruct
+  description: packages/centos6/rubygem-cstruct
+
+-
+  project: packages/centos6/rubygem-daemons
+  description: packages/centos6/rubygem-daemons
+
+-
+  project: packages/centos6/rubygem-erubis
+  description: packages/centos6/rubygem-erubis
+
+-
+  project: packages/centos6/rubygem-eventmachine
+  description: packages/centos6/rubygem-eventmachine
+
+-
+  project: packages/centos6/rubygem-fastthread
+  description: packages/centos6/rubygem-fastthread
+
+-
+  project: packages/centos6/rubygem-gem_plugin
+  description: packages/centos6/rubygem-gem_plugin
+
+-
+  project: packages/centos6/rubygem-highline
+  description: packages/centos6/rubygem-highline
+
+-
+  project: packages/centos6/rubygem-hoe
+  description: packages/centos6/rubygem-hoe
+
+-
+  project: packages/centos6/rubygem-httpclient
+  description: packages/centos6/rubygem-httpclient
+
+-
+  project: packages/centos6/rubygem-i18n
+  description: packages/centos6/rubygem-i18n
+
+-
+  project: packages/centos6/rubygem-ipaddress
+  description: packages/centos6/rubygem-ipaddress
+
+-
+  project: packages/centos6/rubygem-json
+  description: packages/centos6/rubygem-json
+
+-
+  project: packages/centos6/rubygem-json_pure
+  description: packages/centos6/rubygem-json_pure
+
+-
+  project: packages/centos6/rubygem-kwalify
+  description: packages/centos6/rubygem-kwalify
+
+-
+  project: packages/centos6/rubygem-mail
+  description: packages/centos6/rubygem-mail
+
+-
+  project: packages/centos6/rubygem-mcollective-client
+  description: packages/centos6/rubygem-mcollective-client
+
+-
+  project: packages/centos6/rubygem-mime-types
+  description: packages/centos6/rubygem-mime-types
+
+-
+  project: packages/centos6/rubygem-mixlib-authentication
+  description: packages/centos6/rubygem-mixlib-authentication
+
+-
+  project: packages/centos6/rubygem-mixlib-cli
+  description: packages/centos6/rubygem-mixlib-cli
+
+-
+  project: packages/centos6/rubygem-mixlib-config
+  description: packages/centos6/rubygem-mixlib-config
+
+-
+  project: packages/centos6/rubygem-mixlib-log
+  description: packages/centos6/rubygem-mixlib-log
+
+-
+  project: packages/centos6/rubygem-mixlib-shellout
+  description: packages/centos6/rubygem-mixlib-shellout
+
+-
+  project: packages/centos6/rubygem-moneta
+  description: packages/centos6/rubygem-moneta
+
+-
+  project: packages/centos6/rubygem-mongrel
+  description: packages/centos6/rubygem-mongrel
+
+-
+  project: packages/centos6/rubygem-mysql
+  description: packages/centos6/rubygem-mysql
+
+-
+  project: packages/centos6/rubygem-naily
+  description: packages/centos6/rubygem-naily
+
+-
+  project: packages/centos6/rubygem-net-ssh
+  description: packages/centos6/rubygem-net-ssh
+
+-
+  project: packages/centos6/rubygem-net-ssh-gateway
+  description: packages/centos6/rubygem-net-ssh-gateway
+
+-
+  project: packages/centos6/rubygem-net-ssh-multi
+  description: packages/centos6/rubygem-net-ssh-multi
+
+-
+  project: packages/centos6/rubygem-netaddr
+  description: packages/centos6/rubygem-netaddr
+
+-
+  project: packages/centos6/rubygem-ohai
+  description: packages/centos6/rubygem-ohai
+
+-
+  project: packages/centos6/rubygem-openstack
+  description: packages/centos6/rubygem-openstack
+
+-
+  project: packages/centos6/rubygem-polyglot
+  description: packages/centos6/rubygem-polyglot
+
+-
+  project: packages/centos6/rubygem-rack
+  description: packages/centos6/rubygem-rack
+
+-
+  project: packages/centos6/rubygem-rack-mount
+  description: packages/centos6/rubygem-rack-mount
+
+-
+  project: packages/centos6/rubygem-rack-test
+  description: packages/centos6/rubygem-rack-test
+
+-
+  project: packages/centos6/rubygem-raemon
+  description: packages/centos6/rubygem-raemon
+
+-
+  project: packages/centos6/rubygem-rails
+  description: packages/centos6/rubygem-rails
+
+-
+  project: packages/centos6/rubygem-railsbad
+  description: packages/centos6/rubygem-railsbad
+
+-
+  project: packages/centos6/rubygem-railties
+  description: packages/centos6/rubygem-railties
+
+-
+  project: packages/centos6/rubygem-rake
+  description: packages/centos6/rubygem-rake
+
+-
+  project: packages/centos6/rubygem-rdoc
+  description: packages/centos6/rubygem-rdoc
+
+-
+  project: packages/centos6/rubygem-rest-client
+  description: packages/centos6/rubygem-rest-client
+
+-
+  project: packages/centos6/rubygem-rethtool
+  description: packages/centos6/rubygem-rethtool
+
+-
+  project: packages/centos6/rubygem-stomp
+  description: packages/centos6/rubygem-stomp
+
+-
+  project: packages/centos6/rubygem-symboltable
+  description: packages/centos6/rubygem-symboltable
+
+-
+  project: packages/centos6/rubygem-systemu
+  description: packages/centos6/rubygem-systemu
+
+-
+  project: packages/centos6/rubygem-thin
+  description: packages/centos6/rubygem-thin
+
+-
+  project: packages/centos6/rubygem-thor
+  description: packages/centos6/rubygem-thor
+
+-
+  project: packages/centos6/rubygem-treetop
+  description: packages/centos6/rubygem-treetop
+
+-
+  project: packages/centos6/rubygem-tzinfo
+  description: packages/centos6/rubygem-tzinfo
+
+-
+  project: packages/centos6/rubygem-uuidtools
+  description: packages/centos6/rubygem-uuidtools
+
+-
+  project: packages/centos6/rubygem-yajl-ruby
+  description: packages/centos6/rubygem-yajl-ruby
+
+-
+  project: packages/centos6/scapy
+  description: packages/centos6/scapy
+
+-
+  project: packages/centos6/scsi-target-utils
+  description: packages/centos6/scsi-target-utils
+
+-
+  project: packages/centos6/seabios
+  description: packages/centos6/seabios
+
+-
+  project: packages/centos6/selenium
+  description: packages/centos6/selenium
+
+-
+  project: packages/centos6/send2syslog
+  description: packages/centos6/send2syslog
+
+-
+  project: packages/centos6/sgabios
+  description: packages/centos6/sgabios
+
+-
+  project: packages/centos6/sheepdog
+  description: packages/centos6/sheepdog
+
+-
+  project: packages/centos6/simplegeneric
+  description: packages/centos6/simplegeneric
+
+-
+  project: packages/centos6/snappy
+  description: packages/centos6/snappy
+
+-
+  project: packages/centos6/socat
+  description: packages/centos6/socat
+
+-
+  project: packages/centos6/spawn
+  description: packages/centos6/spawn
+
+-
+  project: packages/centos6/sphinxcontrib-actdiag
+  description: packages/centos6/sphinxcontrib-actdiag
+
+-
+  project: packages/centos6/sphinxcontrib-blockdiag
+  description: packages/centos6/sphinxcontrib-blockdiag
+
+-
+  project: packages/centos6/sphinxcontrib-docbookrestapi
+  description: packages/centos6/sphinxcontrib-docbookrestapi
+
+-
+  project: packages/centos6/sphinxcontrib-httpdomain
+  description: packages/centos6/sphinxcontrib-httpdomain
+
+-
+  project: packages/centos6/sphinxcontrib-nwdiag
+  description: packages/centos6/sphinxcontrib-nwdiag
+
+-
+  project: packages/centos6/sphinxcontrib-pecanwsme
+  description: packages/centos6/sphinxcontrib-pecanwsme
+
+-
+  project: packages/centos6/sphinxcontrib-seqdiag
+  description: packages/centos6/sphinxcontrib-seqdiag
+
+-
+  project: packages/centos6/spice-protocol
+  description: packages/centos6/spice-protocol
+
+-
+  project: packages/centos6/sshpass
+  description: packages/centos6/sshpass
+
+-
+  project: packages/centos6/subscription-manager
+  description: packages/centos6/subscription-manager
+
+-
+  project: packages/centos6/subunit
+  description: packages/centos6/subunit
+
+-
+  project: packages/centos6/sudo
+  description: packages/centos6/sudo
+
+-
+  project: packages/centos6/supervisor
+  description: packages/centos6/supervisor
+
+-
+  project: packages/centos6/swift-plugin-s3
+  description: packages/centos6/swift-plugin-s3
+
+-
+  project: packages/centos6/syslinux
+  description: packages/centos6/syslinux
+
+-
+  project: packages/centos6/tasklib
+  description: packages/centos6/tasklib
+
+-
+  project: packages/centos6/tcptraceroute
+  description: packages/centos6/tcptraceroute
+
+-
+  project: packages/centos6/testrepository
+  description: packages/centos6/testrepository
+
+-
+  project: packages/centos6/tftp
+  description: packages/centos6/tftp
+
+-
+  project: packages/centos6/tig
+  description: packages/centos6/tig
+
+-
+  project: packages/centos6/tinyproxy
+  description: packages/centos6/tinyproxy
+
+-
+  project: packages/centos6/tmux
+  description: packages/centos6/tmux
+
+-
+  project: packages/centos6/util-linux
+  description: packages/centos6/util-linux
+
+-
+  project: packages/centos6/uwsgi
+  description: packages/centos6/uwsgi
+
+-
+  project: packages/centos6/v8
+  description: packages/centos6/v8
+
+-
+  project: packages/centos6/vgabios
+  description: packages/centos6/vgabios
+
+-
+  project: packages/centos6/vrouter
+  description: packages/centos6/vrouter
+
+-
+  project: packages/centos6/web-assets
+  description: packages/centos6/web-assets
+
+-
+  project: packages/centos6/whatmask
+  description: packages/centos6/whatmask
+
+-
+  project: packages/centos6/wxGTK
+  description: packages/centos6/wxGTK
+
+-
+  project: packages/centos6/xmlsec1
+  description: packages/centos6/xmlsec1
+
+-
+  project: packages/centos6/xtrabackup
+  description: packages/centos6/xtrabackup
+
+-
+  project: packages/centos6/xvfbwrapper
+  description: packages/centos6/xvfbwrapper
+
+-
+  project: packages/centos6/zabbix
+  description: packages/centos6/zabbix
+
+-
+  project: packages/centos6/zeromq
+  description: packages/centos6/zeromq
+
+-
+  project: packages/centos6/zeromq3
+  description: packages/centos6/zeromq3
+
+-
+  project: packages/precise/MySQL-wsrep
+  description: packages/precise/MySQL-wsrep
+
+-
+  project: packages/precise/alembic
+  description: packages/precise/alembic
+
+-
+  project: packages/precise/angular.js
+  description: packages/precise/angular.js
+
+-
+  project: packages/precise/ansible
+  description: packages/precise/ansible
+
+-
+  project: packages/precise/astroid
+  description: packages/precise/astroid
+
+-
+  project: packages/precise/atop
+  description: packages/precise/atop
+
+-
+  project: packages/precise/bash
+  description: packages/precise/bash
+
+-
+  project: packages/precise/beanstalkc
+  description: packages/precise/beanstalkc
+
+-
+  project: packages/precise/blinker
+  description: packages/precise/blinker
+
+-
+  project: packages/precise/busybox
+  description: packages/precise/busybox
+
+-
+  project: packages/precise/ceph
+  description: packages/precise/ceph
+
+-
+  project: packages/precise/ceph-deploy
+  description: packages/precise/ceph-deploy
+
+-
+  project: packages/precise/cirros-testvm
+  description: packages/precise/cirros-testvm
+
+-
+  project: packages/precise/cirros-testvm-mellanox
+  description: packages/precise/cirros-testvm-mellanox
+
+-
+  project: packages/precise/cirros-testvmware
+  description: packages/precise/cirros-testvmware
+
+-
+  project: packages/precise/cliff-tablib
+  description: packages/precise/cliff-tablib
+
+-
+  project: packages/precise/cloud-init
+  description: packages/precise/cloud-init
+
+-
+  project: packages/precise/cluster-glue
+  description: packages/precise/cluster-glue
+
+-
+  project: packages/precise/cmd2
+  description: packages/precise/cmd2
+
+-
+  project: packages/precise/conntrack
+  description: packages/precise/conntrack
+
+-
+  project: packages/precise/corosync
+  description: packages/precise/corosync
+
+-
+  project: packages/precise/crmsh
+  description: packages/precise/crmsh
+
+-
+  project: packages/precise/d2to1
+  description: packages/precise/d2to1
+
+-
+  project: packages/precise/d3
+  description: packages/precise/d3
+
+-
+  project: packages/precise/daemonize
+  description: packages/precise/daemonize
+
+-
+  project: packages/precise/dbconfig-common
+  description: packages/precise/dbconfig-common
+
+-
+  project: packages/precise/debootstrap
+  description: packages/precise/debootstrap
+
+-
+  project: packages/precise/device-tree-compiler
+  description: packages/precise/device-tree-compiler
+
+-
+  project: packages/precise/dh-python
+  description: packages/precise/dh-python
+
+-
+  project: packages/precise/django-osa
+  description: packages/precise/django-osa
+
+-
+  project: packages/precise/dnsmasq
+  description: packages/precise/dnsmasq
+
+-
+  project: packages/precise/dpdk
+  description: packages/precise/dpdk
+
+-
+  project: packages/precise/eglibc
+  description: packages/precise/eglibc
+
+-
+  project: packages/precise/enum34
+  description: packages/precise/enum34
+
+-
+  project: packages/precise/eswitchd
+  description: packages/precise/eswitchd
+
+-
+  project: packages/precise/euca2ools
+  description: packages/precise/euca2ools
+
+-
+  project: packages/precise/eyes.js
+  description: packages/precise/eyes.js
+
+-
+  project: packages/precise/facter
+  description: packages/precise/facter
+
+-
+  project: packages/precise/fence-agents
+  description: packages/precise/fence-agents
+
+-
+  project: packages/precise/flask
+  description: packages/precise/flask
+
+-
+  project: packages/precise/fuel-utils
+  description: packages/precise/fuel-utils
+
+-
+  project: packages/precise/galera
+  description: packages/precise/galera
+
+-
+  project: packages/precise/gem2deb
+  description: packages/precise/gem2deb
+
+-
+  project: packages/precise/glusterfs
+  description: packages/precise/glusterfs
+
+-
+  project: packages/precise/google-perftools
+  description: packages/precise/google-perftools
+
+-
+  project: packages/precise/gyp
+  description: packages/precise/gyp
+
+-
+  project: packages/precise/haproxy
+  description: packages/precise/haproxy
+
+-
+  project: packages/precise/hiera
+  description: packages/precise/hiera
+
+-
+  project: packages/precise/hpvsa
+  description: packages/precise/hpvsa
+
+-
+  project: packages/precise/httpclient
+  description: packages/precise/httpclient
+
+-
+  project: packages/precise/httplib2
+  description: packages/precise/httplib2
+
+-
+  project: packages/precise/i40e
+  description: packages/precise/i40e
+
+-
+  project: packages/precise/ieee-data
+  description: packages/precise/ieee-data
+
+-
+  project: packages/precise/init-system-helper
+  description: packages/precise/init-system-helper
+
+-
+  project: packages/precise/iperf3
+  description: packages/precise/iperf3
+
+-
+  project: packages/precise/ipmitool
+  description: packages/precise/ipmitool
+
+-
+  project: packages/precise/iproute
+  description: packages/precise/iproute
+
+-
+  project: packages/precise/ipset
+  description: packages/precise/ipset
+
+-
+  project: packages/precise/iptables
+  description: packages/precise/iptables
+
+-
+  project: packages/precise/ipxe-qemu
+  description: packages/precise/ipxe-qemu
+
+-
+  project: packages/precise/kernel
+  description: packages/precise/kernel
+
+-
+  project: packages/precise/less.js
+  description: packages/precise/less.js
+
+-
+  project: packages/precise/leveldb
+  description: packages/precise/leveldb
+
+-
+  project: packages/precise/libcrypto
+  description: packages/precise/libcrypto
+
+-
+  project: packages/precise/libguestfs
+  description: packages/precise/libguestfs, required for LP#1397014
+
+-
+  project: packages/precise/libjs-jquery.quicksearch
+  description: packages/precise/libjs-jquery.quicksearch
+
+-
+  project: packages/precise/libjs-jsencrypt
+  description: packages/precise/libjs-jsencrypt
+
+-
+  project: packages/precise/libjs-qunit
+  description: packages/precise/libjs-qunit
+
+-
+  project: packages/precise/libjs-spin.js
+  description: packages/precise/libjs-spin.js
+
+-
+  project: packages/precise/libjs-swfobject
+  description: packages/precise/libjs-swfobject
+
+-
+  project: packages/precise/libmemcached
+  description: packages/precise/libmemcached
+
+-
+  project: packages/precise/libmnl
+  description: packages/precise/libmnl
+
+-
+  project: packages/precise/libnetfilter-conntrack
+  description: packages/precise/libnetfilter-conntrack
+
+-
+  project: packages/precise/libnetfilter-cthelper
+  description: packages/precise/libnetfilter-cthelper
+
+-
+  project: packages/precise/libnetfilter-cttimeout
+  description: packages/precise/libnetfilter-cttimeout
+
+-
+  project: packages/precise/libnetfilter-queue
+  description: packages/precise/libnetfilter-queue
+
+-
+  project: packages/precise/libnfnetlink
+  description: packages/precise/libnfnetlink
+
+-
+  project: packages/precise/libqb
+  description: packages/precise/libqb
+
+-
+  project: packages/precise/librabbitmq
+  description: packages/precise/librabbitmq
+
+-
+  project: packages/precise/libs3
+  description: packages/precise/libs3
+
+-
+  project: packages/precise/libseccomp
+  description: packages/precise/libseccomp
+
+-
+  project: packages/precise/libseccomp1
+  description: packages/precise/libseccomp1
+
+-
+  project: packages/precise/libsmi
+  description: packages/precise/libsmi
+
+-
+  project: packages/precise/libusb
+  description: packages/precise/libusb
+
+-
+  project: packages/precise/libv8
+  description: packages/precise/libv8
+
+-
+  project: packages/precise/libvirt
+  description: packages/precise/libvirt
+
+-
+  project: packages/precise/libzmq
+  description: packages/precise/libzmq
+
+-
+  project: packages/precise/lintian
+  description: packages/precise/lintian
+
+-
+  project: packages/precise/logrotate
+  description: packages/precise/logrotate
+
+-
+  project: packages/precise/lshell
+  description: packages/precise/lshell
+
+-
+  project: packages/precise/lvm2
+  description: packages/precise/lvm2
+
+-
+  project: packages/precise/mako
+  description: packages/precise/mako
+
+-
+  project: packages/precise/mariadb
+  description: packages/precise/mariadb
+
+-
+  project: packages/precise/mcollective
+  description: packages/precise/mcollective
+
+-
+  project: packages/precise/memcached
+  description: packages/precise/memcached
+
+-
+  project: packages/precise/migrate
+  description: packages/precise/migrate
+
+-
+  project: packages/precise/mlnx-ofed-light
+  description: packages/precise/mlnx-ofed-light
+
+-
+  project: packages/precise/mod_fastcgi
+  description: packages/precise/mod_fastcgi
+
+-
+  project: packages/precise/mongodb
+  description: packages/precise/mongodb
+
+-
+  project: packages/precise/monit
+  description: packages/precise/monit
+
+-
+  project: packages/precise/msgpack-python
+  description: packages/precise/msgpack-python
+
+-
+  project: packages/precise/murano-apps
+  description: packages/precise/murano-apps
+
+-
+  project: packages/precise/murano-cirros-testvm
+  description: packages/precise/murano-cirros-testvm
+
+-
+  project: packages/precise/netfpga
+  description: packages/precise/netfpga
+
+-
+  project: packages/precise/nmap
+  description: packages/precise/nmap
+
+-
+  project: packages/precise/node-ansi
+  description: packages/precise/node-ansi
+
+-
+  project: packages/precise/node-clean-css
+  description: packages/precise/node-clean-css
+
+-
+  project: packages/precise/node-commander
+  description: packages/precise/node-commander
+
+-
+  project: packages/precise/node-contextify
+  description: packages/precise/node-contextify
+
+-
+  project: packages/precise/node-cssom
+  description: packages/precise/node-cssom
+
+-
+  project: packages/precise/node-debug
+  description: packages/precise/node-debug
+
+-
+  project: packages/precise/node-diff
+  description: packages/precise/node-diff
+
+-
+  project: packages/precise/node-glob
+  description: packages/precise/node-glob
+
+-
+  project: packages/precise/node-graceful-fs
+  description: packages/precise/node-graceful-fs
+
+-
+  project: packages/precise/node-growl
+  description: packages/precise/node-growl
+
+-
+  project: packages/precise/node-gyp
+  description: packages/precise/node-gyp
+
+-
+  project: packages/precise/node-htmlparser
+  description: packages/precise/node-htmlparser
+
+-
+  project: packages/precise/node-inherits
+  description: packages/precise/node-inherits
+
+-
+  project: packages/precise/node-jake
+  description: packages/precise/node-jake
+
+-
+  project: packages/precise/node-jsdom
+  description: packages/precise/node-jsdom
+
+-
+  project: packages/precise/node-lru-cache
+  description: packages/precise/node-lru-cache
+
+-
+  project: packages/precise/node-minimatch
+  description: packages/precise/node-minimatch
+
+-
+  project: packages/precise/node-mocha
+  description: packages/precise/node-mocha
+
+-
+  project: packages/precise/node-nopt
+  description: packages/precise/node-nopt
+
+-
+  project: packages/precise/node-npmlog
+  description: packages/precise/node-npmlog
+
+-
+  project: packages/precise/node-once
+  description: packages/precise/node-once
+
+-
+  project: packages/precise/node-optimist
+  description: packages/precise/node-optimist
+
+-
+  project: packages/precise/node-osenv
+  description: packages/precise/node-osenv
+
+-
+  project: packages/precise/node-semver
+  description: packages/precise/node-semver
+
+-
+  project: packages/precise/node-sigmund
+  description: packages/precise/node-sigmund
+
+-
+  project: packages/precise/node-utilities
+  description: packages/precise/node-utilities
+
+-
+  project: packages/precise/node-wordwrap
+  description: packages/precise/node-wordwrap
+
+-
+  project: packages/precise/nodejs
+  description: packages/precise/nodejs
+
+-
+  project: packages/precise/nose
+  description: packages/precise/nose
+
+-
+  project: packages/precise/novnc
+  description: packages/precise/novnc
+
+-
+  project: packages/precise/nss
+  description: packages/precise/nss
+
+-
+  project: packages/precise/ntp-dev
+  description: packages/precise/ntp-dev
+
+-
+  project: packages/precise/ohai
+  description: packages/precise/ohai
+
+-
+  project: packages/precise/open-iscsi
+  description: packages/precise/open-iscsi
+
+-
+  project: packages/precise/openssl
+  description: packages/precise/openssl
+
+-
+  project: packages/precise/openstack-doc-tools
+  description: packages/precise/openstack-doc-tools
+
+-
+  project: packages/precise/openstack-nose
+  description: packages/precise/openstack-nose
+
+-
+  project: packages/precise/openstack-pkg-tools
+  description: packages/precise/openstack-pkg-tools
+
+-
+  project: packages/precise/openvswitch
+  description: packages/precise/openvswitch
+
+-
+  project: packages/precise/pacemaker
+  description: packages/precise/pacemaker
+
+-
+  project: packages/precise/paramiko
+  description: packages/precise/paramiko
+
+-
+  project: packages/precise/pep8
+  description: packages/precise/pep8
+
+-
+  project: packages/precise/percona-toolkit
+  description: packages/precise/percona-toolkit
+
+-
+  project: packages/precise/prettytable
+  description: packages/precise/prettytable
+
+-
+  project: packages/precise/psycopg2
+  description: packages/precise/psycopg2
+
+-
+  project: packages/precise/puppet
+  description: packages/precise/puppet
+
+-
+  project: packages/precise/pyflakes
+  description: packages/precise/pyflakes
+
+-
+  project: packages/precise/pylint
+  description: packages/precise/pylint
+
+-
+  project: packages/precise/pymongo
+  description: packages/precise/pymongo
+
+-
+  project: packages/precise/pyparsing
+  description: packages/precise/pyparsing
+
+-
+  project: packages/precise/pysaml2
+  description: packages/precise/pysaml2
+
+-
+  project: packages/precise/pysendfile
+  description: packages/precise/pysendfile
+
+-
+  project: packages/precise/pytest
+  description: packages/precise/pytest
+
+-
+  project: packages/precise/python
+  description: packages/precise/python
+
+-
+  project: packages/precise/python-amqp
+  description: packages/precise/python-amqp
+
+-
+  project: packages/precise/python-anyjson
+  description: packages/precise/python-anyjson
+
+-
+  project: packages/precise/python-argparse
+  description: packages/precise/python-argparse
+
+-
+  project: packages/precise/python-babel
+  description: packages/precise/python-babel
+
+-
+  project: packages/precise/python-barbicanclient
+  description: packages/precise/python-barbicanclient
+
+-
+  project: packages/precise/python-bashate
+  description: packages/precise/python-bashate
+
+-
+  project: packages/precise/python-boto
+  description: packages/precise/python-boto
+
+-
+  project: packages/precise/python-bunch
+  description: packages/precise/python-bunch
+
+-
+  project: packages/precise/python-changelog
+  description: packages/precise/python-changelog
+
+-
+  project: packages/precise/python-cliff
+  description: packages/precise/python-cliff
+
+-
+  project: packages/precise/python-cm-api
+  description: packages/precise/python-cm-api
+
+-
+  project: packages/precise/python-colorama
+  description: packages/precise/python-colorama
+
+-
+  project: packages/precise/python-concurrent-futures
+  description: packages/precise/python-concurrent-futures
+
+-
+  project: packages/precise/python-concurrent.futures
+  description: packages/precise/python-concurrent.futures
+
+-
+  project: packages/precise/python-coverage
+  description: packages/precise/python-coverage
+
+-
+  project: packages/precise/python-croniter
+  description: packages/precise/python-croniter
+
+-
+  project: packages/precise/python-crypto
+  description: packages/precise/python-crypto
+
+-
+  project: packages/precise/python-cryptography
+  description: packages/precise/python-cryptography
+
+-
+  project: packages/precise/python-daemonize
+  description: packages/precise/python-daemonize
+
+-
+  project: packages/precise/python-debian
+  description: packages/precise/python-debian
+
+-
+  project: packages/precise/python-decorator
+  description: packages/precise/python-decorator
+
+-
+  project: packages/precise/python-deep
+  description: packages/precise/python-deep
+
+-
+  project: packages/precise/python-defaults
+  description: packages/precise/python-defaults
+
+-
+  project: packages/precise/python-demjson
+  description: packages/precise/python-demjson
+
+-
+  project: packages/precise/python-discover
+  description: packages/precise/python-discover
+
+-
+  project: packages/precise/python-django
+  description: packages/precise/python-django
+
+-
+  project: packages/precise/python-django-appconf
+  description: packages/precise/python-django-appconf
+
+-
+  project: packages/precise/python-django-bootstrap-form
+  description: packages/precise/python-django-bootstrap-form
+
+-
+  project: packages/precise/python-django-compressor
+  description: packages/precise/python-django-compressor
+
+-
+  project: packages/precise/python-django-djblets
+  description: packages/precise/python-django-djblets
+
+-
+  project: packages/precise/python-django-floppyforms
+  description: packages/precise/python-django-floppyforms
+
+-
+  project: packages/precise/python-django-nose
+  description: packages/precise/python-django-nose
+
+-
+  project: packages/precise/python-django-openstack-auth
+  description: packages/precise/python-django-openstack-auth
+
+-
+  project: packages/precise/python-django-pipeline
+  description: packages/precise/python-django-pipeline
+
+-
+  project: packages/precise/python-django-pyscss
+  description: packages/precise/python-django-pyscss
+
+-
+  project: packages/precise/python-dnspython
+  description: packages/precise/python-dnspython
+
+-
+  project: packages/precise/python-doc8
+  description: packages/precise/python-doc8
+
+-
+  project: packages/precise/python-docker
+  description: packages/precise/python-docker
+
+-
+  project: packages/precise/python-docutils
+  description: packages/precise/python-docutils
+
+-
+  project: packages/precise/python-dogpile.cache
+  description: packages/precise/python-dogpile.cache
+
+-
+  project: packages/precise/python-ecdsa
+  description: packages/precise/python-ecdsa
+
+-
+  project: packages/precise/python-ethtool
+  description: packages/precise/python-ethtool
+
+-
+  project: packages/precise/python-eventlet
+  description: packages/precise/python-eventlet
+
+-
+  project: packages/precise/python-extras
+  description: packages/precise/python-extras
+
+-
+  project: packages/precise/python-fixtures
+  description: packages/precise/python-fixtures
+
+-
+  project: packages/precise/python-flake8
+  description: packages/precise/python-flake8
+
+-
+  project: packages/precise/python-fuelclient
+  description: packages/precise/python-fuelclient
+
+-
+  project: packages/precise/python-gabbi
+  description: packages/precise/python-gabbi
+
+-
+  project: packages/precise/python-glance_store
+  description: packages/precise/python-glance_store
+
+-
+  project: packages/precise/python-greenlet
+  description: packages/precise/python-greenlet
+
+-
+  project: packages/precise/python-hacking
+  description: packages/precise/python-hacking
+
+-
+  project: packages/precise/python-happybase
+  description: packages/precise/python-happybase
+
+-
+  project: packages/precise/python-hp3parclient
+  description: packages/precise/python-hp3parclient
+
+-
+  project: packages/precise/python-httplib2
+  description: packages/precise/python-httplib2
+
+-
+  project: packages/precise/python-iso8601
+  description: packages/precise/python-iso8601
+
+-
+  project: packages/precise/python-itsdangerous
+  description: packages/precise/python-itsdangerous
+
+-
+  project: packages/precise/python-json-patch
+  description: packages/precise/python-json-patch
+
+-
+  project: packages/precise/python-json-pointer
+  description: packages/precise/python-json-pointer
+
+-
+  project: packages/precise/python-jsonpath
+  description: packages/precise/python-jsonpath
+
+-
+  project: packages/precise/python-jsonpath-rw
+  description: packages/precise/python-jsonpath-rw
+
+-
+  project: packages/precise/python-jsonrpclib
+  description: packages/precise/python-jsonrpclib
+
+-
+  project: packages/precise/python-jsonschema
+  description: packages/precise/python-jsonschema
+
+-
+  project: packages/precise/python-kazoo
+  description: packages/precise/python-kazoo
+
+-
+  project: packages/precise/python-keyring
+  description: packages/precise/python-keyring
+
+-
+  project: packages/precise/python-keystonemiddleware
+  description: packages/precise/python-keystonemiddleware
+
+-
+  project: packages/precise/python-kombu
+  description: packages/precise/python-kombu
+
+-
+  project: packages/precise/python-ldappool
+  description: Closes-Bug:#1397279
+
+-
+  project: packages/precise/python-lesscpy
+  description: packages/precise/python-lesscpy
+
+-
+  project: packages/precise/python-librabbitmq
+  description: packages/precise/python-librabbitmq
+
+-
+  project: packages/precise/python-libvirt
+  description: packages/precise/python-libvirt
+
+-
+  project: packages/precise/python-logutils
+  description: packages/precise/python-logutils
+
+-
+  project: packages/precise/python-mccabe
+  description: packages/precise/python-mccabe
+
+-
+  project: packages/precise/python-memcache
+  description: packages/precise/python-memcache
+
+-
+  project: packages/precise/python-mlnxvif
+  description: packages/precise/python-mlnxvif
+
+-
+  project: packages/precise/python-mock
+  description: packages/precise/python-mock
+
+-
+  project: packages/precise/python-mox
+  description: packages/precise/python-mox
+
+-
+  project: packages/precise/python-mox3
+  description: packages/precise/python-mox3
+
+-
+  project: packages/precise/python-mysqldb
+  description: packages/precise/python-mysqldb
+
+-
+  project: packages/precise/python-netaddr
+  description: packages/precise/python-netaddr
+
+-
+  project: packages/precise/python-netifaces
+  description: packages/precise/python-netifaces
+
+-
+  project: packages/precise/python-networkx
+  description: packages/precise/python-networkx
+
+-
+  project: packages/precise/python-nodeenv
+  description: packages/precise/python-nodeenv
+
+-
+  project: packages/precise/python-nose-exclude
+  description: packages/precise/python-nose-exclude
+
+-
+  project: packages/precise/python-nosehtmloutput
+  description: packages/precise/python-nosehtmloutput
+
+-
+  project: packages/precise/python-nosexcover
+  description: packages/precise/python-nosexcover
+
+-
+  project: packages/precise/python-oauthlib
+  description: packages/precise/python-oauthlib
+
+-
+  project: packages/precise/python-ordereddict
+  description: packages/precise/python-ordereddict
+
+-
+  project: packages/precise/python-osprofiler
+  description: packages/precise/python-osprofiler
+
+-
+  project: packages/precise/python-paramiko
+  description: packages/precise/python-paramiko
+
+-
+  project: packages/precise/python-pbr
+  description: packages/precise/python-pbr
+
+-
+  project: packages/precise/python-pcs
+  description: packages/precise/python-pcs
+
+-
+  project: packages/precise/python-pecan
+  description: packages/precise/python-pecan
+
+-
+  project: packages/precise/python-pint
+  description: packages/precise/python-pint
+
+-
+  project: packages/precise/python-posix-ipc
+  description: packages/precise/python-posix-ipc
+
+-
+  project: packages/precise/python-posix_ipc
+  description: packages/precise/python-posix_ipc
+
+-
+  project: packages/precise/python-proboscis
+  description: packages/precise/python-proboscis
+
+-
+  project: packages/precise/python-psutil
+  description: packages/precise/python-psutil
+
+-
+  project: packages/precise/python-psycogreen
+  description: packages/precise/python-psycogreen
+
+-
+  project: packages/precise/python-puka
+  description: packages/precise/python-puka
+
+-
+  project: packages/precise/python-pushy
+  description: packages/precise/python-pushy
+
+-
+  project: packages/precise/python-py
+  description: packages/precise/python-py
+
+-
+  project: packages/precise/python-pyasn1_modules
+  description: packages/precise/python-pyasn1_modules
+
+-
+  project: packages/precise/python-pycadf
+  description: packages/precise/python-pycadf
+
+-
+  project: packages/precise/python-pycryptopp
+  description: packages/precise/python-pycryptopp
+
+-
+  project: packages/precise/python-pykmip
+  description: packages/precise/python-pykmip
+
+-
+  project: packages/precise/python-pylibmc
+  description: packages/precise/python-pylibmc
+
+-
+  project: packages/precise/python-pymemcache
+  description: packages/precise/python-pymemcache
+
+-
+  project: packages/precise/python-pymysql
+  description: packages/precise/python-pymysql
+
+-
+  project: packages/precise/python-pyopenssl
+  description: packages/precise/python-pyopenssl
+
+-
+  project: packages/precise/python-pyscss
+  description: packages/precise/python-pyscss
+
+-
+  project: packages/precise/python-pysnmp
+  description: packages/precise/python-pysnmp
+
+-
+  project: packages/precise/python-pysqlite
+  description: packages/precise/python-pysqlite
+
+-
+  project: packages/precise/python-pytz
+  description: packages/precise/python-pytz
+
+-
+  project: packages/precise/python-pyyaml
+  description: packages/precise/python-pyyaml
+
+-
+  project: packages/precise/python-qpid
+  description: packages/precise/python-qpid
+
+-
+  project: packages/precise/python-rabbit
+  description: packages/precise/python-rabbit
+
+-
+  project: packages/precise/python-redis
+  description: packages/precise/python-redis
+
+-
+  project: packages/precise/python-requests
+  description: packages/precise/python-requests
+
+-
+  project: packages/precise/python-requests-aws
+  description: packages/precise/python-requests-aws
+
+-
+  project: packages/precise/python-requests-mock
+  description: packages/precise/python-requests-mock
+
+-
+  project: packages/precise/python-restructuredtext-lint
+  description: packages/precise/python-restructuredtext-lint
+
+-
+  project: packages/precise/python-retrying
+  description: packages/precise/python-retrying
+
+-
+  project: packages/precise/python-rfc3986
+  description: packages/precise/python-rfc3986
+
+-
+  project: packages/precise/python-routes1.13
+  description: packages/precise/python-routes1.13
+
+-
+  project: packages/precise/python-rtslib
+  description: packages/precise/python-rtslib
+
+-
+  project: packages/precise/python-scripttest
+  description: packages/precise/python-scripttest
+
+-
+  project: packages/precise/python-sendfile
+  description: packages/precise/python-sendfile
+
+-
+  project: packages/precise/python-setuptools-git
+  description: packages/precise/python-setuptools-git
+
+-
+  project: packages/precise/python-singledispatch
+  description: packages/precise/python-singledispatch
+
+-
+  project: packages/precise/python-sphinx
+  description: packages/precise/python-sphinx
+
+-
+  project: packages/precise/python-sphinx-paramlinks
+  description: packages/precise/python-sphinx-paramlinks
+
+-
+  project: packages/precise/python-sphinxcontrib-docbookrestapi
+  description: packages/precise/python-sphinxcontrib-docbookrestapi
+
+-
+  project: packages/precise/python-sphinxcontrib-httpdomain
+  description: packages/precise/python-sphinxcontrib-httpdomain
+
+-
+  project: packages/precise/python-sphinxcontrib-pecanwsme
+  description: packages/precise/python-sphinxcontrib-pecanwsme
+
+-
+  project: packages/precise/python-suds
+  description: packages/precise/python-suds
+
+-
+  project: packages/precise/python-tablib
+  description: packages/precise/python-tablib
+
+-
+  project: packages/precise/python-taskflow
+  description: packages/precise/python-taskflow
+
+-
+  project: packages/precise/python-tempest-lib
+  description: packages/precise/python-tempest-lib
+
+-
+  project: packages/precise/python-termcolor
+  description: packages/precise/python-termcolor
+
+-
+  project: packages/precise/python-testscenarios
+  description: packages/precise/python-testscenarios
+
+-
+  project: packages/precise/python-testtools
+  description: packages/precise/python-testtools
+
+-
+  project: packages/precise/python-thrift
+  description: packages/precise/python-thrift
+
+-
+  project: packages/precise/python-tooz
+  description: packages/precise/python-tooz
+
+-
+  project: packages/precise/python-tox
+  description: packages/precise/python-tox
+
+-
+  project: packages/precise/python-trollius
+  description: packages/precise/python-trollius
+
+-
+  project: packages/precise/python-urllib3
+  description: packages/precise/python-urllib3
+
+-
+  project: packages/precise/python-warlock
+  description: packages/precise/python-warlock
+
+-
+  project: packages/precise/python-webob
+  description: packages/precise/python-webob
+
+-
+  project: packages/precise/python-websocket
+  description: packages/precise/python-websocket
+
+-
+  project: packages/precise/python-wsgi-intercept
+  description: packages/precise/python-wsgi-intercept
+
+-
+  project: packages/precise/python-wsgiref
+  description: packages/precise/python-wsgiref
+
+-
+  project: packages/precise/python-wsme
+  description: packages/precise/python-wsme
+
+-
+  project: packages/precise/python-xstatic
+  description: packages/precise/python-xstatic
+
+-
+  project: packages/precise/python-xstatic-angular
+  description: packages/precise/python-xstatic-angular
+
+-
+  project: packages/precise/python-xstatic-angular-bootstrap
+  description: packages/precise/python-xstatic-angular-bootstrap
+
+-
+  project: packages/precise/python-xstatic-angular-cookies
+  description: packages/precise/python-xstatic-angular-cookies
+
+-
+  project: packages/precise/python-xstatic-angular-irdragndrop
+  description: packages/precise/python-xstatic-angular-irdragndrop
+
+-
+  project: packages/precise/python-xstatic-angular-mock
+  description: packages/precise/python-xstatic-angular-mock
+
+-
+  project: packages/precise/python-xstatic-bootstrap-datepicker
+  description: packages/precise/python-xstatic-bootstrap-datepicker
+
+-
+  project: packages/precise/python-xstatic-bootstrap-scss
+  description: packages/precise/python-xstatic-bootstrap-scss
+
+-
+  project: packages/precise/python-xstatic-d3
+  description: packages/precise/python-xstatic-d3
+
+-
+  project: packages/precise/python-xstatic-font-awesome
+  description: packages/precise/python-xstatic-font-awesome
+
+-
+  project: packages/precise/python-xstatic-hogan
+  description: packages/precise/python-xstatic-hogan
+
+-
+  project: packages/precise/python-xstatic-jasmine
+  description: packages/precise/python-xstatic-jasmine
+
+-
+  project: packages/precise/python-xstatic-jquery
+  description: packages/precise/python-xstatic-jquery
+
+-
+  project: packages/precise/python-xstatic-jquery-migrate
+  description: packages/precise/python-xstatic-jquery-migrate
+
+-
+  project: packages/precise/python-xstatic-jquery-ui
+  description: packages/precise/python-xstatic-jquery-ui
+
+-
+  project: packages/precise/python-xstatic-jquery.quicksearch
+  description: packages/precise/python-xstatic-jquery.quicksearch
+
+-
+  project: packages/precise/python-xstatic-jquery.tablesorter
+  description: packages/precise/python-xstatic-jquery.tablesorter
+
+-
+  project: packages/precise/python-xstatic-jsencrypt
+  description: packages/precise/python-xstatic-jsencrypt
+
+-
+  project: packages/precise/python-xstatic-qunit
+  description: packages/precise/python-xstatic-qunit
+
+-
+  project: packages/precise/python-xstatic-rickshaw
+  description: packages/precise/python-xstatic-rickshaw
+
+-
+  project: packages/precise/python-xstatic-smart-table
+  description: packages/precise/python-xstatic-smart-table
+
+-
+  project: packages/precise/python-xstatic-spin
+  description: packages/precise/python-xstatic-spin
+
+-
+  project: packages/precise/python-xstatic-term.js
+  description: packages/precise/python-xstatic-term.js
+
+-
+  project: packages/precise/python-yaql
+  description: packages/precise/python-yaql
+
+-
+  project: packages/precise/python-zake
+  description: packages/precise/python-zake
+
+-
+  project: packages/precise/python-zmq
+  description: packages/precise/python-zmq
+
+-
+  project: packages/precise/python-zope.interface
+  description: packages/precise/python-zope.interface
+
+-
+  project: packages/precise/qemu
+  description: packages/precise/qemu
+
+-
+  project: packages/precise/qemu-kvm
+  description: packages/precise/qemu-kvm
+
+-
+  project: packages/precise/qemu-system-common
+  description: packages/precise/qemu-system-common
+
+-
+  project: packages/precise/qemu-system-x86
+  description: packages/precise/qemu-system-x86
+
+-
+  project: packages/precise/queue-async
+  description: packages/precise/queue-async
+
+-
+  project: packages/precise/rabbitmq-server
+  description: packages/precise/rabbitmq-server
+
+-
+  project: packages/precise/requests
+  description: packages/precise/requests
+
+-
+  project: packages/precise/rethtool
+  description: packages/precise/rethtool
+
+-
+  project: packages/precise/rickshaw
+  description: packages/precise/rickshaw
+
+-
+  project: packages/precise/routes
+  description: packages/precise/routes
+
+-
+  project: packages/precise/rpmlint
+  description: packages/precise/rpmlint
+
+-
+  project: packages/precise/ruby-ipaddres
+  description: packages/precise/ruby-ipaddres
+
+-
+  project: packages/precise/ruby-mcollect-client
+  description: packages/precise/ruby-mcollect-client
+
+-
+  project: packages/precise/ruby-mcollective-client
+  description: packages/precise/ruby-mcollective-client
+
+-
+  project: packages/precise/ruby-netaddr
+  description: packages/precise/ruby-netaddr
+
+-
+  project: packages/precise/ruby-openstack
+  description: packages/precise/ruby-openstack
+
+-
+  project: packages/precise/ruby-rgen
+  description: packages/precise/ruby-rgen
+
+-
+  project: packages/precise/rubygem-cstruct
+  description: packages/precise/rubygem-cstruct
+
+-
+  project: packages/precise/rubygem-mixlib-cli
+  description: packages/precise/rubygem-mixlib-cli
+
+-
+  project: packages/precise/rubygem-mixlib-log
+  description: packages/precise/rubygem-mixlib-log
+
+-
+  project: packages/precise/rubygem-stomp
+  description: packages/precise/rubygem-stomp
+
+-
+  project: packages/precise/seabios
+  description: packages/precise/seabios
+
+-
+  project: packages/precise/selenium
+  description: packages/precise/selenium
+
+-
+  project: packages/precise/sheepdog
+  description: packages/precise/sheepdog
+
+-
+  project: packages/precise/should.js
+  description: packages/precise/should.js
+
+-
+  project: packages/precise/sigar
+  description: packages/precise/sigar
+
+-
+  project: packages/precise/simplegeneric
+  description: packages/precise/simplegeneric
+
+-
+  project: packages/precise/six
+  description: packages/precise/six
+
+-
+  project: packages/precise/smash
+  description: packages/precise/smash
+
+-
+  project: packages/precise/spice
+  description: packages/precise/spice
+
+-
+  project: packages/precise/spice-protocol
+  description: packages/precise/spice-protocol
+
+-
+  project: packages/precise/sqlalchemy
+  description: packages/precise/sqlalchemy
+
+-
+  project: packages/precise/stevedore
+  description: packages/precise/stevedore
+
+-
+  project: packages/precise/subunit
+  description: packages/precise/subunit
+
+-
+  project: packages/precise/sudo
+  description: packages/precise/sudo
+
+-
+  project: packages/precise/supermin
+  description: packages/precise/supermin, required for LP#1397014
+
+-
+  project: packages/precise/swift-plugin-s3
+  description: packages/precise/swift-plugin-s3
+
+-
+  project: packages/precise/tasklib
+  description: packages/precise/tasklib
+
+-
+  project: packages/precise/testrepository
+  description: packages/precise/testrepository
+
+-
+  project: packages/precise/testresources
+  description: packages/precise/testresources
+
+-
+  project: packages/precise/tgt
+  description: packages/precise/tgt
+
+-
+  project: packages/precise/twitter-bootstrap
+  description: packages/precise/twitter-bootstrap
+
+-
+  project: packages/precise/ubuntu-partitioner
+  description: packages/precise/ubuntu-partitioner
+
+-
+  project: packages/precise/unittest2
+  description: packages/precise/unittest2
+
+-
+  project: packages/precise/usbredir
+  description: packages/precise/usbredir
+
+-
+  project: packages/precise/vgabios
+  description: packages/precise/vgabios
+
+-
+  project: packages/precise/vows
+  description: packages/precise/vows
+
+-
+  project: packages/precise/vrouter
+  description: packages/precise/vrouter
+
+-
+  project: packages/precise/websockify
+  description: packages/precise/websockify
+
+-
+  project: packages/precise/wheel
+  description: packages/precise/wheel
+
+-
+  project: packages/precise/xtrabackup
+  description: packages/precise/xtrabackup
+
+-
+  project: packages/precise/xvfbwrapper
+  description: packages/precise/xvfbwrapper
+
+-
+  project: packages/precise/zabbix
+  description: packages/precise/zabbix
+
+-
+  project: packages/trusty/alembic
+  description: packages/trusty/alembic
+
+-
+  project: packages/trusty/angular.js
+  description: packages/trusty/angular.js
+
+-
+  project: packages/trusty/ceph
+  description: packages/trusty/ceph
+
+-
+  project: packages/trusty/ceph-deploy
+  description: packages/trusty/ceph-deploy
+
+-
+  project: packages/trusty/cirros-testvm
+  description: packages/trusty/cirros-testvm
+
+-
+  project: packages/trusty/cirros-testvm-mellanox
+  description: packages/trusty/cirros-testvm-mellanox
+
+-
+  project: packages/trusty/cirros-testvmware
+  description: packages/trusty/cirros-testvmware
+
+-
+  project: packages/trusty/d3
+  description: packages/trusty/d3
+
+-
+  project: packages/trusty/daemonize
+  description: packages/trusty/daemonize
+
+-
+  project: packages/trusty/eswitchd
+  description: packages/trusty/eswitchd
+
+-
+  project: packages/trusty/fuel-utils
+  description: packages/trusty/fuel-utils
+
+-
+  project: packages/trusty/galera
+  description: packages/trusty/galera
+
+-
+  project: packages/trusty/haproxy
+  description: packages/trusty/haproxy
+
+-
+  project: packages/trusty/iperf3
+  description: packages/trusty/iperf3
+
+-
+  project: packages/trusty/kazoo
+  description: packages/trusty/kazoo
+
+-
+  project: packages/trusty/kombu
+  description: packages/trusty/kombu
+
+-
+  project: packages/trusty/libjs-jquery.quicksearch
+  description: packages/trusty/libjs-jquery.quicksearch
+
+-
+  project: packages/trusty/libjs-jsencrypt
+  description: packages/trusty/libjs-jsencrypt
+
+-
+  project: packages/trusty/libjs-spin.js
+  description: packages/trusty/libjs-spin.js
+
+-
+  project: packages/trusty/libqb
+  description: packages/trusty/libqb
+
+-
+  project: packages/trusty/mcollective
+  description: packages/trusty/mcollective
+
+-
+  project: packages/trusty/migrate
+  description: packages/trusty/migrate
+
+-
+  project: packages/trusty/mlnx-ofed-light
+  description: packages/trusty/mlnx-ofed-light
+
+-
+  project: packages/trusty/mlnxvif
+  description: packages/trusty/mlnxvif
+
+-
+  project: packages/trusty/msgpack-python
+  description: packages/trusty/msgpack-python
+
+-
+  project: packages/trusty/mysql-5.6
+  description: packages/trusty/mysql-5.6
+
+-
+  project: packages/trusty/mysql-wsrep-5.6
+  description: packages/trusty/mysql-wsrep-5.6
+
+-
+  project: packages/trusty/novnc
+  description: packages/trusty/novnc
+
+-
+  project: packages/trusty/ntp-dev
+  description: packages/trusty/ntp-dev
+
+-
+  project: packages/trusty/openvswitch
+  description: packages/trusty/openvswitch
+
+-
+  project: packages/trusty/paramiko
+  description: packages/trusty/paramiko
+
+-
+  project: packages/trusty/python-amqp
+  description: packages/trusty/python-amqp
+
+-
+  project: packages/trusty/python-boto
+  description: packages/trusty/python-boto
+
+-
+  project: packages/trusty/python-bunch
+  description: packages/trusty/python-bunch
+
+-
+  project: packages/trusty/python-cliff
+  description: packages/trusty/python-cliff
+
+-
+  project: packages/trusty/python-cm-api
+  description: packages/trusty/python-cm-api
+
+-
+  project: packages/trusty/python-daemonize
+  description: packages/trusty/python-daemonize
+
+-
+  project: packages/trusty/python-deep
+  description: packages/trusty/python-deep
+
+-
+  project: packages/trusty/python-django-compressor
+  description: packages/trusty/python-django-compressor
+
+-
+  project: packages/trusty/python-django-openstack-auth
+  description: packages/trusty/python-django-openstack-auth
+
+-
+  project: packages/trusty/python-django-pyscss
+  description: packages/trusty/python-django-pyscss
+
+-
+  project: packages/trusty/python-docker
+  description: packages/trusty/python-docker
+
+-
+  project: packages/trusty/python-dogpile.cache
+  description: packages/trusty/python-dogpile.cache
+
+-
+  project: packages/trusty/python-eventlet
+  description: packages/trusty/python-eventlet
+
+-
+  project: packages/trusty/python-flake8
+  description: packages/trusty/python-flake8
+
+-
+  project: packages/trusty/python-hacking
+  description: packages/trusty/python-hacking
+
+-
+  project: packages/trusty/python-jsonpath
+  description: packages/trusty/python-jsonpath
+
+-
+  project: packages/trusty/python-keystonemiddleware
+  description: packages/trusty/python-keystonemiddleware
+
+-
+  project: packages/trusty/python-ldappool
+  description: packages/trusty/python-ldappool
+
+-
+  project: packages/trusty/python-mysqldb
+  description: packages/trusty/python-mysqldb
+
+-
+  project: packages/trusty/python-netaddr
+  description: packages/trusty/python-netaddr
+
+-
+  project: packages/trusty/python-netifaces
+  description: packages/trusty/python-netifaces
+
+-
+  project: packages/trusty/python-ordereddict
+  description: packages/trusty/python-ordereddict
+
+-
+  project: packages/trusty/python-osprofiler
+  description: packages/trusty/python-osprofiler
+
+-
+  project: packages/trusty/python-pbr
+  description: packages/trusty/python-pbr
+
+-
+  project: packages/trusty/python-pcs
+  description: packages/trusty/python-pcs
+
+-
+  project: packages/trusty/python-pecan
+  description: packages/trusty/python-pecan
+
+-
+  project: packages/trusty/python-posix-ipc
+  description: packages/trusty/python-posix-ipc
+
+-
+  project: packages/trusty/python-puka
+  description: packages/trusty/python-puka
+
+-
+  project: packages/trusty/python-pycadf
+  description: packages/trusty/python-pycadf
+
+-
+  project: packages/trusty/python-pymemcache
+  description: packages/trusty/python-pymemcache
+
+-
+  project: packages/trusty/python-pyscss
+  description: packages/trusty/python-pyscss
+
+-
+  project: packages/trusty/python-rabbit
+  description: packages/trusty/python-rabbit
+
+-
+  project: packages/trusty/python-requests-mock
+  description: packages/trusty/python-requests-mock
+
+-
+  project: packages/trusty/python-retrying
+  description: packages/trusty/python-retrying
+
+-
+  project: packages/trusty/python-rfc3986
+  description: packages/trusty/python-rfc3986
+
+-
+  project: packages/trusty/python-rtslib-fb
+  description: packages/trusty/python-rtslib-fb
+
+-
+  project: packages/trusty/python-six
+  description: packages/trusty/python-six
+
+-
+  project: packages/trusty/python-taskflow
+  description: packages/trusty/python-taskflow
+
+-
+  project: packages/trusty/python-tooz
+  description: packages/trusty/python-tooz
+
+-
+  project: packages/trusty/python-websocket
+  description: packages/trusty/python-websocket
+
+-
+  project: packages/trusty/python-xstatic
+  description: packages/trusty/python-xstatic
+
+-
+  project: packages/trusty/python-xstatic-angular
+  description: packages/trusty/python-xstatic-angular
+
+-
+  project: packages/trusty/python-xstatic-angular-cookies
+  description: packages/trusty/python-xstatic-angular-cookies
+
+-
+  project: packages/trusty/python-xstatic-angular-mock
+  description: packages/trusty/python-xstatic-angular-mock
+
+-
+  project: packages/trusty/python-xstatic-bootstrap-datepicker
+  description: packages/trusty/python-xstatic-bootstrap-datepicker
+
+-
+  project: packages/trusty/python-xstatic-bootstrap-scss
+  description: packages/trusty/python-xstatic-bootstrap-scss
+
+-
+  project: packages/trusty/python-xstatic-d3
+  description: packages/trusty/python-xstatic-d3
+
+-
+  project: packages/trusty/python-xstatic-font-awesome
+  description: packages/trusty/python-xstatic-font-awesome
+
+-
+  project: packages/trusty/python-xstatic-hogan
+  description: packages/trusty/python-xstatic-hogan
+
+-
+  project: packages/trusty/python-xstatic-jasmine
+  description: packages/trusty/python-xstatic-jasmine
+
+-
+  project: packages/trusty/python-xstatic-jquery
+  description: packages/trusty/python-xstatic-jquery
+
+-
+  project: packages/trusty/python-xstatic-jquery-migrate
+  description: packages/trusty/python-xstatic-jquery-migrate
+
+-
+  project: packages/trusty/python-xstatic-jquery-ui
+  description: packages/trusty/python-xstatic-jquery-ui
+
+-
+  project: packages/trusty/python-xstatic-jquery.quicksearch
+  description: packages/trusty/python-xstatic-jquery.quicksearch
+
+-
+  project: packages/trusty/python-xstatic-jquery.tablesorter
+  description: packages/trusty/python-xstatic-jquery.tablesorter
+
+-
+  project: packages/trusty/python-xstatic-jsencrypt
+  description: packages/trusty/python-xstatic-jsencrypt
+
+-
+  project: packages/trusty/python-xstatic-qunit
+  description: packages/trusty/python-xstatic-qunit
+
+-
+  project: packages/trusty/python-xstatic-rickshaw
+  description: packages/trusty/python-xstatic-rickshaw
+
+-
+  project: packages/trusty/python-xstatic-spin
+  description: packages/trusty/python-xstatic-spin
+
+-
+  project: packages/trusty/python-yaql
+  description: packages/trusty/python-yaql
+
+-
+  project: packages/trusty/python-zake
+  description: packages/trusty/python-zake
+
+-
+  project: packages/trusty/qemu
+  description: packages/trusty/qemu
+
+-
+  project: packages/trusty/rabbitmq-server
+  description: packages/trusty/rabbitmq-server
+
+-
+  project: packages/trusty/rethtool
+  description: packages/trusty/rethtool
+
+-
+  project: packages/trusty/rickshaw
+  description: packages/trusty/rickshaw
+
+-
+  project: packages/trusty/routes
+  description: packages/trusty/routes
+
+-
+  project: packages/trusty/ruby-cstruct
+  description: packages/trusty/ruby-cstruct
+
+-
+  project: packages/trusty/ruby-hiera
+  description: packages/trusty/ruby-hiera
+
+-
+  project: packages/trusty/ruby-httpclient
+  description: packages/trusty/ruby-httpclient
+
+-
+  project: packages/trusty/ruby-netaddr
+  description: packages/trusty/ruby-netaddr
+
+-
+  project: packages/trusty/ruby-openstack
+  description: packages/trusty/ruby-openstack
+
+-
+  project: packages/trusty/singledispatch
+  description: packages/trusty/singledispatch
+
+-
+  project: packages/trusty/sqlalchemy
+  description: packages/trusty/sqlalchemy
+
+-
+  project: packages/trusty/stevedore
+  description: packages/trusty/stevedore
+
+-
+  project: packages/trusty/websockify
+  description: packages/trusty/websockify
+
+-
+  project: packages/trusty/xtrabackup
+  description: packages/trusty/xtrabackup
+
+-
+  project: patching-tests
+  description: Repository of functional tests for bugfixes
+  acl-config: acls/patching-tests/patching-tests.config
+
+-
+  project: tools
+  description: Parent project for "tools"-projects for another teams
+  acl-config: acls/tools/tools.config
+
+-
+  project: tools/l2-tools
+  description: Projects for L2 Support-team, LP-bug 1397042
+  acl-config: acls/tools/l2.tools.config
+
+-
+  project: tools/lp-reports
+  description: Provides reports and charts for Launchpad projects
+  upstream: git://github.com/Mirantis/launchpad-reports-summary.git
+  acl-config: acls/tools/lp.reports.config
+
+-
+  project: tools/zabbix-maintenance
+  description: Zabbix maintenance scripts and history
