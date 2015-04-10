@@ -1,7 +1,7 @@
 import re
 import sys
 
-packageNameFilter = re.compile(": packages/{0}/[a-zA-Z0-9-_.]+$".format())
+packageNameFilter = re.compile("/[a-zA-Z0-9-_.]+$")
 packageName = re.compile("[a-zA-Z0-9-_.]+$")
 
 with open('input', 'r') as req:

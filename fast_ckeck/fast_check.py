@@ -38,7 +38,7 @@ def main():
 								continue
 
 							if url[1] == "control":
-								sec_list = ["Depends:", "Build-Depends:", "Build-Depends-Indep:"]
+								sec_list = ["Depends:", "Build-Depends:", "Build-Depends-Indep:", "Suggests:", "Recommends:", "Pre-Depends:"]
 								packs_list = require_utils.Require.get_packs_control(requested_file)
 							elif url[1] == "spec":
 								sec_list = ["Requires:"]
