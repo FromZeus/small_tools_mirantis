@@ -1,5 +1,5 @@
 Login: "dtrishkin@mirantis.com"
-Password: "3393YEShq27"
+Password: ""
 Branch: "master"
 RepoNames: False # Repo name before list of it dependencies
 IgnoreUnknown: True # Ignore unknown packages with "python-" prefix
