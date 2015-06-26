@@ -1,0 +1,141 @@
+	
+packages
+		(gitweb)
+		
+packages/centos6/Django
+		(gitweb)
+		
+packages/centos6/Django14
+		(gitweb)
+		
+packages/centos6/GeoIP
+		(gitweb)
+		
+packages/centos6/MySQL
+		(gitweb)
+		
+packages/centos6/MySQL-python
+		(gitweb)
+		
+packages/centos6/MySQL-wsrep
+		(gitweb)
+		
+packages/centos6/PyYAML
+		(gitweb)
+		
+packages/centos6/ami-creator
+		(gitweb)
+		
+packages/centos6/amtterm
+		(gitweb)
+		
+packages/centos6/anaconda
+		(gitweb)
+		
+packages/centos6/ansible
+		(gitweb)
+		
+packages/centos6/apr
+		(gitweb)
+		
+packages/centos6/apr-util
+		(gitweb)
+		
+packages/centos6/atop
+		(gitweb)
+		
+packages/centos6/augeas
+		(gitweb)
+		
+packages/centos6/bash
+		(gitweb)
+		
+packages/centos6/c-ares19
+		(gitweb)
+		
+packages/centos6/cdrkit
+		(gitweb)
+		
+packages/centos6/ceph
+		(gitweb)
+		
+packages/centos6/ceph-deploy
+		(gitweb)
+		
+packages/centos6/cirros-testvm
+		(gitweb)
+	
+packages/centos6/cirros-testvm-mellanox
+		(gitweb)
+		
+packages/centos6/cirros-testvmware
+		(gitweb)
+		
+packages/centos6/cloud-init
+		(gitweb)
+		
+packages/centos6/cloud-utils
+		(gitweb)
+		
+packages/centos6/cluster-glue
+		(gitweb)
+		
+packages/centos6/cobbler
+		(gitweb)
+		
+packages/centos6/collectd
+		(gitweb)
+		
+packages/centos6/conntrack-tools
+		(gitweb)
+		
+packages/centos6/corosync
+		(gitweb)
+		
+packages/centos6/cpufreq-init
+		(gitweb)
+		
+packages/centos6/createrepo
+		(gitweb)
+		
+packages/centos6/crmsh
+		(gitweb)
+		
+packages/centos6/cross-binutils
+		(gitweb)
+		
+packages/centos6/cross-gcc
+		(gitweb)
+		
+packages/centos6/cryptopp
+		(gitweb)
+		
+packages/centos6/daemonize
+		(gitweb)
+		
+packages/centos6/debmirror
+		(gitweb)
+		
+packages/centos6/debootstrap
+		(gitweb)
+		
+packages/centos6/deltarpm
+		(gitweb)
+		
+packages/centos6/device-mapper-persistent-data
+		(gitweb)
+		
+packages/centos6/disktype
+		(gitweb)
+		
+packages/centos6/django-osa
+		(gitweb)
+		
+packages/centos6/dkms
+		(gitweb)
+		
+packages/centos6/dmraid
+		(gitweb)
+		
+packages/centos6/dnsmasq
+		(gitweb)

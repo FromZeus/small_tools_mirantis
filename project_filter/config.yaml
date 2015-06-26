@@ -1,0 +1,3 @@
+Login: "dtrishkin@mirantis.com"
+Password: "3393YEShq27ops"
+ProjectType: "openstack" # [openstack, openstack-build, packages/precise]
