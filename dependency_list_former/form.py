@@ -30,6 +30,7 @@ def main():
 
     for line in tempConf:
       py_file_path = line["PyFilePath"]
+    py_file_path = abspath(py_file_path)
 
     init_dir_tree = build_init_dir_tree(
       re_to_last_slash.search(py_file_path).group(0))
