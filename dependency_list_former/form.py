@@ -19,12 +19,13 @@ re_to_dot = re.compile("^[^\s.]+")
 re_to_last_slash = re.compile("\/*([^\/]+\/)+")
 re_to_slash_from_end = re.compile("[^\s\/]+$")
 
+
 def main():
   try:
     conf = open(args.config, 'r')
     tempConf = yaml.load_all(conf)
 
-    #pdb.set_trace()
+    pdb.set_trace()
 
     for line in tempConf:
       py_file_path = line["PyFilePath"]
@@ -47,13 +48,17 @@ def main():
     print '\nThe process was interrupted by the user'
     raise SystemExit
 
+
 def get_all_imports(text):
   all_matches = []
   for match in re_all_imports.finditer(text):
     all_matches.append(match.group(0))
   return all_matches
 
+
 def extract_module(from_module, imp_module, init_dir_tree, cur_dir):
+  imp_module_start = re_to_dot.search(imp_module).group(0)
+  imp_module_end = imp_module[len(imp_module_start) + 1:]
   if from_module:
     from_module_start = re_to_dot.search(from_module).group(0)
     from_module_end = from_module[len(from_module_start) + 1:]
@@ -63,11 +68,20 @@ def extract_module(from_module, imp_module, init_dir_tree, cur_dir):
     if in_pyes(from_module_start, cur_dir):
       return "{0}/{1}.py".format(cur_dir, from_module_start)
     else:
-      return from_module_start
-  elif in_pyes(imp_module, cur_dir):
-    return "{0}/{1}.py".format(cur_dir, imp_module)
+      return from_module
   else:
-    return imp_module
+    for key, tree in init_dir_tree.iteritems():
+      if imp_module_start in key:
+        return extract_module(from_module, imp_module_end, tree, key)
+    if in_pyes(imp_module_start, cur_dir):
+      return "{0}/{1}.py".format(cur_dir, imp_module_start)
+    else:
+      return imp_module
+  #elif in_pyes(imp_module, cur_dir):
+  #  return "{0}/{1}.py".format(cur_dir, imp_module)
+  #else:
+  #  return imp_module
+
 
 def in_pyes(module, path):
   files = listdir(path)
@@ -77,6 +91,7 @@ def in_pyes(module, path):
   else:
     return False
 
+
 def parse_py(py_path, dir_path, init_dir_tree):
   modules = set()
   with open(py_path) as py_file:
@@ -84,8 +99,7 @@ def parse_py(py_path, dir_path, init_dir_tree):
     all_imports = get_all_imports(text)
     for imp in all_imports:
       from_module = re_from.search(imp)
-      imp_module = re_to_dot.search(
-        re_tail.search(imp).group(0)).group(0)
+      imp_module = re_tail.search(imp).group(0)
       if not from_module:
         if not in_pyes(imp_module, dir_path):
           modules.add(imp_module)
@@ -103,6 +117,7 @@ def parse_py(py_path, dir_path, init_dir_tree):
           modules.add(extracted)
   return modules
 
+
 def build_init_dir_tree(path):
   tree = dict()
   for _file in listdir(path):
@@ -110,6 +125,7 @@ def build_init_dir_tree(path):
     if isdir(new_path) and "__init__.py" in listdir(new_path):
       tree[new_path] = build_init_dir_tree(new_path)
   return tree
+
 
 if __name__ == '__main__':
   main()
