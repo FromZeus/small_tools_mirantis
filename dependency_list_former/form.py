@@ -1,6 +1,5 @@
 import argparse
 import re
-import json
 import yaml
 from os import listdir
 from os.path import join, isdir, abspath
@@ -31,10 +30,18 @@ def main():
       py_file_path = line["PyFilePath"]
       start_dir_path = line["StartDirPath"]
     py_file_path = abspath(py_file_path)
+    start_dir_path = abspath(start_dir_path)
 
     init_dir_tree = build_init_dir_tree(start_dir_path)
 
-    print parse_py(py_file_path, start_dir_path, init_dir_tree)
+    imports = \
+      sorted(parse_py(py_file_path, start_dir_path, init_dir_tree))
+    print imports
+    with open("imports for {0}".format(
+        re_to_slash_from_end.search(py_file_path).group(0)), "w+") \
+        as imports_file:
+      for imp in imports:
+        imports_file.write(imp + "\n")
 
   except KeyboardInterrupt:
     print '\nThe process was interrupted by the user'
