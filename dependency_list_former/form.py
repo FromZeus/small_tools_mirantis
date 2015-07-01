@@ -38,7 +38,7 @@ def main():
     imports = \
       sorted(parse_py(py_file_path, start_dir_path, init_dir_tree))
     print imports
-    with open("imports for {0}".format(
+    with open("imports for {0} file".format(
         re_to_slash_from_end.search(py_file_path).group(0)), "w+") \
         as imports_file:
       for imp in imports:
@@ -72,15 +72,13 @@ def extract_module(from_module, imp_module, init_dir_tree, cur_dir):
   else:
     for key, tree in init_dir_tree.iteritems():
       if imp_module_start in key:
+        if not imp_module_end:
+          return "{0}/{1}.py".format(cur_dir, "__init__")
         return extract_module(from_module, imp_module_end, tree, key)
     if in_pyes(imp_module_start, cur_dir):
       return "{0}/{1}.py".format(cur_dir, imp_module_start)
     else:
       return imp_module
-  #elif in_pyes(imp_module, cur_dir):
-  #  return "{0}/{1}.py".format(cur_dir, imp_module)
-  #else:
-  #  return imp_module
 
 
 def in_pyes(module, path):
@@ -99,22 +97,17 @@ def parse_py(py_path, dir_path, init_dir_tree):
     all_imports = get_all_imports(text)
     for imp in all_imports:
       from_module = re_from.search(imp)
-      imp_module = re_tail.search(imp).group(0)
-      if not from_module:
-        if not in_pyes(imp_module, dir_path):
-          modules.add(imp_module)
-        else:
-          modules |= parse_py(
-            "{0}/{1}.py".format(dir_path, imp_module),
-              dir_path, init_dir_tree)
-      else:
+      imp_module = re_tail.search(re_import.search(imp).group(0)).group(0)
+      if from_module:
         from_module = re_tail.search(from_module.group(0)).group(0)
-        extracted = extract_module(
-          from_module, imp_module, init_dir_tree, dir_path)
-        if "/" in extracted:
-          modules |= parse_py(extracted, dir_path, init_dir_tree)
-        else:
-          modules.add(extracted)
+      else:
+        from_module = ""
+      extracted = extract_module(
+        from_module, imp_module, init_dir_tree, dir_path)
+      if "/" in extracted:
+        modules |= parse_py(extracted, dir_path, init_dir_tree)
+      else:
+        modules.add(extracted)
   return modules
 
 

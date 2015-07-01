@@ -12,8 +12,6 @@ logging
 neutronclient.common
 novaclient
 openstack_auth
-openstack_dashboard.enabled
-openstack_dashboard.local.enabled
 os
 os.path
 oslo_concurrency

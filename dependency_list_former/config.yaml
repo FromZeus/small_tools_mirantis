@@ -1,2 +1,4 @@
-PyFilePath: "/home/dtrishkin/workspace/bugs/del_it/horizon/openstack_dashboard/settings.py"
-StartDirPath: "/home/dtrishkin/workspace/bugs/del_it/horizon"
+# PyFilePath: "/home/dtrishkin/workspace/bugs/del_it/horizon/openstack_dashboard/settings.py"
+# StartDirPath: "/home/dtrishkin/workspace/bugs/del_it/horizon"
+PyFilePath: "/home/s-quark/Desktop/horizon/openstack_dashboard/settings.py"
+StartDirPath: "/home/s-quark/Desktop/horizon"
