@@ -15,5 +15,5 @@ python form.py -c `config.yaml`_
 config.yaml
 ^^^^^^^^^^^
 
- * PyFilePath - location of .py file which will be processed
- * StartDirPath - location of directory from which processing .py file will be started
+* PyFilePath - location of .py file which will be processed
+* StartDirPath - location of directory from which .py file will be started
