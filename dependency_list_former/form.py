@@ -59,6 +59,9 @@ def get_all_imports(text):
 def extract_module(from_module, imp_module, init_dir_tree, cur_dir):
   imp_module_start = re_to_dot.search(imp_module).group(0)
   imp_module_end = imp_module[len(imp_module_start) + 1:]
+  if imp_module == "*":
+    return ["{0}/{1}".format(cur_dir, el) \
+      for el in list_only_endswith(cur_dir, ".py")]
   if from_module:
     from_module_start = re_to_dot.search(from_module).group(0)
     from_module_end = from_module[len(from_module_start) + 1:]
@@ -66,24 +69,29 @@ def extract_module(from_module, imp_module, init_dir_tree, cur_dir):
       if from_module_start in key:
         return extract_module(from_module_end, imp_module, tree, key)
     if in_pyes(from_module_start, cur_dir):
-      return "{0}/{1}.py".format(cur_dir, from_module_start)
+      return ["{0}/{1}.py".format(cur_dir, from_module_start)]
     else:
       return from_module
   else:
     for key, tree in init_dir_tree.iteritems():
       if imp_module_start in key:
         if not imp_module_end:
-          return "{0}/{1}.py".format(cur_dir, "__init__")
+          return ["{0}/{1}.py".format(cur_dir, "__init__")]
         return extract_module(from_module, imp_module_end, tree, key)
     if in_pyes(imp_module_start, cur_dir):
-      return "{0}/{1}.py".format(cur_dir, imp_module_start)
+      return ["{0}/{1}.py".format(cur_dir, imp_module_start)]
     else:
       return imp_module
 
 
-def in_pyes(module, path):
+def list_only_endswith(path, ends):
   files = listdir(path)
-  py_files = [el for el in files if el.endswith(".py")]
+  py_files = [el for el in files if el.endswith(ends)]
+  return py_files
+
+
+def in_pyes(module, path):
+  py_files = list_only_endswith(path, ".py")
   if module in ",".join(py_files):
     return True
   else:
@@ -104,8 +112,9 @@ def parse_py(py_path, dir_path, init_dir_tree):
         from_module = ""
       extracted = extract_module(
         from_module, imp_module, init_dir_tree, dir_path)
-      if "/" in extracted:
-        modules |= parse_py(extracted, dir_path, init_dir_tree)
+      if isinstance(extracted, list):
+        for el in extracted:
+          modules |= parse_py(el, dir_path, init_dir_tree)
       else:
         modules.add(extracted)
   return modules
