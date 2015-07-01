@@ -25,7 +25,7 @@ def main():
     conf = open(args.config, 'r')
     tempConf = yaml.load_all(conf)
 
-    pdb.set_trace()
+    #pdb.set_trace()
 
     for line in tempConf:
       py_file_path = line["PyFilePath"]
