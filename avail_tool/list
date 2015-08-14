@@ -1,0 +1,9 @@
+python3-nose
+python3-sphinx
+python3-cffi
+python3-cryptography-vectors
+python3-idna
+python3-iso8601
+python3-pretend
+python3-pyasn1
+python3-crypto
