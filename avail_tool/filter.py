@@ -11,19 +11,21 @@ args = parser.parse_args()
 
 pdb.set_trace()
 
-def check(pack_seq):
-  bashCommand = "yum search {0}".format(pack_seq[0])
+def check(pkg_seq):
+  pkg_name = pkg_seq[0] type(pkg_seq) is tuple else pkg_seq
+
+  bashCommand = "yum search {0}".format(pkg_name)
   process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
   result = process.communicate()[0]
 
-  if type(pack_seq) is tuple:
+  if type(pkg_seq) is tuple:
     if result:
-      return list(pack_seq[0], check(pack_seq[1]))
+      return list(pkg_name, check(pkg_seq[1]))
     else:
-      return check(pack_seq[1])
+      return check(pkg_seq[1])
   else:
     if result:
-      return list(pack_seq)
+      return list(pkg_name)
 
 def main():
   try:
