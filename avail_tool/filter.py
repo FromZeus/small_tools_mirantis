@@ -20,12 +20,12 @@ def check(pkg_seq):
 
   if type(pkg_seq) is tuple:
     if result:
-      return list(pkg_name, check(pkg_seq[1]))
+      return "\n".join(pkg_name, check(pkg_seq[1]))
     else:
       return check(pkg_seq[1])
   else:
     if result:
-      return list(pkg_name)
+      return "\n".join(pkg_name)
 
 def main():
   try:
