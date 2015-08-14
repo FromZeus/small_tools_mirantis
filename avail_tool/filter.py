@@ -11,21 +11,18 @@ args = parser.parse_args()
 
 pdb.set_trace()
 
-def check(pkg_seq):
+def check(pkg_seq, is_missed):
   pkg_name = pkg_seq[0] if type(pkg_seq) is tuple else pkg_seq
 
   bashCommand = "yum search {0}".format(pkg_name)
   process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
   result = process.communicate()[0]
 
+  end_res = []
   if type(pkg_seq) is tuple:
-    if result:
-      return [pkg_name] + check(pkg_seq[1])
-    else:
-      return check(pkg_seq[1])
-  else:
-    if result:
-      return [pkg_name]
+    end_res = check(pkg_seq[1], is_missed)
+  if (result and !is_missed) or (!result and is_missed):
+    return [pkg_name] + end_res
 
 def main():
   try:
@@ -34,6 +31,7 @@ def main():
 
     for line in tempConf:
       list_path = line["ListPath"]
+      is_missed = line["Missed"]
 
     pack_list_file = open(list_path, "r+")
     pack_list = json.load(pack_list_file)
@@ -41,7 +39,7 @@ def main():
     filtered = set()
 
     for el in pack_list:
-      result = check(el)
+      result = check(el, is_missed)
       if result:
         for el1 in result:
           filtered.add(el1)
@@ -49,7 +47,7 @@ def main():
     sorted(filtered)
     with open("output", "w") as out:
       for el in filtered:
-        out.write(el)
+        out.writeline(el)
 
   except KeyboardInterrupt:
     print '\nThe process was interrupted by the user'
