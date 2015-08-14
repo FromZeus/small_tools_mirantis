@@ -12,7 +12,7 @@ args = parser.parse_args()
 pdb.set_trace()
 
 def check(pkg_seq):
-  pkg_name = pkg_seq[0] type(pkg_seq) is tuple else pkg_seq
+  pkg_name = pkg_seq[0] if type(pkg_seq) is tuple else pkg_seq
 
   bashCommand = "yum search {0}".format(pkg_name)
   process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
