@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')
 args = parser.parse_args()
 
-#pdb.set_trace()
+pdb.set_trace()
 
 def check(pack_seq):
   bashCommand = "yum search {0}".format(pack_seq[0])
