@@ -16,11 +16,14 @@ def check(pack_seq):
   process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
   result = process.communicate()[0]
 
-  if pack_seq[1]:
+  if type(pack_seq) is tuple:
     if result:
       return list(pack_seq[0], check(pack_seq[1]))
     else:
       return check(pack_seq[1])
+  else:
+    if result:
+      return list(pack_seq)
 
 def main():
   try:
