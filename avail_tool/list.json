@@ -1,4 +1,5 @@
 {
 	"python-nose":{"python3-nose":{}},
-	"python-sphinx":{}
+	"python-sphinx":{},
+	"python3-idna":{}
 }
