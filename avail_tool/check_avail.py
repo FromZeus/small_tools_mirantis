@@ -4,7 +4,6 @@ import argparse
 import pdb
 import yaml
 import json
-import report
 from treelib import Node, Tree
 from email.utils import formatdate
 
