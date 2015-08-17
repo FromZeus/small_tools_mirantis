@@ -55,7 +55,10 @@ def main():
     tree = Tree()
     tree.create_node(cur_time, "root")
     generate_tree(checked, tree, "root")
+
+    print "\n"
     tree.show()
+    print "\n"
 
     #filtered = list(checked.keys())
     #sorted(filtered)
