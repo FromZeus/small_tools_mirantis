@@ -26,10 +26,14 @@ def check(pkg_lst, write_missed):
       stdout=subprocess.PIPE)
     result = process.communicate()[0]
 
-    if result:
+    found = False if "No matches found" in result else True
+    if write_missed:
+      pkg_name = "{0} is Missed".format(pkg_name)
+    if found or write_missed:
       checked[pkg_name] = check(el[1], write_missed)
 
   return checked
+
 
 def generate_tree(pkgs, tree, pred):
   #rst_out_file = open("report.rst", "w")
