@@ -4,6 +4,11 @@ import argparse
 import pdb
 import yaml
 import json
+import report
+from treelib import Node, Tree
+from email.utils import formatdate
+
+cur_time = formatdate(timeval=None, localtime=True)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')
@@ -11,22 +16,27 @@ args = parser.parse_args()
 
 pdb.set_trace()
 
-def check(pkg_seq, is_missed):
-  pkg_name = pkg_seq[0] if type(pkg_seq) is tuple else pkg_seq
+def check(pkg_lst, write_missed):
+  checked = dict()
 
-  bashCommand = "yum search {0}".format(pkg_name)
-  process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
-  result = process.communicate()[0]
+  for el in pkg_lst.iteritems():
+    pkg_name = el[0]
+    bashCommand = "yum search {0}".format(pkg_name)
+    process = subprocess.Popen(bashCommand.split(),
+      stdout=subprocess.PIPE)
+    result = process.communicate()[0]
 
-  end_res = []
-  checked = (result and not is_missed) or (not result and is_missed)
-  if pkg_seq[1]:
-    end_res = check(pkg_seq[1], is_missed)
-    if checked and end_res:
-      return [pkg_name] + end_res
-  else:
-    if checked:
-      return [pkg_name]
+    if result:
+      checked[pkg_name] = check(el[1])
+
+  return checked
+
+def generate_tree(pkgs, tree, pred):
+  #rst_out_file = open("report.rst", "w")
+  for el in pkgs.iteritems():
+    pkg_name = el[0]
+    tree.create_node(pkg_name, pkg_name, parent = pred)
+    generate_tree(el[1], tree, pkg_name)
 
 def main():
   try:
@@ -35,23 +45,24 @@ def main():
 
     for line in tempConf:
       list_path = line["ListPath"]
-      is_missed = line["Missed"]
+      write_missed = line["WriteMissed"]
 
     pack_list_file = open(list_path, "r+")
     pack_list = json.load(pack_list_file)
 
-    filtered = set()
+    checked = check(pack_list, write_missed)
 
-    for el in pack_list.iteritems():
-      result = check(el, is_missed)
-      if result:
-        for el1 in result:
-          filtered.add(el1)
+    tree = Tree()
+    tree.create_node(cur_time, "root")
+    generate_tree(checked, tree, "root")
+    tree.show()
 
-    sorted(filtered)
-    with open("output", "w") as out:
-      for el in filtered:
-        out.writeline(el)
+    #filtered = list(checked.keys())
+    #sorted(filtered)
+
+    #with open("output", "w") as out:
+    #  for el in filtered:
+    #    out.writeline(el)
 
   except KeyboardInterrupt:
     print '\nThe process was interrupted by the user'
