@@ -27,7 +27,7 @@ def check(pkg_lst, write_missed):
     result = process.communicate()[0]
 
     if result:
-      checked[pkg_name] = check(el[1])
+      checked[pkg_name] = check(el[1], write_missed)
 
   return checked
 
