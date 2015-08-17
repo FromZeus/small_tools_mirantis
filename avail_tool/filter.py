@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')
 args = parser.parse_args()
 
-pdb.set_trace()
+#pdb.set_trace()
 
 def check(pkg_lst, write_missed):
   checked = dict()
