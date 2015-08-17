@@ -21,7 +21,7 @@ def check(pkg_seq, is_missed):
   end_res = []
   checked = (result and not is_missed) or (not result and is_missed)
   if type(pkg_seq) is tuple:
-    end_res = check(pkg_seq, is_missed)
+    end_res = check(pkg_seq[1], is_missed)
     if checked and end_res:
       return [pkg_name] + end_res
   else:
