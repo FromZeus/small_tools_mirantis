@@ -42,7 +42,7 @@ def main():
 
     filtered = set()
 
-    for el in pack_list:
+    for el in pack_list.iteritems():
       result = check(el, is_missed)
       if result:
         for el1 in result:
