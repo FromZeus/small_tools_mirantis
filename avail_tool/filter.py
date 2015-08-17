@@ -27,7 +27,7 @@ def check(pkg_lst, write_missed):
     result = process.communicate()[0]
 
     found = False if "No matches found" in result else True
-    if write_missed:
+    if write_missed and not found:
       pkg_name = "{0} is Missed".format(pkg_name)
     if found or write_missed:
       checked[pkg_name] = check(el[1], write_missed)
