@@ -7,7 +7,7 @@ Description
 
 This utility is designed for checking if packages with 
 their dependencies is in reposytories. At this moment only 
-"yum".
+"yum". This tool could be used when you need to check packets in a list of repositoryes. Just add your repos before run script.
 
 How to use
 ----------
