@@ -1,7 +1,7 @@
 import sys
 import subprocess
 import argparse
-import pdb
+#import pdb
 import yaml
 import json
 from treelib import Node, Tree
@@ -35,7 +35,6 @@ def check(pkg_lst, write_missed):
 
 
 def generate_tree(pkgs, tree, pred):
-  #rst_out_file = open("report.rst", "w")
   for el in pkgs.iteritems():
     pkg_name = el[0]
     tree.create_node(pkg_name, pkg_name, parent = pred)
@@ -62,13 +61,6 @@ def main():
     print "\n"
     tree.show()
     print "\n"
-
-    #filtered = list(checked.keys())
-    #sorted(filtered)
-
-    #with open("output", "w") as out:
-    #  for el in filtered:
-    #    out.writeline(el)
 
   except KeyboardInterrupt:
     print '\nThe process was interrupted by the user'

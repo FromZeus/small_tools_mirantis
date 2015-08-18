@@ -1,0 +1,7 @@
+requests
+itertools
+distutils
+re
+argparse
+yaml
+json

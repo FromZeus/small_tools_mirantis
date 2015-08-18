@@ -3,7 +3,7 @@ import require_utils
 import argparse
 import yaml
 import json
-import pdb
+#import pdb
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')

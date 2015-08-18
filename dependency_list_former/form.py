@@ -3,7 +3,7 @@ import re
 import yaml
 from os import listdir
 from os.path import join, isdir, abspath
-import pdb
+#import pdb
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')
