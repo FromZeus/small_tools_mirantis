@@ -1,5 +1,5 @@
 Login: "dtrishkin@mirantis.com"
-Password: "3393YEShq27ops"
+Password: ""
 Branch:  openstack-ci/fuel-7.0/2015.1.0 #"openstack-ci/fuel-7.0/2015.1.0" #"openstack-ci/fuel-7.0/2014.2" #"openstack-ci/fuel-6.1/2014.2" #6.1 #7.0
 RepoNames: True # Repo name before list of it dependencies
 IgnoreUnknown: True # Ignore unknown packages with "python-" prefix

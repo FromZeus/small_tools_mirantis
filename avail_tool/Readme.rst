@@ -1,6 +1,6 @@
-======================
-Availability checker
-======================
+====================
+Availability Checker
+====================
 
 Description
 -----------
