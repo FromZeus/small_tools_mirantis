@@ -1,6 +1,31 @@
 Login: "dtrishkin@mirantis.com"
 Password: ""
-GlobalList: False # If this is "True" then output will contain united set of all required packages
+GlobalList: True # If this is "True" then output will contain united set of all required packages
 URLs: [["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/147/console", "os-apply-config-build"],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/148/console", "os-cloud-config-build"]]
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/148/console", "os-cloud-config-build"],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/149/console", ""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/167/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/113/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/100/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/234/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/235/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/168/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/165/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/108/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/196/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/177/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/103/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/102/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/149/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/187/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/105/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/132/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/225/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/156/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/150/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/202/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/141/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/146/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/74/console",""],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/22/console",""]]
 # URLs with names
