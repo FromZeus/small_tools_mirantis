@@ -57,12 +57,12 @@ def main():
       else:
         output.write("**{0}**\n".format(url[1]))
         required = check_req_err(page)
-        sorted(required)
+        required = sorted(required)
         for pack in required:
           output.write("{0}\n".format(pack))
         output.write("\n")
 
-    sorted(result)
+    result = sorted(result)
     for pack in result:
       output.write("{0}\n".format(pack))
 
