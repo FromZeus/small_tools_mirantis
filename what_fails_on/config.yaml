@@ -1,0 +1,6 @@
+Login: "dtrishkin@mirantis.com"
+Password: "3393YEShq27opsops"
+GlobalList: False # If this is "True" then output will contain united set of all required packages
+URLs: [["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/147/console", "os-apply-config-build"],
+["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/148/console", "os-cloud-config-build"]]
+# URLs with names
