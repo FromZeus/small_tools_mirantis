@@ -25,7 +25,6 @@ def check_req_err(page):
     else:
       if err:
         if "Requires:" in line:
-          #pack_name = re.sub("\s", "", line) 
           pack_name = re.sub("Requires:", "", line)
           pack_name = re_package_name.search(pack_name).group(0)
           required.add(pack_name)
