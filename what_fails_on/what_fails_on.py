@@ -10,15 +10,18 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--config', dest='config', help='Configuration YAML')
 args = parser.parse_args()
 
-re_package_name = re.compile("[a-zA-Z0-9-_.]+")
+re_package_name = re.compile("[a-zA-Z0-9-_.()]+")
 
 def check_req_err(page):
   required = set()
   err = False
+  no_pack = "No Package found for"
   for line in page:
-    if "Error: No Package found for" in line:
-      pack_name = re.sub("Error: No Package found for", "", line)
+    if no_pack in line:
+      idx = line.index(no_pack)
+      pack_name = line[idx + len(no_pack):]
       pack_name = re_package_name.search(pack_name).group(0)
+      required.add(pack_name)
     else:
       if err:
         if "Requires:" in line:
@@ -27,7 +30,7 @@ def check_req_err(page):
           pack_name = re_package_name.search(pack_name).group(0)
           required.add(pack_name)
       err = False
-      if "Error:" in line:
+      if "Error: Package:" in line:
         err = True
   return required
 
