@@ -1,43 +1,123 @@
-Login: "dtrishkin@mirantis.com"
-Password: ""
-GlobalList: True # If this is "True" then output will contain united set of all required packages
-URLs: [["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/147/console", "os-apply-config-build"],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/148/console", "os-cloud-config-build"],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/149/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/167/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/113/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/100/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/234/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/235/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/168/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/165/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/108/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/196/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/177/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/103/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/102/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/149/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/187/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/105/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/132/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/225/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/156/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/150/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/202/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/141/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/146/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/74/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/22/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/170/console",""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/201/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/215/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/205/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/219/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/220/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/185/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/229/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/88/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/213/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/206/console", ""],
-["http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/170/console", ""]]
-# URLs with names
+---
+Login: mivanov@mirantis.com
+Password: ''
+GlobalList: true
+URLs:
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/251/consoleFull
+  - python-paramiko
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/249/consoleFull
+  - python-netifaces
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/248/consoleFull
+  - python-netaddr
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/247/consoleFull
+  - python-mysqldb
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/246/consoleFull
+  - python-msgpack
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/245/consoleFull
+  - python-migrate
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/244/consoleFull
+  - python-kombu
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/243/consoleFull
+  - python-libvirt
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/241/consoleFull
+  - python-httpretty
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/240/consoleFull
+  - python-eventlet
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/239/consoleFull
+  - python-flake8
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/188/consoleFull
+  - python-aioeventlet
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/187/consoleFull
+  - python-hacking
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/116/consoleFull
+  - python-ldappool
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/235/consoleFull
+  - python-automaton
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/234/consoleFull
+  - python-autobahn
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/185/consoleFull
+  - python-pycadf
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/229/consoleFull
+  - python-rtslib
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/225/consoleFull
+  - python-pillow
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/220/consoleFull
+  - python-docker
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/143/consoleFull
+  - python-pyeclib
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/219/consoleFull
+  - python-django-horizon
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/215/consoleFull
+  - python-barbicanclient
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/213/consoleFull
+  - python-taskflow
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/206/consoleFull
+  - python-tooz
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/205/consoleFull
+  - python-cliff
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/202/consoleFull
+  - python-redis
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/201/consoleFull
+  - python-alembic
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/170/consoleFull
+  - python-yaql
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/168/consoleFull
+  - python-botocore
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/167/consoleFull
+  - python-pykmip
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/165/consoleFull
+  - python-cassandra-driver
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/196/consoleFull
+  - python-cryptography
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/156/consoleFull
+  - python-pyngus
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/177/consoleFull
+  - python-debtcollector
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/149/consoleFull
+  - python-futurist
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/150/consoleFull
+  - python-pysaml2
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/124/consoleFull
+  - task
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/132/consoleFull
+  - python-kazoo
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/146/consoleFull
+  - python-tempest-lib
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/128/consoleFull
+  - python-tasklib
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/132/consoleFull
+  - python-pyscss
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/108/consoleFull
+  - python-cmd2
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/105/consoleFull
+  - python-happybase
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/103/consoleFull
+  - python-dnspython
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/102/consoleFull
+  - python-elasticsearch
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/100/consoleFull
+  - python-amqp
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/105/consoleFull
+  - python-sphinxcontrib-pecanwsme
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/37/consoleFull
+  - python-testtools
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/95/consoleFull
+  - python-mimeparse
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/91/consoleFull
+  - python-extras
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/50/consoleFull
+  - python-rfc3986
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/47/consoleFull
+  - python-unittest2
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/16/consoleFull
+  - python-trollius
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/88/consoleFull
+  - python-six
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/44/consoleFull
+  - python-xstatic-spin
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/31/consoleFull
+  - python-xstatic-jquery-ui
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/22/consoleFull
+  - python-xstatic-bootstrap-scss
+- - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.install-rpm/15/consoleFull
+  - python-xstatic-angular-bootstrap

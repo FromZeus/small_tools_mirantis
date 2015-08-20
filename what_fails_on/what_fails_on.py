@@ -35,7 +35,7 @@ def check_req_err(page):
 
 
 def main():
-  #pdb.set_trace()
+ # pdb.set_trace()
   try:
     conf = open(args.config, 'r')
     tempConf = yaml.load_all(conf)
@@ -52,17 +52,20 @@ def main():
     result = set()
 
     for url in urls:
-      page = lan.get_requirements_from_url(url[0], gerrit_account)
+      try:
+        page = lan.get_requirements_from_url(url[0], gerrit_account)
 
-      if global_list:
-        result |= check_req_err(page)
-      else:
-        output.write("**{0}**\n".format(url[1]))
-        required = check_req_err(page)
-        required = sorted(required)
-        for pack in required:
-          output.write("{0}\n".format(pack))
-        output.write("\n")
+        if global_list:
+          result |= check_req_err(page)
+        else:
+          output.write("**{0}**\n".format(url[1]))
+          required = check_req_err(page)
+          required = sorted(required)
+          for pack in required:
+            output.write("{0}\n".format(pack))
+          output.write("\n")
+      except KeyError:
+        pass
 
     result = sorted(result)
     for pack in result:
