@@ -1,0 +1,1 @@
+ruby gerrit.rb & python what_fails_on.py -c config.yaml

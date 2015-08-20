@@ -1,6 +1,6 @@
 ---
-Login: mivanov@mirantis.com
-Password: ''
+Login: dtrishkin@mirantis.com
+Password: ""
 GlobalList: true
 URLs:
 - - http://osci-jenkins.srt.mirantis.net:8080/job/master.mos.build-rpm-deps-request/251/consoleFull
