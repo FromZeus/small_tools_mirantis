@@ -10,7 +10,12 @@ This utility is designed for scanning console output of jenkins jobs by subject 
 How to use
 ----------
 
-python what_fails_on.py -c `config.yaml`_
+./`what_fails_on.sh`_
+
+what_fails_on.sh
+^^^^^^^^^^^^^^^^
+This file contains:
+ruby gerrit.rb & python what_fails_on.py -c `config.yaml`_
 
 config.yaml
 ^^^^^^^^^^^
