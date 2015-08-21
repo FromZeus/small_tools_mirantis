@@ -24,8 +24,7 @@ def check_req_err(page):
       pack_name = re_package_name.search(pack_name).group(0)
       required.add(pack_name)
     else:
-      if err:
-        if requires in line:
+      if err and requires in line:
           idx = line.index(requires)
           pack_name = line[idx + len(requires):]
           pack_name = re_package_name.search(pack_name).group(0)
