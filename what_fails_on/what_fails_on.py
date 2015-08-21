@@ -16,6 +16,7 @@ def check_req_err(page):
   required = set()
   err = False
   no_pack = "No Package found for"
+  req_pack = "Requires:"
   for line in page:
     if no_pack in line:
       idx = line.index(no_pack)
@@ -24,8 +25,9 @@ def check_req_err(page):
       required.add(pack_name)
     else:
       if err:
-        if "Requires:" in line:
-          pack_name = re.sub("Requires:", "", line)
+        if req_pack in line:
+          idx = line.index(req_pack)
+          pack_name = line[idx + len(req_pack):]
           pack_name = re_package_name.search(pack_name).group(0)
           required.add(pack_name)
       err = False
