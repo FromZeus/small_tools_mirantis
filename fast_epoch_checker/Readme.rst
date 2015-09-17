@@ -16,4 +16,4 @@ config.yaml
 ^^^^^^^^^^^
 
 * Username - Your github login
-* Password - Your github e-mail
+* Password - Your github password
