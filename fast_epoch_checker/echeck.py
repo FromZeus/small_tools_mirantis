@@ -6,7 +6,7 @@ import base64
 import yaml
 import argparse
 
-re_spec = re.compile("[a-zA-Z0-9-_]+.spec")
+re_spec = re.compile("[a-zA-Z0-9-_]+\.spec")
 re_epoch = re.compile("\d+")
 
 
