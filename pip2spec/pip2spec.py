@@ -47,7 +47,7 @@ def main():
     requirements = require_utils.Require.parse_req(req_file)
     req_file.close()
     compared = dict()
-    
+
     p = subprocess.Popen(['yum', 'list'], stdout=subprocess.PIPE,
       stderr=subprocess.PIPE)
     out, err = p.communicate()
