@@ -7,6 +7,7 @@ import getpass
 import glob
 import json
 import lan
+import os
 import re
 import readline
 
@@ -44,6 +45,10 @@ req_url_spec = ['https://review.fuel-infra.org/gitweb?'
                 'f=centos7/rpm/SPECS/python-django-{0}.spec;hb=refs/heads/{1}']
 
 oslo_req_url_spec = ['https://review.fuel-infra.org/gitweb?'
+                     'p=openstack-build/{0}-build.git;a=blob_plain;'
+                     'f=rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}',
+
+                     'https://review.fuel-infra.org/gitweb?'
                      'p=openstack-build/{0}-build.git;a=blob_plain;'
                      'f=centos7/rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}']
 
@@ -132,7 +137,7 @@ def main():
                 elif branch_name == '6.0.1':
                     branch = 'openstack-ci/fuel-6.0.1/2014.2'
 
-    file_name = raw_input('Specify the name of files with projects: ')
+    file_name = os.path.abspath(raw_input('Specify the name of files with projects: '))
 
     with open('spec-base.json', 'r') as spec_json:
         json_spec = json.load(spec_json)
@@ -150,7 +155,7 @@ def main():
             req_file = lan.get_requirements_from_url(
                 'https://review.fuel-infra.org/gitweb?p=openstack/{0}.git;'
                 'a=blob_plain;f=requirements.txt;'
-                'hb=refs/heads/master'.format(project), gerrit)
+                'hb=refs/heads/{1}'.format(project, branch), gerrit)
 
         except KeyError:
             print project + " doesn't have requirements.txt"+'\n'*3
@@ -231,7 +236,8 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except IOError:
-        print 'Sorry, no such file or directory!'
+    except IOError as e:
+        print e
+    #    print 'Sorry, no such file or directory!'
     except KeyboardInterrupt:
         print '\n' + 'Interrupted by user'
