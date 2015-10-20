@@ -168,7 +168,6 @@
     "python-oslotest":"os-testr",
     "python-osprofiler":"osprofiler",
     "python-paramiko":"paramiko",
-    "python-parse":"argparse",
     "python-passlib":"passlib",
     "python-paste":"bashate",
     "python-paste-deploy":"PasteDeploy",

@@ -49,7 +49,6 @@
     "anyjson":"python-anyjson",
     "appdirs":"python-appindicator",
     "argcomplete":"python-argcomplete",
-    "argparse":"python-parse",
     "automaton":"python-automaton",
     "bandit":"python-subunit",
     "bashate":"python-paste",
