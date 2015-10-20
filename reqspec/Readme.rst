@@ -26,11 +26,11 @@ config.yaml
 arguments
 ^^^^^^^^^
 
-* '-rf', '--requirements' - Path to requirements.txt file of project
-* '-sf', '--spec' - Path to .spec file of project
-* '-ps', '--pipspec' - Path to pip-spec.json library file
-* '-sp', '--specpip' - Path to spec-pip.json library file
-* '-c', '--config' - Run with config
-* '-m', '--missed' - True to show missed requirements
-* '-e', '--extra' - True to show extra requirements
-* '-cb','--cutbounds' - List of bounds which will be cutted while update
+* -rf, --requirements - Path to requirements.txt file of project
+* -sf, --spec - Path to .spec file of project
+* -ps, --pipspec - Path to pip-spec.json library file
+* -sp, --specpip - Path to spec-pip.json library file
+* -c, --config - Run with config
+* -m, --missed - True to show missed requirements
+* -e, --extra - True to show extra requirements
+* -cb, --cutbounds - List of bounds which will be cutted while update
