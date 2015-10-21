@@ -44,13 +44,15 @@ req_url_spec = ['https://review.fuel-infra.org/gitweb?'
                 'p=openstack-build/{0}-build.git;a=blob_plain;'
                 'f=centos7/rpm/SPECS/python-django-{0}.spec;hb=refs/heads/{1}']
 
-oslo_req_url_spec = ['https://review.fuel-infra.org/gitweb?'
-                     'p=openstack-build/{0}-build.git;a=blob_plain;'
-                     'f=rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}',
+#oslo_req_url_spec = ['https://review.fuel-infra.org/gitweb?'
+#                     'p=openstack-build/{0}-build.git;a=blob_plain;'
+#                     'f=rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}',
+#
+#                     'https://review.fuel-infra.org/gitweb?'
+#                     'p=openstack-build/{0}-build.git;a=blob_plain;'
+#                     'f=centos7/rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}']
 
-                     'https://review.fuel-infra.org/gitweb?'
-                     'p=openstack-build/{0}-build.git;a=blob_plain;'
-                     'f=centos7/rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}']
+oslo_req_url_spec = 'https://review.fuel-infra.org/gitweb?p=openstack-build/{0}-build.git;a=blob_plain;f=centos7/rpm/SPECS/python-{1}.spec;hb=refs/heads/{2}'
 
 exceptions = ['httpd',
               'mod_wsgi',
@@ -113,29 +115,30 @@ def forming_project_list(filename):
 def main():
     branch_name = ''
 
-    launchpad_login = raw_input('Enter your launchpad login: ')
-    launchpad_password = getpass.getpass('Enter your launchpad password: ')
+    launchpad_login = 'mivanov@mirantis.com'#raw_input('Enter your launchpad login: ')
+    launchpad_password = '16121814'#getpass.getpass('Enter your launchpad password: ')
 
     gerrit = lan.login_to_launchpad(launchpad_login, launchpad_password)
 
-    while branch_name.lower() not in ['master', '8.0', '7.0', '6.1', '6.0.1']:
-                branch_name = raw_input(
-                    'At the what branch we should check requirements? ')
+    branch = 'master'
+    #while branch_name.lower() not in ['master', '8.0', '7.0', '6.1', '6.0.1']:
+                #branch_name = raw_input(
+                #    'At the what branch we should check requirements? ')
 
-                if branch_name == 'master':
-                    branch = 'master'
+                #if branch_name == 'master':
+                #    branch = 'master'
 
-                elif branch_name == '8.0':
-                    branch = 'openstack-ci/fuel-8.0/liberty'
+                #elif branch_name == '8.0':
+                #    branch = 'openstack-ci/fuel-8.0/liberty'
 
-                elif branch_name == '6.1':
-                    branch = 'openstack-ci/fuel-7.0/2015.1.0'
+                #elif branch_name == '6.1':
+                #    branch = 'openstack-ci/fuel-7.0/2015.1.0'
 
-                elif branch_name == '6.1':
-                    branch = 'openstack-ci/fuel-6.1/2014.2'
+                #elif branch_name == '6.1':
+                #    branch = 'openstack-ci/fuel-6.1/2014.2'
 
-                elif branch_name == '6.0.1':
-                    branch = 'openstack-ci/fuel-6.0.1/2014.2'
+                #elif branch_name == '6.0.1':
+                #    branch = 'openstack-ci/fuel-6.0.1/2014.2'
 
     file_name = os.path.abspath(raw_input('Specify the name of files with projects: '))
 
@@ -172,13 +175,9 @@ def main():
 
             try:
                 spec_file = lan.get_requirements_from_url(
-                    oslo_req_url_spec[0].format(
-                        project, oslo_project, branch), gerrit)
-
-            except KeyError:
-                spec_file = lan.get_requirements_from_url(
-                    oslo_req_url_spec[0].format(project, project, branch),
-                    gerrit)
+                    oslo_req_url_spec.format(project, oslo_project, branch), gerrit)
+	    except KeyError:
+                spec_file = lan.get_requirements_from_url(oslo_req_url_spec.format(project, project, branch), gerrit)
 
         else:
             idx = 0
