@@ -22,7 +22,7 @@ def get_compare(pip_pack, rpm_pack_list):
     name = new_name = "{0}".format(el)
     if name.startswith("python-"):
       new_name = re.sub("python-", "", name)
-    ratio = fuzz.ratio(pip_pack, new_name)
+    ratio = fuzz.token_sort_ratio(pip_pack, new_name)
     if ratio > max_ratio:
       max_ratio = ratio
       result = name
