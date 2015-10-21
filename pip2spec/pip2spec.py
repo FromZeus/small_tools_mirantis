@@ -17,13 +17,13 @@ first_in_yum_list = re.compile("^[\S]+")
 
 def get_compare(pip_pack, rpm_pack_list):
   result = ""
-  max_ratio = 0
+  max_ratio = 0.0
+  new_pip_name = re.sub("python-|-python", "", pip_pack)
   for el in rpm_pack_list:
     name = new_name = "{0}".format(el)
-    if name.startswith("python-"):
-      new_name = re.sub("python-", "", name)
-    ratio = fuzz.token_sort_ratio(pip_pack, new_name)
-    if ratio > max_ratio:
+    new_name = re.sub("python-|-python", "", name)
+    ratio = (fuzz.token_set_ratio(new_pip_name, new_name) + fuzz.token_sort_ratio(new_pip_name, new_name)) / 2.0
+    if ratio > max_ratio or (name.startswith("python-") and ratio > (max_ratio - 0.2)):
       max_ratio = ratio
       result = name
   return (pip_pack, result, max_ratio)
@@ -43,7 +43,7 @@ def post_process(compared):
   for val in values:
     keys = search_by_val(val, compared)
     if len(keys) > 1:
-      val_key = get_compare(re.sub("python-", "", val), keys)
+      val_key = get_compare(val, keys)
       new_compared[val_key[1]] = val
     else:
       new_compared[keys[0]] = val
