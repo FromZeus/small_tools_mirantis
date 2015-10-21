@@ -10,7 +10,7 @@ This utility is designed for comparing pip based dependencies against spec based
 How to use
 ----------
 
-python pip2spec.py -f `requirements.txt`_
+python pip2spec.py -rf `requirements.txt`_
 
 requirements.txt
 ^^^^^^^^^^^^^^^^

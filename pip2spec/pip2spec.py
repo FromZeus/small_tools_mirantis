@@ -8,7 +8,7 @@ import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
-  '-f', '--file', dest='config', help='Path to requirements.txt file')
+  '-rf', '--requirements', dest='req', help='Path to requirements.txt file', required=True)
 args = parser.parse_args()
 
 after_last_dot = re.compile("\..*$")
@@ -19,14 +19,35 @@ def get_compare(pip_pack, rpm_pack_list):
   result = ""
   max_ratio = 0
   for el in rpm_pack_list:
-    name = "{0}".format(el)
+    name = new_name = "{0}".format(el)
     if name.startswith("python-"):
       new_name = re.sub("python-", "", name)
-      ratio = fuzz.ratio(pip_pack, new_name)
-      if ratio > max_ratio:
-        max_ratio = ratio
-        result = name
-  return (pip_pack, result)
+    ratio = fuzz.token_sort_ratio(pip_pack, new_name)
+    if ratio > max_ratio:
+      max_ratio = ratio
+      result = name
+  return (pip_pack, result, max_ratio)
+
+
+def search_by_val(val, dict_for_search):
+  result = list()
+  for key, value in dict_for_search.iteritems():
+    if value == val:
+      result.append(key)
+  return result
+
+
+def post_process(compared):
+  values = list(set(compared.values()))
+  new_compared = dict()
+  for val in values:
+    keys = search_by_val(val, compared)
+    if len(keys) > 1:
+      val_key = get_compare(re.sub("python-", "", val), keys)
+      new_compared[val_key[1]] = val
+    else:
+      new_compared[keys[0]] = val
+  return new_compared
 
 
 def process_yum_list(yum_list):
@@ -43,7 +64,7 @@ def process_yum_list(yum_list):
 def main():
   try:
     #pdb.set_trace()
-    req_file = open(args.config, 'r')
+    req_file = open(args.req, 'r')
     requirements = require_utils.Require.parse_req(req_file)
     req_file.close()
     compared = dict()
@@ -55,6 +76,8 @@ def main():
     for el in requirements.keys():
       comp = get_compare(el, process_yum_list(out.split('\n')))
       compared[comp[0]] = comp[1]
+
+    compared = post_process(compared)
 
     with open("pip-spec.json", "w+") as output_json:
       json.dump(compared, output_json, indent=4, sort_keys=True, separators=(',', ':'))

@@ -1,0 +1,14 @@
+# requirements.txt file path
+Requirements: "requirements.txt"
+# .spec file path
+Spec: "python-stevedore.spec"
+# pip-spec.json library file path
+PipSpec: "pip-spec.json"
+# spec-pip.json library file path
+SpecPip: "spec-pip.json"
+# List missed requirements
+Missed: True
+# List extra requirements (maybe obsolete)
+Extra: True
+# List of bounds which will be cutted while update
+CutBounds: ["<", ">", "!=", "<="]
