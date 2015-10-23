@@ -5,7 +5,7 @@ reqspec
 Description
 -----------
 
-This utility is designed for updating requirements in "Requires" sections of .spec files. Also highlight of missed or extra dependencies could be switch on.
+This utility is designed for updating requirements in "Requires" sections of .spec files. Also highlighting of missed or extra dependencies could be switch on.
 
 How to use
 ----------
