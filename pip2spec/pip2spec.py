@@ -1,7 +1,7 @@
 import argparse
 import require_utils
 import re
-import pdb
+#import pdb
 from fuzzywuzzy import fuzz
 import subprocess
 import json
@@ -18,12 +18,14 @@ first_in_yum_list = re.compile("^[\S]+")
 def get_compare(pip_pack, rpm_pack_list):
   result = ""
   max_ratio = 0.0
-  new_pip_name = re.sub("python-|-python", "", pip_pack)
+  new_pip_name = re.sub("python-|-python|python2-|-python2", "", pip_pack).lower()
   for el in rpm_pack_list:
     name = new_name = "{0}".format(el)
-    new_name = re.sub("python-|-python", "", name)
-    ratio = (fuzz.token_set_ratio(new_pip_name, new_name) + fuzz.token_sort_ratio(new_pip_name, new_name)) / 2.0
-    if ratio > max_ratio or (name.startswith("python-") and ratio > (max_ratio - 0.2)):
+    new_name = new_name.lower()
+    new_name = re.sub("python-|-python|python2-|-python2", "", new_name)
+    ratio = (fuzz.token_set_ratio(new_pip_name, new_name) + fuzz.token_sort_ratio(new_pip_name, new_name) +
+      4 * fuzz.ratio(new_pip_name, new_name) + fuzz.partial_ratio(new_pip_name, new_name)) / 7.0
+    if ratio > max_ratio or (name.startswith("python-") and ratio == max_ratio):
       max_ratio = ratio
       result = name
   return (pip_pack, result, max_ratio)
